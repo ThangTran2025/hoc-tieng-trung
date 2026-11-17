@@ -23,4 +23,5 @@ targets:
       - name: Build Kotlin framework
         script: |
           cd "$SRCROOT/.."
-          ./gradlew :shared:embedAndSignAppleFrameworkForXcode
+          env | grep -E "^(BUILT_PRODUCTS_DIR|CONTENTS_FOLDER_PATH|TARGET_BUILD_DIR|UNLOCALIZED_RESOURCES_FOLDER_PATH|PLATFORM_NAME|SDK_NAME|CONFIGURATION|ARCHS|OTHER_SWIFT_FLAGS)=" || true
+          ./gradlew :shared:embedAndSignAppleFrameworkForXcode --stacktrace
