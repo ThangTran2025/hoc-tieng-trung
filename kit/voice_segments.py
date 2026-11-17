@@ -31,9 +31,28 @@ def clean_vi(t):
     if len(t.split()) > 18: print('CẢNH BÁO: đoạn VI >18 từ:', t)
     return t if t[-1:] in '.!?' else t + '.'
 
+ZH_EDGE_VOICE = os.environ.get('ZH_EDGE_VOICE', L.get('zh_edge_voice', 'zh-CN-XiaoxiaoNeural'))   # giọng nữ Mandarin "Xiaoxiao"
+ZH_EDGE_RATE = os.environ.get('ZH_EDGE_RATE', L.get('zh_edge_rate', '-30%'))                     # tốc độ đọc -30%
+ZH_ENGINE = os.environ.get('ZH_ENGINE', 'edge')   # edge (Xiaoxiao, ưu tiên) | minimax
+
+def tts_edge(text, out):
+    """Xiaoxiao qua Edge TTS (pip install edge-tts). Trả True nếu tạo được file có âm thanh."""
+    try:
+        import asyncio, edge_tts
+        async def go():
+            await edge_tts.Communicate(text, ZH_EDGE_VOICE, rate=ZH_EDGE_RATE).save(str(out))
+        asyncio.run(go())
+        ok = out.exists() and out.stat().st_size > 1000
+    except Exception as e:
+        print(f"{out.name}: Edge TTS lỗi: {e}"); ok = False
+    if ok: print(f"{out.name}: dùng giọng {ZH_EDGE_VOICE} rate {ZH_EDGE_RATE}")
+    elif out.exists(): out.unlink()
+    return ok
+
 def tts(text, boost, out, speed=None, voices=None):
+    if boost == 'Chinese' and ZH_ENGINE == 'edge' and tts_edge(text, out): return
     key = os.environ.get('MINIMAX_API_KEY')
-    if not key: sys.exit(f'Thiếu {out.name}: đặt MINIMAX_API_KEY hoặc tạo sẵn đoạn mp3')
+    if not key: sys.exit(f'Thiếu {out.name}: Xiaoxiao (edge-tts) không chạy được và không có MINIMAX_API_KEY; hãy tạo sẵn đoạn mp3')
     for vid in (voices or [L['voice']]):
       if tts_one(text, boost, out, speed, vid, key): return
     sys.exit(f"{out.name}: không giọng nào được chấp nhận: {voices}")
