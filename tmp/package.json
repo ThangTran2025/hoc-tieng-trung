@@ -7,5 +7,5 @@
  "topic": "Pinyin: thanh mẫu và vận mẫu",
  "lesson": 1,
  "duration": 86.2,
- "notes": "Giọng tiếng Trung: KHÔNG dùng được Xiaoxiao (Edge TTS bị chặn mạng, Composio chỉ có MiniMax) - dùng dự phòng MiniMax 'Chinese (Mandarin)_News_Anchor' speed 0.75 cho cả bài. Chữ Hán mẫu 玻坡摸佛 啊哦鹅衣乌迂 và pinyin cần người biết tiếng Trung nghe lại, đặc biệt 哦 (ō hay ò) và 衣/乌/迂 (đọc yī/wū/yū thay vì i/u/ü). Bản làm lại (redo). check_sync: OK."
+ "notes": "Giọng tiếng Trung: KHÔNG dùng được Xiaoxiao (Edge TTS bị chặn mạng, Composio chỉ có MiniMax) - dùng dự phòng MiniMax 'Chinese (Mandarin)_News_Anchor' speed 0.75 cho cả bài. Chữ Hán mẫu 玻坡摸佛 啊哦鹅衣乌迂 và pinyin cần người biết tiếng Trung nghe lại, đặc biệt 哦 (ō hay ò) và 衣/乌/迂 (đọc yī/wū/yū thay vì i/u/ü). Bản làm lại (redo). check_sync: OK. Lần chạy lại: đã kiểm tra tràn chữ từng 0,25s mọi cảnh (đo vùng chữ thực), sửa chú thích cảnh ghép âm và cảnh ü; không còn chữ tràn ô."
 }
