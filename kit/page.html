@@ -16,7 +16,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#070d1f;font-fam
 #py{position:absolute;left:0;width:1080px;text-align:center;font-size:56px;font-weight:600;color:var(--cy);letter-spacing:.04em}
 #ex{position:absolute;left:70px;width:940px}
 .row{display:flex;gap:18px;justify-content:center;align-items:stretch}
-.card{flex:1;background:linear-gradient(160deg,#ffffff18,#ffffff08);border:2px solid #ffffff26;border-radius:34px;padding:30px 10px;text-align:center}
+.card{flex:1 1 0;min-width:0;background:linear-gradient(160deg,#ffffff18,#ffffff08);border:2px solid #ffffff26;border-radius:34px;padding:30px 10px;text-align:center}
 .card .a{font-size:64px;font-weight:800;color:var(--cy);line-height:1.2}
 .card .b{font-size:84px;font-weight:800;line-height:1.2;margin-top:6px}
 .card .c{font-size:32px;color:#b7c4ee;margin-top:8px;line-height:1.3}
@@ -33,13 +33,13 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#070d1f;font-fam
 </style></head><body>
 <div id="bg"><div class="blob" id="b1" style="width:700px;height:700px;background:#2f6bff"></div><div class="blob" id="b2" style="width:600px;height:600px;background:#8F7BFF"></div></div><div id="grid"></div>
 <div id="wrap"><div id="dots"></div><div id="kick"></div><div id="title"></div><div id="sub"></div><div id="zh"></div><div id="py"></div><div id="ex"></div></div>
-<div id="cap"></div>
+<svg id="tc" width="1080" height="1920" viewBox="0 0 1080 1920" style="position:absolute;left:0;top:0;pointer-events:none"><line id="tcs" x1="0" y1="0" x2="0" y2="0" stroke="#FFC857" stroke-width="7" stroke-linecap="round"/><circle id="tct" r="11" fill="#FF6B8A" cx="0" cy="0"/><g id="tcg" transform="translate(915,1215)"><path d="M10 112 Q70 60 130 112 L130 150 L10 150Z" fill="#3CE0FF"/><circle cx="70" cy="62" r="42" fill="#FFD9B3"/><path d="M26 56 Q30 12 70 14 Q112 12 114 56 Q96 34 70 36 Q44 34 26 56Z" fill="#3a2a5c"/><circle cx="70" cy="8" r="15" fill="#3a2a5c"/><circle cx="54" cy="64" r="11" fill="none" stroke="#fff" stroke-width="3.5"/><circle cx="86" cy="64" r="11" fill="none" stroke="#fff" stroke-width="3.5"/><line x1="65" y1="64" x2="75" y2="64" stroke="#fff" stroke-width="3.5"/><circle cx="54" cy="64" r="3.5" fill="#222"/><circle cx="86" cy="64" r="3.5" fill="#222"/><circle cx="42" cy="80" r="6" fill="#ff9db0" opacity=".7"/><circle cx="98" cy="80" r="6" fill="#ff9db0" opacity=".7"/><path id="tcm" d="M60 84 Q70 92 80 84" fill="none" stroke="#7a3a3a" stroke-width="3.5" stroke-linecap="round"/></g></svg><div id="cap"></div>
 <script>
 const $=id=>document.getElementById(id),cl=(x,a,b)=>Math.max(0,Math.min(1,(x-a)/(b-a))),Eo=x=>1-Math.pow(1-x,3),Eb=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
 let S,TL,cur=-1;
 for(let i=0;i<5;i++)$('dots').insertAdjacentHTML('beforeend','<div class="dot"><i></i></div>');
 function fitW(el,maxW,minPx){el.style.whiteSpace='nowrap';el.style.fontSize='';let f=parseFloat(getComputedStyle(el).fontSize);while(el.scrollWidth>maxW&&f>minPx){f-=2;el.style.fontSize=f+'px'}}
-function fitAll(){document.querySelectorAll('#ex .card').forEach(c=>{const w=c.clientWidth-28;c.querySelectorAll('.a,.b,.c').forEach(e=>fitW(e,w,22))});
+function fitAll(){document.querySelectorAll('#ex .card').forEach(c=>{const w=c.clientWidth-48;c.querySelectorAll('.a,.b,.c').forEach(e=>fitW(e,w,22))});
  document.querySelectorAll('#ex .bub').forEach(c=>{const w=c.clientWidth-40;c.querySelectorAll('.z,.p,.v').forEach(e=>fitW(e,w,22))});
  fitW($('py'),960,34);fitW($('title'),940,48);fitW($('sub'),940,28)}
 function fitCap(){const e=$('cap');let f=62;e.style.fontSize=f+'px';while((e.scrollHeight>f*1.3*2+6||e.scrollWidth>e.clientWidth+1)&&f>40){f-=2;e.style.fontSize=f+'px'}}
@@ -81,6 +81,15 @@ async function render(t){
  [['kick',0],['title',.1],['sub',.3]].forEach(([id,d])=>{const e=$(id),p=Eo(cl(lt,d,d+.45));e.style.transform=`translateY(${(1-p)*40}px)`;e.style.opacity=p});
  [['zh',.15],['py',.45]].forEach(([id,d])=>{const e=$(id),p=Eb(cl(lt,d,d+.55));e.style.transform=`scale(${.6+.4*p})`;e.style.opacity=cl(lt,d,d+.3)});
  $('ex').querySelectorAll('[data-d]').forEach(e=>{const d=+e.dataset.d,p=Eb(cl(lt,d,d+.5));e.style.opacity=cl(lt,d,d+.25);e.style.transform=`translateY(${(1-p)*60}px) scale(${.85+.15*p})`});
+
+ // giáo viên nhỏ chỉ vào phần đang đọc
+ {const g=$('tcg'),ln=$('tcs'),tp=$('tct');const bob=Math.sin(t*5)*4;g.setAttribute('transform',`translate(915,${1215+bob})`);
+  $('tcm').setAttribute('d',`M60 84 Q70 ${86+Math.abs(Math.sin(t*9))*10} 80 84`);
+  const cs=[...document.querySelectorAll('#ex [data-d]')].filter(e=>e.classList.contains('card')||e.classList.contains('bub'));
+  let tg=null;cs.forEach(e=>{if(+e.dataset.d<=lt)tg=e});
+  let x,y;if(tg){const r=tg.getBoundingClientRect();x=r.left+r.width/2;y=r.bottom+6}else{const e=$('zh').style.display==='none'?$('title'):$('py');const r=e.getBoundingClientRect();x=Math.min(r.right+30,1000);y=r.bottom+10}
+  const hx=925,hy=1285+bob;ln.setAttribute('x1',hx);ln.setAttribute('y1',hy);ln.setAttribute('x2',x);ln.setAttribute('y2',y);tp.setAttribute('cx',x);tp.setAttribute('cy',y);
+  $('tc').style.opacity=o}
  // caption
  let html='';const ws=(L._ch||[]).find(c=>t<c[c.length-1].b)||(L._ch||[])[(L._ch||[]).length-1];
  if(ws&&t>=ws[0].a-.05&&t<=TL[i].v+.05)html=ws.map(x=>`<span class="${t>=x.a&&t<x.b?'on':''}">${x.t}</span>`).join(' ');
