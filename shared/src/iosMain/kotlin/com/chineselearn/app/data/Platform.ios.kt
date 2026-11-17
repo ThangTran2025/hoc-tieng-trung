@@ -20,11 +20,11 @@ actual fun writeFileBytes(path: String, bytes: ByteArray) {
 
 actual fun fileExists(path: String): Boolean = NSFileManager.defaultManager.fileExistsAtPath(path)
 
-@OptIn(BetaInteropApi::class)
+@OptIn(ExperimentalForeignApi::class, BetaInteropApi::class)
 actual fun readTextFile(path: String): String? =
     NSString.stringWithContentsOfFile(path, NSUTF8StringEncoding, null)
 
-@OptIn(BetaInteropApi::class)
+@OptIn(ExperimentalForeignApi::class, BetaInteropApi::class)
 actual fun writeTextFile(path: String, text: String) {
     (text as NSString).writeToFile(path, true, NSUTF8StringEncoding, null)
 }
