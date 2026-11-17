@@ -1,0 +1,26 @@
+name: iosApp
+options:
+  bundleIdPrefix: com.chineselearn
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  iosApp:
+    type: application
+    platform: iOS
+    sources: [iosApp]
+    info:
+      path: iosApp/Info.plist
+      properties:
+        UILaunchScreen: {}
+        CFBundleDisplayName: ChineseLearn Trial
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chineselearn.app.trial
+        FRAMEWORK_SEARCH_PATHS: $(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)
+        OTHER_LDFLAGS: [-framework, Shared]
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+    preBuildScripts:
+      - name: Build Kotlin framework
+        script: |
+          cd "$SRCROOT/.."
+          ./gradlew :shared:embedAndSignAppleFrameworkForXcode
