@@ -13,6 +13,9 @@ SEG, VOI, WORK = R/'seg', R/'voice', R/'work'
 for d in (SEG, VOI, WORK): d.mkdir(exist_ok=True)
 GAP = dict(vz=0.25, zz=0.40, line=0.50)   # VI<->ZH, giữa các từ ZH, hết câu
 SPEED = float(os.environ.get('VOICE_SPEED', '0.97'))
+ZH_SPEED = float(os.environ.get('ZH_SPEED', '0.75'))   # từ tiếng Trung đọc chậm hơn
+ZH_REPEAT = 2                                          # mỗi từ tiếng Trung đọc 2 lần
+GAP_REPEAT = 0.55                                      # nghỉ giữa 2 lần đọc
 NUM = 'không một hai ba bốn năm sáu bảy tám chín mười'.split()
 
 def clean_vi(t):
@@ -24,12 +27,12 @@ def clean_vi(t):
     if len(t.split()) > 18: print('CẢNH BÁO: đoạn VI >18 từ:', t)
     return t if t[-1:] in '.!?' else t + '.'
 
-def tts(text, boost, out):
+def tts(text, boost, out, speed=None):
     key = os.environ.get('MINIMAX_API_KEY')
     if not key: sys.exit(f'Thiếu {out.name}: đặt MINIMAX_API_KEY hoặc tạo sẵn đoạn mp3')
     body = {"model": os.environ.get('MINIMAX_MODEL', 'speech-2.8-hd'), "text": text, "stream": False,
             "language_boost": boost, "output_format": "hex",
-            "voice_setting": {"voice_id": L['voice'], "speed": SPEED, "vol": 1, "pitch": 0},
+            "voice_setting": {"voice_id": L['voice'], "speed": speed or SPEED, "vol": 1, "pitch": 0},
             "audio_setting": {"sample_rate": 32000, "bitrate": 128000, "format": "mp3", "channel": 1}}
     host = os.environ.get('MINIMAX_HOST', 'https://api.minimax.io')
     rq = urllib.request.Request(host + '/v1/t2a_v2', json.dumps(body).encode(),
@@ -58,16 +61,23 @@ for ln in L['lines']:
         txt = clean_vi(s['text']) if s['k'] == 'vi' else s['text'].strip()
         if s['k'] == 'zh' and not txt.endswith('。'): txt += '。'
         if not raw.exists() and (not only or ln['id'] in only):
-            tts(txt, 'Vietnamese' if s['k'] == 'vi' else 'Chinese', raw)
+            tts(txt, 'Vietnamese' if s['k'] == 'vi' else 'Chinese', raw, None if s['k'] == 'vi' else ZH_SPEED)
         nf = SEG / f"{ln['id']}_{n}.n.mp3"; norm(raw, nf)
         d = dur(nf)
         if s['k'] == 'zh' and d > 1.8 + 0.25 * len(txt): print(f"CẢNH BÁO: đoạn ZH dài bất thường {ln['id']}_{n} {d:.2f}s {txt}")
+        reps = ZH_REPEAT if s['k'] == 'zh' else 1
         if prev:
             g = GAP['zz'] if prev == s['k'] == 'zh' else GAP['vz']
             gf = SEG / f'gap_{g}.mp3'
             if not gf.exists(): silence(g, gf)
             parts.append(gf); t += g
-        parts.append(nf); rec.append(dict(n=n, k=s['k'], a=round(t, 3), b=round(t + d, 3), text=txt)); t += d; prev = s['k']
+        for r in range(reps):
+            if r:
+                gr = SEG / f'gap_{GAP_REPEAT}.mp3'
+                if not gr.exists(): silence(GAP_REPEAT, gr)
+                parts.append(gr); t += GAP_REPEAT
+            parts.append(nf); rec.append(dict(n=n, rep=r + 1, k=s['k'], a=round(t, 3), b=round(t + d, 3), text=txt)); t += d
+        prev = s['k']
     gf = SEG / 'gap_line.mp3'
     if not gf.exists(): silence(GAP['line'], gf)
     parts.append(gf)
