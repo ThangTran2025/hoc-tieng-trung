@@ -14,6 +14,10 @@ for d in (SEG, VOI, WORK): d.mkdir(exist_ok=True)
 GAP = dict(vz=0.25, zz=0.40, line=0.50)   # VI<->ZH, giữa các từ ZH, hết câu
 SPEED = float(os.environ.get('VOICE_SPEED', '0.97'))
 ZH_SPEED = float(os.environ.get('ZH_SPEED', '0.75'))   # từ tiếng Trung đọc chậm hơn
+# Tiếng Trung dùng GIỌNG NỮ TIẾNG TRUNG PHỔ THÔNG (Mandarin) có sẵn của MiniMax, KHÔNG dùng giọng clone tiếng Việt.
+# Thử lần lượt từng giọng cho tới khi MiniMax chấp nhận; đổi bằng biến ZH_VOICE hoặc "zh_voice" trong lesson.json.
+ZH_VOICES = [v for v in [os.environ.get('ZH_VOICE'), L.get('zh_voice')] if v] + [
+    'Chinese (Mandarin)_News_Anchor', 'female-yujie', 'female-chengshu', 'Chinese (Mandarin)_Soft_Girl']
 ZH_REPEAT = 2                                          # mỗi từ tiếng Trung đọc 2 lần
 GAP_REPEAT = 0.55                                      # nghỉ giữa 2 lần đọc
 NUM = 'không một hai ba bốn năm sáu bảy tám chín mười'.split()
@@ -27,19 +31,25 @@ def clean_vi(t):
     if len(t.split()) > 18: print('CẢNH BÁO: đoạn VI >18 từ:', t)
     return t if t[-1:] in '.!?' else t + '.'
 
-def tts(text, boost, out, speed=None):
+def tts(text, boost, out, speed=None, voices=None):
     key = os.environ.get('MINIMAX_API_KEY')
     if not key: sys.exit(f'Thiếu {out.name}: đặt MINIMAX_API_KEY hoặc tạo sẵn đoạn mp3')
+    for vid in (voices or [L['voice']]):
+      if tts_one(text, boost, out, speed, vid, key): return
+    sys.exit(f"{out.name}: không giọng nào được chấp nhận: {voices}")
+
+def tts_one(text, boost, out, speed, vid, key):
     body = {"model": os.environ.get('MINIMAX_MODEL', 'speech-2.8-hd'), "text": text, "stream": False,
             "language_boost": boost, "output_format": "hex",
-            "voice_setting": {"voice_id": L['voice'], "speed": speed or SPEED, "vol": 1, "pitch": 0},
+            "voice_setting": {"voice_id": vid, "speed": speed or SPEED, "vol": 1, "pitch": 0},
             "audio_setting": {"sample_rate": 32000, "bitrate": 128000, "format": "mp3", "channel": 1}}
     host = os.environ.get('MINIMAX_HOST', 'https://api.minimax.io')
     rq = urllib.request.Request(host + '/v1/t2a_v2', json.dumps(body).encode(),
          {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json'})
     r = json.load(urllib.request.urlopen(rq, timeout=120))
-    if r['base_resp']['status_code'] != 0: sys.exit(f"{out.name}: {r['base_resp']}")
-    out.write_bytes(bytes.fromhex(r['data']['audio']))
+    if r['base_resp']['status_code'] != 0:
+        print(f"{out.name}: giọng {vid} bị từ chối: {r['base_resp']}"); return False
+    out.write_bytes(bytes.fromhex(r['data']['audio'])); print(f"{out.name}: dùng giọng {vid}"); return True
 
 def dur(f):
     return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(f)]))
@@ -61,7 +71,7 @@ for ln in L['lines']:
         txt = clean_vi(s['text']) if s['k'] == 'vi' else s['text'].strip()
         if s['k'] == 'zh' and not txt.endswith('。'): txt += '。'
         if not raw.exists() and (not only or ln['id'] in only):
-            tts(txt, 'Vietnamese' if s['k'] == 'vi' else 'Chinese', raw, None if s['k'] == 'vi' else ZH_SPEED)
+            tts(txt, 'Vietnamese' if s['k'] == 'vi' else 'Chinese', raw, None if s['k'] == 'vi' else ZH_SPEED, None if s['k'] == 'vi' else ZH_VOICES)
         nf = SEG / f"{ln['id']}_{n}.n.mp3"; norm(raw, nf)
         d = dur(nf)
         if s['k'] == 'zh' and d > 1.8 + 0.25 * len(txt): print(f"CẢNH BÁO: đoạn ZH dài bất thường {ln['id']}_{n} {d:.2f}s {txt}")
