@@ -1,0 +1,31 @@
+name: iOS simulator build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Xcode project
+        run: cd iosApp && xcodegen
+      - name: Build for simulator
+        run: |
+          xcodebuild -project iosApp/iosApp.xcodeproj -scheme iosApp \
+            -sdk iphonesimulator -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build/ios build CODE_SIGNING_ALLOWED=NO
+      - name: Zip app
+        run: cd build/ios/Build/Products/Debug-iphonesimulator && zip -r "$GITHUB_WORKSPACE/ChineseLearnTrial-simulator.zip" iosApp.app
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ChineseLearnTrial-simulator
+          path: ChineseLearnTrial-simulator.zip
