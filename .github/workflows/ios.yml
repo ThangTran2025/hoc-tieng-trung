@@ -22,7 +22,7 @@ jobs:
           xcodebuild -project iosApp/iosApp.xcodeproj -scheme iosApp \
             -sdk iphonesimulator -configuration Debug \
             -destination 'generic/platform=iOS Simulator' \
-            -derivedDataPath build/ios build CODE_SIGNING_ALLOWED=NO
+            -derivedDataPath build/ios ARCHS=arm64 ONLY_ACTIVE_ARCH=NO build CODE_SIGNING_ALLOWED=NO
       - name: Zip app
         run: cd build/ios/Build/Products/Debug-iphonesimulator && zip -r "$GITHUB_WORKSPACE/ChineseLearnTrial-simulator.zip" iosApp.app
       - uses: actions/upload-artifact@v4
