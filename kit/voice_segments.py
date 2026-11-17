@@ -22,7 +22,13 @@ ZH_REPEAT = 2                                          # mỗi từ tiếng Trun
 GAP_REPEAT = 0.55                                      # nghỉ giữa 2 lần đọc
 NUM = 'không một hai ba bốn năm sáu bảy tám chín mười'.split()
 
+PINYIN_MARKS = re.compile('[āēīōūǖáéíóúǘǎěǐǒǔǚèìòùǜ]')   # dấu thanh pinyin; tiếng Việt thuần không có ā ē ī ō ū ǎ ě ǐ ǒ ǔ ǖ ǘ ǚ ǜ
 def clean_vi(t):
+    # ĐOẠN VI CHỈ ĐỌC TIẾNG VIỆT BẰNG GIỌNG CLONE. Cấm chữ Hán, pinyin và phiên âm kiểu Việt ("ni hảo") trong đoạn VI:
+    # mọi từ tiếng Trung phải nằm trong đoạn ZH và do giọng Trung đọc.
+    bad = re.findall('[āēīōūǖǘǎěǐǒǔǚǜ]', t)
+    if bad or re.search('[\u4e00-\u9fff]', t):
+        sys.exit(f'LỖI: đoạn VI chứa chữ Hán/pinyin, hãy chuyển sang đoạn ZH: {t}')
     t = t.replace('HSK', 'hát ét ca')
     t = re.sub(r'\d+', lambda m: ' '.join(NUM[int(c)] for c in m.group()), t)
     t = re.sub(r'[/:()+\-–—"“”]', ', ', t)
