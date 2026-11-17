@@ -12,3 +12,5 @@ Quy tắc giọng: VI thuần ≤18 từ; ZH gửi chữ Hán từng từ bằng
 QUY TẮC TÁCH GIỌNG: tiếng Việt chỉ do giọng clone đọc; tiếng Trung chỉ do giọng Trung (Xiaoxiao) đọc. Đoạn VI cấm chữ Hán, pinyin, phiên âm kiểu Việt (vd 'ni hảo'). Phụ đề chỉ để hiển thị, không dùng để tạo giọng.
 
 CỔNG CHO PHÉP: script và tác vụ hằng ngày chỉ được tạo bài có mã trong kit/AUTHORIZED.json. Không tự ý thêm mã; chỉ thêm khi chủ sở hữu cho phép trong chat Claude. lesson.json phải có "lesson_id".
+
+Quy tắc minh họa/hiệu ứng theo lời đọc: xem kit/DESIGN_RULES.md
