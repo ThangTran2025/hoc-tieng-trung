@@ -1,4 +1,6 @@
 {
-  "_ghi_chu": "CHỈ làm/đẩy bài có mã nằm trong 'allowed'. Chủ sở hữu cho phép bằng cách nhắn trong chat Claude; Claude mới được sửa file này. Mặc định KHÔNG cho phép bài nào. Không tự ý thêm mã vào đây.",
-  "allowed": ["bai01"]
+  "_ghi_chu": "CHỈ làm/đẩy bài có mã trong 'allowed'. 'make' là bài DUY NHẤT cần làm ở lần chạy này (làm lại, đẩy THÊM commit mới lên nhánh tmp-<make>). Chỉ chủ sở hữu cho phép trong chat Claude; không tự sửa file này.",
+  "allowed": ["bai01"],
+  "make": "bai01",
+  "mode": "redo"
 }
