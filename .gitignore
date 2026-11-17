@@ -1,0 +1,7 @@
+__pycache__/
+seg/
+voice/
+work/
+out/
+*.key
+.env

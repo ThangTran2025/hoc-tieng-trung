@@ -1,0 +1,3 @@
+{"voice":"moss_audio_0202045d-5668-11f1-83ef-8afcbb8b5b5c","lines":[
+ {"id":"s1","caps":"Xin chào: 你好 (nǐ hǎo)","segs":[{"k":"vi","text":"Xin chào là"},{"k":"zh","text":"你好"},{"k":"vi","text":"đọc là ni hảo."}]},
+ {"id":"s2","caps":"Cảm ơn: 谢谢 (xièxie)","segs":[{"k":"vi","text":"Cảm ơn là"},{"k":"zh","text":"谢谢"}]}]}
