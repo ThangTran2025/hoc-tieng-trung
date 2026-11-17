@@ -14,3 +14,5 @@ QUY TẮC TÁCH GIỌNG: tiếng Việt chỉ do giọng clone đọc; tiếng T
 CỔNG CHO PHÉP: script và tác vụ hằng ngày chỉ được tạo bài có mã trong kit/AUTHORIZED.json. Không tự ý thêm mã; chỉ thêm khi chủ sở hữu cho phép trong chat Claude. lesson.json phải có "lesson_id".
 
 Quy tắc minh họa/hiệu ứng theo lời đọc: xem kit/DESIGN_RULES.md
+
+KIỂM TRA KHỚP 100%: sau khi dựng, build phải ghi work/cues.json + work/offsets.json rồi chạy `python3 kit/check_sync.py work/segtimes.json work/cues.json work/offsets.json <âm thanh cuối>`; còn lỗi thì sửa và chạy lại, KHÔNG push khi chưa OK.
