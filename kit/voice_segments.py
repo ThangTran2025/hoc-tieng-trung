@@ -7,8 +7,15 @@ TTS : nếu có biến MINIMAX_API_KEY -> gọi API trực tiếp. Nếu không,
       (tác vụ đám mây tạo qua Composio rồi lưu vào đó). Khóa API không bao giờ ghi vào file/repo.
 """
 import json, os, sys, subprocess, pathlib, re, urllib.request
+# CỔNG CHO PHÉP: không được tự ý tạo bài khi chưa được chủ sở hữu cho phép (xem kit/AUTHORIZED.json).
+_AUTH = pathlib.Path(__file__).parent / 'AUTHORIZED.json'
+def _check_auth(lesson_id):
+    allowed = json.load(open(_AUTH)).get('allowed', []) if _AUTH.exists() else []
+    if lesson_id not in allowed:
+        sys.exit(f'DỪNG: bài {lesson_id!r} chưa được chủ sở hữu cho phép (kit/AUTHORIZED.json: {allowed}). Không tự ý tạo bài.')
 R = pathlib.Path(sys.argv[2] if len(sys.argv) > 2 else '.').resolve()
 L = json.load(open(R / (sys.argv[1] if len(sys.argv) > 1 else 'lesson.json')))
+_check_auth(L.get('lesson_id') or sys.exit('DỪNG: lesson.json thiếu "lesson_id" (vd "bai01")'))
 SEG, VOI, WORK = R/'seg', R/'voice', R/'work'
 for d in (SEG, VOI, WORK): d.mkdir(exist_ok=True)
 GAP = dict(vz=0.25, zz=0.40, line=0.50)   # VI<->ZH, giữa các từ ZH, hết câu

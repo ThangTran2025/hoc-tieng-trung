@@ -10,3 +10,5 @@ Quy trình mỗi bài:
 Quy tắc giọng: VI thuần ≤18 từ; ZH gửi chữ Hán từng từ bằng GIỌNG NỮ TIẾNG TRUNG PHỔ THÔNG Xiaoxiao (zh-CN-XiaoxiaoNeural qua edge-tts, tốc độ -30%; dự phòng giọng Mandarin của MiniMax; không dùng giọng clone Việt), đọc CHẬM (speed 0,75) và NHẮC LẠI 2 LẦN (nghỉ 0,55s); khoảng lặng cố định; loudnorm.
 
 QUY TẮC TÁCH GIỌNG: tiếng Việt chỉ do giọng clone đọc; tiếng Trung chỉ do giọng Trung (Xiaoxiao) đọc. Đoạn VI cấm chữ Hán, pinyin, phiên âm kiểu Việt (vd 'ni hảo'). Phụ đề chỉ để hiển thị, không dùng để tạo giọng.
+
+CỔNG CHO PHÉP: script và tác vụ hằng ngày chỉ được tạo bài có mã trong kit/AUTHORIZED.json. Không tự ý thêm mã; chỉ thêm khi chủ sở hữu cho phép trong chat Claude. lesson.json phải có "lesson_id".
