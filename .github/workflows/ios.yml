@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: macos-latest
@@ -29,3 +31,9 @@ jobs:
         with:
           name: ChineseLearnTrial-simulator
           path: ChineseLearnTrial-simulator.zip
+      - name: Publish release (public download link)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete ios-latest --yes --cleanup-tag || true
+          gh release create ios-latest ChineseLearnTrial-simulator.zip --target "$GITHUB_SHA" --title "iOS simulator build (latest)" --notes "Simulator build, unsigned. Upload the zip to appetize.io to preview on iOS."
