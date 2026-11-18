@@ -1,0 +1,211 @@
+{
+ "lesson_id": "bai02",
+ "voice": "moss_audio_0202045d-5668-11f1-83ef-8afcbb8b5b5c",
+ "sources": [
+  {
+   "claim": "4 thanh điệu và ví dụ mā má mǎ mà; hai thanh 3 liền nhau; 不 đổi bú trước thanh 4; thanh nhẹ",
+   "url": "https://www.digmandarin.com/chinese-tones-guide.html"
+  },
+  {
+   "claim": "Từ HSK 1: 你好, 妈妈, 不, 是, 去, 好, 很, 谢谢",
+   "url": "https://www.thatsmandarin.com/hsk-1-wordlist/"
+  }
+ ],
+ "note_nguon": "麻 马 骂 chỉ dùng làm ví dụ thanh điệu (không thuộc từ vựng HSK1); 很好 不去 là ví dụ áp dụng quy tắc, người kiểm duyệt phải tra từ điển (MDBG/Pleco) trước khi dùng.",
+ "lines": [
+  {
+   "id": "s1",
+   "caps": "Đọc sai thanh, mẹ thành ngựa!",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Chỉ đọc sai một thanh điệu, bạn có thể gọi mẹ thành con ngựa!"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "caps": "4 thanh điệu: đổi thanh là đổi nghĩa",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Tiếng Trung có bốn thanh điệu."
+    },
+    {
+     "k": "vi",
+     "text": "Cùng một âm tiết, đổi thanh là đổi nghĩa."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "caps": "Thanh 1 – cao, bằng: 妈 (mā) – mẹ",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Thanh một, giọng cao và bằng, tay đưa ngang."
+    },
+    {
+     "k": "zh",
+     "text": "妈"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là mẹ."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "caps": "Thanh 2 – đi lên: 麻 (má) – tê",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Thanh hai, giọng đi lên, như khi bạn hỏi lại."
+    },
+    {
+     "k": "zh",
+     "text": "麻"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là tê."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "caps": "Thanh 3 – xuống thấp rồi lên: 马 (mǎ) – con ngựa",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Thanh ba, giọng hạ thấp rồi nâng lên, như gật đầu."
+    },
+    {
+     "k": "zh",
+     "text": "马"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là con ngựa."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "caps": "Thanh 4 – rơi mạnh: 骂 (mà) – mắng",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Thanh bốn, giọng rơi mạnh xuống, như ra lệnh."
+    },
+    {
+     "k": "zh",
+     "text": "骂"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là mắng."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "caps": "Mẹo 1: 3 + 3 → 2 + 3: 你好 (nǐ hǎo → ní hǎo), 很好 (hén hǎo)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Mẹo một, hai thanh ba đứng cạnh nhau, thì chữ đầu đọc lên giọng như thanh hai."
+    },
+    {
+     "k": "vi",
+     "text": "Ví dụ, xin chào."
+    },
+    {
+     "k": "zh",
+     "text": "你好"
+    },
+    {
+     "k": "vi",
+     "text": "Hoặc, rất tốt."
+    },
+    {
+     "k": "zh",
+     "text": "很好"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "caps": "Mẹo 2: bù + thanh 4 → bú: 不是 (bú shì), 不去 (bú qù)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Mẹo hai, chữ phủ định đứng trước thanh bốn thì đọc thanh hai."
+    },
+    {
+     "k": "vi",
+     "text": "Ví dụ, không phải."
+    },
+    {
+     "k": "zh",
+     "text": "不是"
+    },
+    {
+     "k": "vi",
+     "text": "Và, không đi."
+    },
+    {
+     "k": "zh",
+     "text": "不去"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "caps": "Thanh nhẹ: 妈妈 (māma), 谢谢 (xièxie)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Cuối cùng là thanh nhẹ, đọc ngắn và nhẹ. Mẹ, và cảm ơn."
+    },
+    {
+     "k": "zh",
+     "text": "妈妈"
+    },
+    {
+     "k": "zh",
+     "text": "谢谢"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "caps": "Câu đố: chữ ngựa đọc thanh mấy?",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu đố nhỏ, chữ ngựa đọc thanh mấy?"
+    },
+    {
+     "k": "vi",
+     "text": "Gợi ý, hạ thấp rồi nâng lên."
+    },
+    {
+     "k": "vi",
+     "text": "Trả lời ở phần bình luận nhé!"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "caps": "Bài 3: Chào hỏi",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Bài sau, chúng ta học cách chào hỏi."
+    }
+   ]
+  }
+ ]
+}

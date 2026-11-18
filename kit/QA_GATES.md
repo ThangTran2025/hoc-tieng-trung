@@ -25,3 +25,7 @@ Nguyên tắc: nội dung phải đúng chương trình học thực tế, học
 ## G5. Bàn giao
 - Video có màn hình kết thúc giới thiệu chineselearn.asia (DESIGN_RULES 12), caption/mô tả có dòng "Học thêm tại chineselearn.asia".
 - Chỉ đẩy lên GitHub và báo Telegram khi G1 đến G4 đều đạt. Tin Telegram ghi rõ kết quả từng cổng (đạt/chưa đạt và điểm còn cần người xem). Không đăng Facebook/YouTube khi chưa có "duyệt <mã>".
+
+## G0. Kịch bản đã duyệt
+- Nếu AUTHORIZED.json có `kich_ban` thì dùng nguyên file đó (đã được chủ sở hữu duyệt); không tự soạn lại. Chỉ rút ngắn khi vượt thời lượng, và ghi vào notes.
+- Kiểm duyệt độc lập bằng tác tử phụ (Agent) là BẮT BUỘC ở G1, G3, G4; không có công cụ Agent thì nói rõ trong tin Telegram rằng chưa có kiểm duyệt độc lập.
