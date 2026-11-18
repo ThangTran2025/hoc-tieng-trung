@@ -1,0 +1,2472 @@
+{
+ "level": 2,
+ "lessons": [
+  {
+   "n": 1,
+   "zh": "爱好与运动",
+   "py": "Àihào yǔ yùndòng",
+   "vi": "Sở thích và thể thao",
+   "en": "Hobbies and sports",
+   "gvi": "Nói về môn thể thao yêu thích, rủ bạn cùng chơi.",
+   "gen": "Talk about favourite sports and invite friends to play.",
+   "words": [
+    {
+     "zh": "爱好",
+     "py": "àihào",
+     "vi": "sở thích",
+     "en": "hobby; to like"
+    },
+    {
+     "zh": "运动",
+     "py": "yùndòng",
+     "vi": "vận động, thể thao",
+     "en": "exercise; sport"
+    },
+    {
+     "zh": "篮球",
+     "py": "lánqiú",
+     "vi": "bóng rổ",
+     "en": "basketball"
+    },
+    {
+     "zh": "足球",
+     "py": "zúqiú",
+     "vi": "bóng đá",
+     "en": "soccer"
+    },
+    {
+     "zh": "球",
+     "py": "qiú",
+     "vi": "quả bóng",
+     "en": "ball"
+    },
+    {
+     "zh": "踢",
+     "py": "tī",
+     "vi": "đá",
+     "en": "to kick"
+    },
+    {
+     "zh": "跑",
+     "py": "pǎo",
+     "vi": "chạy",
+     "en": "to run"
+    },
+    {
+     "zh": "跑步",
+     "py": "pǎobù",
+     "vi": "chạy bộ",
+     "en": "to run; jog"
+    },
+    {
+     "zh": "游",
+     "py": "yóu",
+     "vi": "bơi; đi chơi",
+     "en": "to swim; to tour"
+    },
+    {
+     "zh": "游泳",
+     "py": "yóuyǒng",
+     "vi": "bơi lội",
+     "en": "to swim; swimming"
+    },
+    {
+     "zh": "跳舞",
+     "py": "tiàowǔ",
+     "vi": "nhảy múa",
+     "en": "to dance"
+    },
+    {
+     "zh": "打",
+     "py": "dǎ",
+     "vi": "đánh; chơi (bóng)",
+     "en": "to hit; play; make (a call)"
+    },
+    {
+     "zh": "笑",
+     "py": "xiào",
+     "vi": "cười",
+     "en": "to smile; laugh"
+    },
+    {
+     "zh": "快乐",
+     "py": "kuàilè",
+     "vi": "vui vẻ, hạnh phúc",
+     "en": "happy"
+    },
+    {
+     "zh": "有意思",
+     "py": "yǒuyìsi",
+     "vi": "thú vị",
+     "en": "interesting"
+    },
+    {
+     "zh": "没意思",
+     "py": "méiyìsi",
+     "vi": "chán, vô vị",
+     "en": "boring"
+    },
+    {
+     "zh": "一起",
+     "py": "yìqǐ",
+     "vi": "cùng nhau",
+     "en": "together"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你的爱好是什么？",
+     "py": "nǐ de àihào shì shénme?",
+     "vi": "Sở thích của bạn là gì?",
+     "en": "What is your hobby?"
+    },
+    {
+     "sp": "B",
+     "zh": "我喜欢运动，常常踢足球。",
+     "py": "wǒ xǐhuan yùndòng, chángcháng tī zúqiú.",
+     "vi": "Tôi thích thể thao, hay đá bóng.",
+     "en": "I like sports and often play soccer."
+    },
+    {
+     "sp": "A",
+     "zh": "我喜欢打篮球和游泳。",
+     "py": "wǒ xǐhuan dǎ lánqiú hé yóuyǒng.",
+     "vi": "Tôi thích chơi bóng rổ và bơi.",
+     "en": "I like basketball and swimming."
+    },
+    {
+     "sp": "B",
+     "zh": "明天我们一起打球吧，很有意思！",
+     "py": "míngtiān wǒmen yìqǐ dǎ qiú ba, hěn yǒuyìsi!",
+     "vi": "Mai chúng ta cùng chơi bóng nhé, rất thú vị!",
+     "en": "Let's play ball together tomorrow, it's fun!"
+    },
+    {
+     "sp": "A",
+     "zh": "好啊，我们都会很快乐。",
+     "py": "hǎo a, wǒmen dōu huì hěn kuàilè.",
+     "vi": "Được thôi, chúng ta sẽ đều rất vui.",
+     "en": "Sure, we'll all have a great time."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Động từ 打 với các môn bóng",
+     "ten": "打 with ball games",
+     "dvi": "Môn chơi bằng tay thường dùng 打 (打篮球); môn dùng chân dùng 踢 (踢足球).",
+     "den": "Hand-played ball games use 打 (打篮球); foot-played games use 踢 (踢足球).",
+     "ex": [
+      {
+       "zh": "他打篮球。",
+       "py": "tā dǎ lánqiú.",
+       "vi": "Anh ấy chơi bóng rổ.",
+       "en": "He plays basketball."
+      },
+      {
+       "zh": "我们踢足球。",
+       "py": "wǒmen tī zúqiú.",
+       "vi": "Chúng tôi đá bóng.",
+       "en": "We play soccer."
+      }
+     ]
+    },
+    {
+     "tvi": "Rủ rê: 一起……吧",
+     "ten": "Inviting: 一起……吧",
+     "dvi": "一起 + động từ + 吧: \"cùng ... nhé\".",
+     "den": "一起 + verb + 吧 means \"let's ... together\".",
+     "ex": [
+      {
+       "zh": "我们一起跑步吧。",
+       "py": "wǒmen yìqǐ pǎobù ba.",
+       "vi": "Chúng ta cùng chạy bộ nhé.",
+       "en": "Let's go running together."
+      },
+      {
+       "zh": "一起去游泳吧。",
+       "py": "yìqǐ qù yóuyǒng ba.",
+       "vi": "Cùng đi bơi nhé.",
+       "en": "Let's go swimming together."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "zh": "颜色与物品",
+   "py": "Yánsè yǔ wùpǐn",
+   "vi": "Màu sắc và đồ vật",
+   "en": "Colours and things",
+   "gvi": "Gọi tên màu sắc, quần áo, đồ dùng học tập.",
+   "gen": "Name colours, clothes and school things.",
+   "words": [
+    {
+     "zh": "颜色",
+     "py": "yánsè",
+     "vi": "màu sắc",
+     "en": "color"
+    },
+    {
+     "zh": "白色",
+     "py": "báisè",
+     "vi": "màu trắng",
+     "en": "white"
+    },
+    {
+     "zh": "黑色",
+     "py": "hēisè",
+     "vi": "màu đen",
+     "en": "black"
+    },
+    {
+     "zh": "红色",
+     "py": "hóngsè",
+     "vi": "màu đỏ",
+     "en": "red"
+    },
+    {
+     "zh": "绿色",
+     "py": "lǜsè",
+     "vi": "màu xanh lá",
+     "en": "green"
+    },
+    {
+     "zh": "红茶",
+     "py": "hóngchá",
+     "vi": "trà đen",
+     "en": "black tea"
+    },
+    {
+     "zh": "绿茶",
+     "py": "lǜchá",
+     "vi": "trà xanh",
+     "en": "green tea"
+    },
+    {
+     "zh": "裤子",
+     "py": "kùzi",
+     "vi": "quần",
+     "en": "trousers"
+    },
+    {
+     "zh": "条",
+     "py": "tiáo",
+     "vi": "cái, chiếc (lượng từ vật dài)",
+     "en": "long object (measure word)"
+    },
+    {
+     "zh": "手表",
+     "py": "shǒubiǎo",
+     "vi": "đồng hồ đeo tay",
+     "en": "wristwatch"
+    },
+    {
+     "zh": "包",
+     "py": "bāo",
+     "vi": "túi; gói",
+     "en": "bag; to wrap; bundle"
+    },
+    {
+     "zh": "书包",
+     "py": "shūbāo",
+     "vi": "cặp sách",
+     "en": "schoolbag"
+    },
+    {
+     "zh": "本子",
+     "py": "běnzi",
+     "vi": "quyển vở",
+     "en": "notebook"
+    },
+    {
+     "zh": "笔",
+     "py": "bǐ",
+     "vi": "cây bút",
+     "en": "pen"
+    },
+    {
+     "zh": "画",
+     "py": "huà",
+     "vi": "vẽ; bức tranh",
+     "en": "to draw; painting"
+    },
+    {
+     "zh": "花",
+     "py": "huā",
+     "vi": "bông hoa",
+     "en": "flower"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你喜欢什么颜色？",
+     "py": "nǐ xǐhuan shénme yánsè?",
+     "vi": "Bạn thích màu gì?",
+     "en": "What colour do you like?"
+    },
+    {
+     "sp": "B",
+     "zh": "我喜欢红色，你呢？",
+     "py": "wǒ xǐhuan hóngsè, nǐ ne?",
+     "vi": "Tôi thích màu đỏ, còn bạn?",
+     "en": "I like red. And you?"
+    },
+    {
+     "sp": "A",
+     "zh": "我喜欢绿色。我有一条绿色的裤子。",
+     "py": "wǒ xǐhuan lǜsè. wǒ yǒu yì tiáo lǜsè de kùzi.",
+     "vi": "Tôi thích màu xanh lá. Tôi có một chiếc quần màu xanh lá.",
+     "en": "I like green. I have a pair of green trousers."
+    },
+    {
+     "sp": "B",
+     "zh": "你的书包是黑色的吗？",
+     "py": "nǐ de shūbāo shì hēisè de ma?",
+     "vi": "Cặp sách của bạn màu đen à?",
+     "en": "Is your schoolbag black?"
+    },
+    {
+     "sp": "A",
+     "zh": "不是，是白色的。里面有笔和本子。",
+     "py": "bú shì, shì báisè de. lǐmiàn yǒu bǐ hé běnzi.",
+     "vi": "Không, màu trắng. Bên trong có bút và vở.",
+     "en": "No, it's white. There are pens and a notebook inside."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Lượng từ 条",
+     "ten": "Measure word 条",
+     "dvi": "条 dùng cho vật dài, mềm: quần, cá, sông, đường.",
+     "den": "条 is used for long, flexible things: trousers, fish, rivers, roads.",
+     "ex": [
+      {
+       "zh": "一条裤子",
+       "py": "yì tiáo kùzi",
+       "vi": "một chiếc quần",
+       "en": "a pair of trousers"
+      },
+      {
+       "zh": "两条鱼",
+       "py": "liǎng tiáo yú",
+       "vi": "hai con cá",
+       "en": "two fish"
+      }
+     ]
+    },
+    {
+     "tvi": "Cấu trúc 的 rút gọn",
+     "ten": "Short 的 phrases",
+     "dvi": "Tính từ/danh từ + 的 có thể đứng một mình thay cho danh từ đã biết.",
+     "den": "Adjective/noun + 的 can stand alone in place of a known noun.",
+     "ex": [
+      {
+       "zh": "这本是红色的。",
+       "py": "zhè běn shì hóngsè de.",
+       "vi": "Quyển này màu đỏ.",
+       "en": "This one is red."
+      },
+      {
+       "zh": "那个包是我的。",
+       "py": "nàge bāo shì wǒ de.",
+       "vi": "Cái túi kia là của tôi.",
+       "en": "That bag is mine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "zh": "方位",
+   "py": "Fāngwèi",
+   "vi": "Phương hướng, vị trí",
+   "en": "Directions and positions",
+   "gvi": "Chỉ vị trí trên, dưới, trái, phải; gần và xa.",
+   "gen": "Say above, below, left, right; near and far.",
+   "words": [
+    {
+     "zh": "上面",
+     "py": "shàngmiàn",
+     "vi": "phía trên",
+     "en": "above"
+    },
+    {
+     "zh": "下面",
+     "py": "xiàmiàn",
+     "vi": "phía dưới",
+     "en": "below"
+    },
+    {
+     "zh": "前面",
+     "py": "qiánmiàn",
+     "vi": "phía trước",
+     "en": "in front"
+    },
+    {
+     "zh": "后面",
+     "py": "hòumiàn",
+     "vi": "phía sau",
+     "en": "behind"
+    },
+    {
+     "zh": "里面",
+     "py": "lǐmiàn",
+     "vi": "bên trong",
+     "en": "inside"
+    },
+    {
+     "zh": "外面",
+     "py": "wàimiàn",
+     "vi": "bên ngoài",
+     "en": "outside"
+    },
+    {
+     "zh": "旁边",
+     "py": "pángbiān",
+     "vi": "bên cạnh",
+     "en": "beside"
+    },
+    {
+     "zh": "左",
+     "py": "zuǒ",
+     "vi": "trái",
+     "en": "left"
+    },
+    {
+     "zh": "左边",
+     "py": "zuǒbian",
+     "vi": "bên trái",
+     "en": "left side"
+    },
+    {
+     "zh": "右",
+     "py": "yòu",
+     "vi": "phải",
+     "en": "right"
+    },
+    {
+     "zh": "右边",
+     "py": "yòubian",
+     "vi": "bên phải",
+     "en": "right side"
+    },
+    {
+     "zh": "门",
+     "py": "mén",
+     "vi": "cửa",
+     "en": "door"
+    },
+    {
+     "zh": "门口",
+     "py": "ménkǒu",
+     "vi": "cửa ra vào",
+     "en": "doorway; entrance"
+    },
+    {
+     "zh": "楼",
+     "py": "lóu",
+     "vi": "tòa nhà; tầng",
+     "en": "building; floor"
+    },
+    {
+     "zh": "离",
+     "py": "lí",
+     "vi": "cách, từ ... đến",
+     "en": "away from; distance"
+    },
+    {
+     "zh": "近",
+     "py": "jìn",
+     "vi": "gần",
+     "en": "near"
+    },
+    {
+     "zh": "远",
+     "py": "yuǎn",
+     "vi": "xa",
+     "en": "far"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "请问，银行在哪儿？",
+     "py": "qǐngwèn, yínháng zài nǎr?",
+     "vi": "Xin hỏi, ngân hàng ở đâu ạ?",
+     "en": "Excuse me, where is the bank?"
+    },
+    {
+     "sp": "B",
+     "zh": "在学校旁边，你往前走。",
+     "py": "zài xuéxiào pángbiān, nǐ wǎng qián zǒu.",
+     "vi": "Ở bên cạnh trường học, bạn đi thẳng về phía trước.",
+     "en": "Next to the school. Walk straight ahead."
+    },
+    {
+     "sp": "A",
+     "zh": "离这儿远吗？",
+     "py": "lí zhèr yuǎn ma?",
+     "vi": "Cách đây có xa không?",
+     "en": "Is it far from here?"
+    },
+    {
+     "sp": "B",
+     "zh": "不远，很近。在右边，门口有一棵树。",
+     "py": "bù yuǎn, hěn jìn. zài yòubian, ménkǒu yǒu yì kē shù.",
+     "vi": "Không xa, rất gần. Ở bên phải, trước cửa có một cái cây.",
+     "en": "Not far, very close. It's on the right, with a tree at the door."
+    },
+    {
+     "sp": "A",
+     "zh": "谢谢你！",
+     "py": "xièxie nǐ!",
+     "vi": "Cảm ơn bạn!",
+     "en": "Thank you!"
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Từ chỉ phương vị",
+     "ten": "Position words",
+     "dvi": "Danh từ + 上面/下面/里面…: 桌子上面, 学校旁边.",
+     "den": "Noun + 上面/下面/里面…: 桌子上面, 学校旁边.",
+     "ex": [
+      {
+       "zh": "书在桌子上面。",
+       "py": "shū zài zhuōzi shàngmiàn.",
+       "vi": "Sách ở trên bàn.",
+       "en": "The book is on the desk."
+      },
+      {
+       "zh": "他在门口。",
+       "py": "tā zài ménkǒu.",
+       "vi": "Anh ấy ở cửa.",
+       "en": "He is at the door."
+      }
+     ]
+    },
+    {
+     "tvi": "离 chỉ khoảng cách",
+     "ten": "离 for distance",
+     "dvi": "A 离 B + (rất) gần/xa.",
+     "den": "A 离 B + (very) near/far.",
+     "ex": [
+      {
+       "zh": "学校离家很近。",
+       "py": "xuéxiào lí jiā hěn jìn.",
+       "vi": "Trường học rất gần nhà.",
+       "en": "The school is very close to home."
+      },
+      {
+       "zh": "机场离这儿很远。",
+       "py": "jīchǎng lí zhèr hěn yuǎn.",
+       "vi": "Sân bay cách đây rất xa.",
+       "en": "The airport is far from here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "zh": "来来去去",
+   "py": "Láilái-qùqù",
+   "vi": "Đi ra, đi vào",
+   "en": "Coming and going",
+   "gvi": "Bổ ngữ xu hướng: ra, vào, lên, xuống, về.",
+   "gen": "Directional complements: out, in, up, down, back.",
+   "words": [
+    {
+     "zh": "出",
+     "py": "chū",
+     "vi": "ra",
+     "en": "to go out"
+    },
+    {
+     "zh": "出来",
+     "py": "chūlái",
+     "vi": "đi ra (về phía người nói)",
+     "en": "to come out"
+    },
+    {
+     "zh": "出去",
+     "py": "chūqù",
+     "vi": "đi ra (xa người nói)",
+     "en": "to go out"
+    },
+    {
+     "zh": "进",
+     "py": "jìn",
+     "vi": "vào",
+     "en": "to enter"
+    },
+    {
+     "zh": "进来",
+     "py": "jìnlái",
+     "vi": "đi vào (về phía người nói)",
+     "en": "to come in"
+    },
+    {
+     "zh": "进去",
+     "py": "jìnqù",
+     "vi": "đi vào (xa người nói)",
+     "en": "to go in"
+    },
+    {
+     "zh": "回来",
+     "py": "huílái",
+     "vi": "trở về",
+     "en": "to come back"
+    },
+    {
+     "zh": "回去",
+     "py": "huíqù",
+     "vi": "quay về",
+     "en": "to go back"
+    },
+    {
+     "zh": "上来",
+     "py": "shànglái",
+     "vi": "đi lên (về phía người nói)",
+     "en": "to come up"
+    },
+    {
+     "zh": "上去",
+     "py": "shàngqù",
+     "vi": "đi lên (xa người nói)",
+     "en": "to go up"
+    },
+    {
+     "zh": "下来",
+     "py": "xiàlái",
+     "vi": "đi xuống (về phía người nói)",
+     "en": "to come down"
+    },
+    {
+     "zh": "下去",
+     "py": "xiàqù",
+     "vi": "đi xuống (xa người nói)",
+     "en": "to go down"
+    },
+    {
+     "zh": "过来",
+     "py": "guòlái",
+     "vi": "đi tới đây",
+     "en": "to come over"
+    },
+    {
+     "zh": "过去",
+     "py": "guòqù",
+     "vi": "đi qua đó; quá khứ",
+     "en": "to go over; past"
+    },
+    {
+     "zh": "起来",
+     "py": "qǐlái",
+     "vi": "đứng dậy, dậy",
+     "en": "to get up; stand up"
+    },
+    {
+     "zh": "打开",
+     "py": "dǎkāi",
+     "vi": "mở ra",
+     "en": "to open"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你在哪儿？请上来吧。",
+     "py": "nǐ zài nǎr? qǐng shànglái ba.",
+     "vi": "Bạn ở đâu? Mời lên đây nhé.",
+     "en": "Where are you? Please come up."
+    },
+    {
+     "sp": "B",
+     "zh": "我在楼下，现在上去。",
+     "py": "wǒ zài lóuxià, xiànzài shàngqù.",
+     "vi": "Tôi ở dưới nhà, bây giờ lên ngay.",
+     "en": "I'm downstairs, coming up now."
+    },
+    {
+     "sp": "A",
+     "zh": "门没有开，我给你打开。",
+     "py": "mén méiyǒu kāi, wǒ gěi nǐ dǎkāi.",
+     "vi": "Cửa chưa mở, để tôi mở cho bạn.",
+     "en": "The door's shut; I'll open it for you."
+    },
+    {
+     "sp": "B",
+     "zh": "谢谢，我进来了。",
+     "py": "xièxie, wǒ jìnlái le.",
+     "vi": "Cảm ơn, tôi vào đây.",
+     "en": "Thanks, I'm coming in."
+    },
+    {
+     "sp": "A",
+     "zh": "你坐下，我出去买茶，一会儿就回来。",
+     "py": "nǐ zuò xià, wǒ chūqù mǎi chá, yíhuìr jiù huílái.",
+     "vi": "Bạn ngồi xuống đi, tôi ra ngoài mua trà, lát nữa về ngay.",
+     "en": "Sit down; I'll go out to buy tea and be right back."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "来 và 去 trong bổ ngữ",
+     "ten": "来 and 去 in complements",
+     "dvi": "来: hướng về người nói; 去: hướng ra xa người nói.",
+     "den": "来 moves toward the speaker; 去 moves away from the speaker.",
+     "ex": [
+      {
+       "zh": "他走进来了。",
+       "py": "tā zǒu jìnlái le.",
+       "vi": "Anh ấy đi vào đây rồi.",
+       "en": "He walked in."
+      },
+      {
+       "zh": "请你出去。",
+       "py": "qǐng nǐ chūqù.",
+       "vi": "Mời bạn đi ra ngoài.",
+       "en": "Please go out."
+      }
+     ]
+    },
+    {
+     "tvi": "Động từ + 起来",
+     "ten": "Verb + 起来",
+     "dvi": "起来 còn có nghĩa \"đứng dậy\" hoặc \"bắt đầu (làm)\".",
+     "den": "起来 can mean \"stand up\" or \"start doing\".",
+     "ex": [
+      {
+       "zh": "请大家站起来。",
+       "py": "qǐng dàjiā zhàn qǐlái.",
+       "vi": "Mời mọi người đứng dậy.",
+       "en": "Everyone, please stand up."
+      },
+      {
+       "zh": "他唱起来了。",
+       "py": "tā chàng qǐlái le.",
+       "vi": "Anh ấy bắt đầu hát rồi.",
+       "en": "He started singing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "zh": "旅行",
+   "py": "Lǚxíng",
+   "vi": "Du lịch và giao thông",
+   "en": "Travel and transport",
+   "gvi": "Mua vé, đi tàu xe, đặt khách sạn.",
+   "gen": "Buy tickets, take transport, book hotels.",
+   "words": [
+    {
+     "zh": "车站",
+     "py": "chēzhàn",
+     "vi": "bến xe, nhà ga",
+     "en": "bus or train station"
+    },
+    {
+     "zh": "地铁",
+     "py": "dìtiě",
+     "vi": "tàu điện ngầm",
+     "en": "subway"
+    },
+    {
+     "zh": "公交车",
+     "py": "gōngjiāochē",
+     "vi": "xe buýt",
+     "en": "bus"
+    },
+    {
+     "zh": "机场",
+     "py": "jīchǎng",
+     "vi": "sân bay",
+     "en": "airport"
+    },
+    {
+     "zh": "机票",
+     "py": "jīpiào",
+     "vi": "vé máy bay",
+     "en": "plane ticket"
+    },
+    {
+     "zh": "票",
+     "py": "piào",
+     "vi": "vé",
+     "en": "ticket"
+    },
+    {
+     "zh": "门票",
+     "py": "ménpiào",
+     "vi": "vé vào cửa",
+     "en": "entrance ticket"
+    },
+    {
+     "zh": "打车",
+     "py": "dǎchē",
+     "vi": "bắt taxi",
+     "en": "to take a taxi"
+    },
+    {
+     "zh": "旅游",
+     "py": "lǚyóu",
+     "vi": "du lịch",
+     "en": "to travel"
+    },
+    {
+     "zh": "酒店",
+     "py": "jiǔdiàn",
+     "vi": "khách sạn",
+     "en": "hotel"
+    },
+    {
+     "zh": "站",
+     "py": "zhàn",
+     "vi": "trạm; đứng",
+     "en": "station; stand"
+    },
+    {
+     "zh": "路",
+     "py": "lù",
+     "vi": "con đường",
+     "en": "road"
+    },
+    {
+     "zh": "路上",
+     "py": "lùshang",
+     "vi": "trên đường",
+     "en": "on the way"
+    },
+    {
+     "zh": "外国",
+     "py": "wàiguó",
+     "vi": "nước ngoài",
+     "en": "foreign country"
+    },
+    {
+     "zh": "飞",
+     "py": "fēi",
+     "vi": "bay",
+     "en": "to fly"
+    },
+    {
+     "zh": "出国",
+     "py": "chūguó",
+     "vi": "ra nước ngoài",
+     "en": "to go abroad"
+    },
+    {
+     "zh": "出门",
+     "py": "chūmén",
+     "vi": "ra khỏi nhà",
+     "en": "to go out"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你想去哪儿旅游？",
+     "py": "nǐ xiǎng qù nǎr lǚyóu?",
+     "vi": "Bạn muốn đi du lịch ở đâu?",
+     "en": "Where would you like to travel?"
+    },
+    {
+     "sp": "B",
+     "zh": "我想出国，去中国。",
+     "py": "wǒ xiǎng chūguó, qù Zhōngguó.",
+     "vi": "Tôi muốn ra nước ngoài, đến Trung Quốc.",
+     "en": "I want to go abroad, to China."
+    },
+    {
+     "sp": "A",
+     "zh": "你买机票了吗？",
+     "py": "nǐ mǎi jīpiào le ma?",
+     "vi": "Bạn mua vé máy bay chưa?",
+     "en": "Have you bought the plane ticket?"
+    },
+    {
+     "sp": "B",
+     "zh": "买了。从机场坐地铁去酒店。",
+     "py": "mǎi le. cóng jīchǎng zuò dìtiě qù jiǔdiàn.",
+     "vi": "Mua rồi. Từ sân bay đi tàu điện ngầm đến khách sạn.",
+     "en": "Yes. From the airport I'll take the subway to the hotel."
+    },
+    {
+     "sp": "A",
+     "zh": "路上要小心，也可以打车。",
+     "py": "lùshang yào xiǎoxīn, yě kěyǐ dǎchē.",
+     "vi": "Trên đường nhớ cẩn thận, cũng có thể bắt taxi.",
+     "en": "Be careful on the way; you can also take a taxi."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "从……到……",
+     "ten": "从……到……",
+     "dvi": "从 + nơi/thời gian + 到 + nơi/thời gian: từ ... đến ...",
+     "den": "从 + place/time + 到 + place/time: from ... to ...",
+     "ex": [
+      {
+       "zh": "从北京到上海",
+       "py": "cóng Běijīng dào Shànghǎi",
+       "vi": "từ Bắc Kinh đến Thượng Hải",
+       "en": "from Beijing to Shanghai"
+      },
+      {
+       "zh": "我从八点到十点上课。",
+       "py": "wǒ cóng bā diǎn dào shí diǎn shàngkè.",
+       "vi": "Tôi học từ tám giờ đến mười giờ.",
+       "en": "I have class from eight to ten."
+      }
+     ]
+    },
+    {
+     "tvi": "往 chỉ hướng",
+     "ten": "往 for direction",
+     "dvi": "往 + hướng + động từ: đi về phía ...",
+     "den": "往 + direction + verb: go toward ...",
+     "ex": [
+      {
+       "zh": "请往前走。",
+       "py": "qǐng wǎng qián zǒu.",
+       "vi": "Xin đi thẳng về phía trước.",
+       "en": "Please walk straight ahead."
+      },
+      {
+       "zh": "往右走。",
+       "py": "wǎng yòu zǒu.",
+       "vi": "Đi về bên phải.",
+       "en": "Turn right."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "zh": "课堂",
+   "py": "Kètáng",
+   "vi": "Lớp học",
+   "en": "In the classroom",
+   "gvi": "Nói về lớp, thi cử, hiểu và quên.",
+   "gen": "Talk about class, exams, understanding and forgetting.",
+   "words": [
+    {
+     "zh": "班",
+     "py": "bān",
+     "vi": "lớp",
+     "en": "class; shift"
+    },
+    {
+     "zh": "教室",
+     "py": "jiàoshì",
+     "vi": "phòng học",
+     "en": "classroom"
+    },
+    {
+     "zh": "教",
+     "py": "jiāo",
+     "vi": "dạy",
+     "en": "to teach"
+    },
+    {
+     "zh": "词",
+     "py": "cí",
+     "vi": "từ",
+     "en": "word"
+    },
+    {
+     "zh": "题",
+     "py": "tí",
+     "vi": "câu hỏi, bài tập",
+     "en": "question"
+    },
+    {
+     "zh": "考",
+     "py": "kǎo",
+     "vi": "thi",
+     "en": "to take an exam"
+    },
+    {
+     "zh": "考试",
+     "py": "kǎoshì",
+     "vi": "kỳ thi; thi",
+     "en": "exam; to take an exam"
+    },
+    {
+     "zh": "开学",
+     "py": "kāixué",
+     "vi": "khai giảng",
+     "en": "school starts"
+    },
+    {
+     "zh": "高中",
+     "py": "gāozhōng",
+     "vi": "trung học phổ thông",
+     "en": "high school"
+    },
+    {
+     "zh": "懂",
+     "py": "dǒng",
+     "vi": "hiểu",
+     "en": "to understand"
+    },
+    {
+     "zh": "告诉",
+     "py": "gàosu",
+     "vi": "nói cho biết",
+     "en": "to tell"
+    },
+    {
+     "zh": "介绍",
+     "py": "jièshào",
+     "vi": "giới thiệu",
+     "en": "to introduce"
+    },
+    {
+     "zh": "记得",
+     "py": "jìde",
+     "vi": "nhớ",
+     "en": "to remember"
+    },
+    {
+     "zh": "忘",
+     "py": "wàng",
+     "vi": "quên",
+     "en": "to forget"
+    },
+    {
+     "zh": "错",
+     "py": "cuò",
+     "vi": "sai",
+     "en": "wrong; error"
+    },
+    {
+     "zh": "开始",
+     "py": "kāishǐ",
+     "vi": "bắt đầu",
+     "en": "to begin; beginning"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "明天开始考试，你准备好了吗？",
+     "py": "míngtiān kāishǐ kǎoshì, nǐ zhǔnbèi hǎo le ma?",
+     "vi": "Ngày mai bắt đầu thi, bạn chuẩn bị xong chưa?",
+     "en": "Exams start tomorrow. Are you ready?"
+    },
+    {
+     "sp": "B",
+     "zh": "还没有。有些词我总是忘。",
+     "py": "hái méiyǒu. yǒuxiē cí wǒ zǒngshì wàng.",
+     "vi": "Chưa. Có vài từ tôi cứ quên.",
+     "en": "Not yet. I keep forgetting some words."
+    },
+    {
+     "sp": "A",
+     "zh": "你可以问老师，他会告诉你。",
+     "py": "nǐ kěyǐ wèn lǎoshī, tā huì gàosu nǐ.",
+     "vi": "Bạn có thể hỏi thầy, thầy sẽ nói cho bạn biết.",
+     "en": "You can ask the teacher; he'll tell you."
+    },
+    {
+     "sp": "B",
+     "zh": "这个题我不懂，你教我吧。",
+     "py": "zhège tí wǒ bù dǒng, nǐ jiāo wǒ ba.",
+     "vi": "Câu này tôi không hiểu, bạn dạy tôi với.",
+     "en": "I don't understand this question; teach me."
+    },
+    {
+     "sp": "A",
+     "zh": "好，你的答案没有错，记得写名字。",
+     "py": "hǎo, nǐ de dá'àn méiyǒu cuò, jìde xiě míngzi.",
+     "vi": "Được, đáp án của bạn không sai, nhớ viết tên nhé.",
+     "en": "OK, your answer isn't wrong; remember to write your name."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Bổ ngữ kết quả: 懂, 完, 错",
+     "ten": "Result complements",
+     "dvi": "Động từ + 懂/完/错 cho biết kết quả: 听懂 (nghe hiểu), 写错 (viết sai).",
+     "den": "Verb + 懂/完/错 shows the result: 听懂 (understood by listening), 写错 (wrote wrongly).",
+     "ex": [
+      {
+       "zh": "我听懂了。",
+       "py": "wǒ tīngdǒng le.",
+       "vi": "Tôi nghe hiểu rồi.",
+       "en": "I understood."
+      },
+      {
+       "zh": "他写错了。",
+       "py": "tā xiěcuò le.",
+       "vi": "Anh ấy viết sai rồi.",
+       "en": "He wrote it wrongly."
+      }
+     ]
+    },
+    {
+     "tvi": "告诉 + người + nội dung",
+     "ten": "告诉 + person + content",
+     "dvi": "告诉 có hai tân ngữ: người nhận, rồi nội dung.",
+     "den": "告诉 takes two objects: the person, then the content.",
+     "ex": [
+      {
+       "zh": "请告诉我你的名字。",
+       "py": "qǐng gàosu wǒ nǐ de míngzi.",
+       "vi": "Xin cho tôi biết tên của bạn.",
+       "en": "Please tell me your name."
+      },
+      {
+       "zh": "老师告诉我们明天考试。",
+       "py": "lǎoshī gàosu wǒmen míngtiān kǎoshì.",
+       "vi": "Thầy nói với chúng tôi mai thi.",
+       "en": "The teacher told us there's an exam tomorrow."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "zh": "家人与身体",
+   "py": "Jiārén yǔ shēntǐ",
+   "vi": "Gia đình và cơ thể",
+   "en": "Family and body",
+   "gvi": "Nói về ông bà, vợ chồng, trẻ em; các bộ phận cơ thể.",
+   "gen": "Grandparents, spouses and children; parts of the body.",
+   "words": [
+    {
+     "zh": "爷爷",
+     "py": "yéye",
+     "vi": "ông nội",
+     "en": "grandfather (paternal)"
+    },
+    {
+     "zh": "奶奶",
+     "py": "nǎinai",
+     "vi": "bà nội",
+     "en": "grandmother (paternal)"
+    },
+    {
+     "zh": "丈夫",
+     "py": "zhàngfu",
+     "vi": "chồng",
+     "en": "husband"
+    },
+    {
+     "zh": "妻子",
+     "py": "qīzi",
+     "vi": "vợ",
+     "en": "wife"
+    },
+    {
+     "zh": "男孩儿",
+     "py": "nánháir",
+     "vi": "bé trai",
+     "en": "boy"
+    },
+    {
+     "zh": "女孩儿",
+     "py": "nǚháir",
+     "vi": "bé gái",
+     "en": "girl"
+    },
+    {
+     "zh": "小孩儿",
+     "py": "xiǎoháir",
+     "vi": "trẻ con",
+     "en": "child"
+    },
+    {
+     "zh": "小时候",
+     "py": "xiǎoshíhou",
+     "vi": "hồi nhỏ",
+     "en": "childhood"
+    },
+    {
+     "zh": "从小",
+     "py": "cóngxiǎo",
+     "vi": "từ nhỏ",
+     "en": "since childhood"
+    },
+    {
+     "zh": "姓",
+     "py": "xìng",
+     "vi": "họ; mang họ",
+     "en": "surname; to be surnamed"
+    },
+    {
+     "zh": "姓名",
+     "py": "xìngmíng",
+     "vi": "họ tên",
+     "en": "full name"
+    },
+    {
+     "zh": "身体",
+     "py": "shēntǐ",
+     "vi": "cơ thể; sức khỏe",
+     "en": "body; health"
+    },
+    {
+     "zh": "手",
+     "py": "shǒu",
+     "vi": "bàn tay",
+     "en": "hand"
+    },
+    {
+     "zh": "头",
+     "py": "tóu",
+     "vi": "cái đầu",
+     "en": "head"
+    },
+    {
+     "zh": "眼睛",
+     "py": "yǎnjing",
+     "vi": "đôi mắt",
+     "en": "eye"
+    },
+    {
+     "zh": "床",
+     "py": "chuáng",
+     "vi": "cái giường",
+     "en": "bed"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "这是你的家人吗？",
+     "py": "zhè shì nǐ de jiārén ma?",
+     "vi": "Đây là người nhà của bạn à?",
+     "en": "Is this your family?"
+    },
+    {
+     "sp": "B",
+     "zh": "是的。这是我爷爷和奶奶，身体都很好。",
+     "py": "shì de. zhè shì wǒ yéye hé nǎinai, shēntǐ dōu hěn hǎo.",
+     "vi": "Vâng. Đây là ông bà nội tôi, sức khỏe đều rất tốt.",
+     "en": "Yes. These are my grandparents; both are in good health."
+    },
+    {
+     "sp": "A",
+     "zh": "这个女孩儿是谁？",
+     "py": "zhège nǚháir shì shéi?",
+     "vi": "Cô bé này là ai?",
+     "en": "Who is this girl?"
+    },
+    {
+     "sp": "B",
+     "zh": "她是我姐姐的女儿，从小就很爱笑。",
+     "py": "tā shì wǒ jiějie de nǚ'ér, cóngxiǎo jiù hěn ài xiào.",
+     "vi": "Là con gái của chị tôi, từ nhỏ đã rất hay cười.",
+     "en": "She's my sister's daughter, and has loved to smile since she was little."
+    },
+    {
+     "sp": "A",
+     "zh": "她的眼睛真大！你姓什么？",
+     "py": "tā de yǎnjing zhēn dà! nǐ xìng shénme?",
+     "vi": "Mắt cô bé to thật! Bạn họ gì?",
+     "en": "What big eyes she has! What's your surname?"
+    },
+    {
+     "sp": "B",
+     "zh": "我姓王。",
+     "py": "wǒ xìng Wáng.",
+     "vi": "Tôi họ Vương.",
+     "en": "My surname is Wang."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "姓 và 叫",
+     "ten": "姓 and 叫",
+     "dvi": "姓 + họ; 叫 + tên (hoặc cả họ tên): 我姓王，叫王明.",
+     "den": "姓 + surname; 叫 + given or full name: 我姓王，叫王明.",
+     "ex": [
+      {
+       "zh": "你姓什么？",
+       "py": "nǐ xìng shénme?",
+       "vi": "Bạn họ gì?",
+       "en": "What is your surname?"
+      },
+      {
+       "zh": "他姓李，叫李文。",
+       "py": "tā xìng Lǐ, jiào Lǐ Wén.",
+       "vi": "Anh ấy họ Lý, tên Lý Văn.",
+       "en": "His surname is Li; he is called Li Wen."
+      }
+     ]
+    },
+    {
+     "tvi": "从小",
+     "ten": "从小",
+     "dvi": "从小 + động từ: từ nhỏ đã ...",
+     "den": "从小 + verb: ever since childhood ...",
+     "ex": [
+      {
+       "zh": "我从小喜欢画画儿。",
+       "py": "wǒ cóngxiǎo xǐhuan huà huàr.",
+       "vi": "Từ nhỏ tôi đã thích vẽ.",
+       "en": "I've loved drawing since I was little."
+      },
+      {
+       "zh": "她从小在中国住。",
+       "py": "tā cóngxiǎo zài Zhōngguó zhù.",
+       "vi": "Cô ấy sống ở Trung Quốc từ nhỏ.",
+       "en": "She has lived in China since childhood."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "zh": "饮食与购物",
+   "py": "Yǐnshí yǔ gòuwù",
+   "vi": "Ăn uống và mua sắm",
+   "en": "Food and shopping",
+   "gvi": "Gọi món ở quán, đi trung tâm thương mại, lượng từ.",
+   "gen": "Order at a restaurant, go shopping, measure words.",
+   "words": [
+    {
+     "zh": "咖啡",
+     "py": "kāfēi",
+     "vi": "cà phê",
+     "en": "coffee"
+    },
+    {
+     "zh": "奶茶",
+     "py": "nǎichá",
+     "vi": "trà sữa",
+     "en": "milk tea"
+    },
+    {
+     "zh": "肉",
+     "py": "ròu",
+     "vi": "thịt",
+     "en": "meat"
+    },
+    {
+     "zh": "鱼",
+     "py": "yú",
+     "vi": "cá",
+     "en": "fish"
+    },
+    {
+     "zh": "饭馆",
+     "py": "fànguǎn",
+     "vi": "quán ăn",
+     "en": "restaurant"
+    },
+    {
+     "zh": "点",
+     "py": "diǎn",
+     "vi": "gọi (món)",
+     "en": "to order (food)"
+    },
+    {
+     "zh": "商场",
+     "py": "shāngchǎng",
+     "vi": "trung tâm thương mại",
+     "en": "shopping mall"
+    },
+    {
+     "zh": "花",
+     "py": "huā",
+     "vi": "tiêu (tiền, thời gian)",
+     "en": "to spend (money, time)"
+    },
+    {
+     "zh": "拿",
+     "py": "ná",
+     "vi": "cầm, lấy",
+     "en": "to take; hold"
+    },
+    {
+     "zh": "万",
+     "py": "wàn",
+     "vi": "mười nghìn",
+     "en": "ten thousand"
+    },
+    {
+     "zh": "位",
+     "py": "wèi",
+     "vi": "vị (lượng từ lịch sự)",
+     "en": "person (polite measure)"
+    },
+    {
+     "zh": "间",
+     "py": "jiān",
+     "vi": "gian, căn (lượng từ phòng)",
+     "en": "room (measure word)"
+    },
+    {
+     "zh": "名",
+     "py": "míng",
+     "vi": "tên; người (lượng từ)",
+     "en": "name; person (measure)"
+    },
+    {
+     "zh": "送",
+     "py": "sòng",
+     "vi": "tặng; tiễn",
+     "en": "to send; give"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "欢迎！请问几位？",
+     "py": "huānyíng! qǐngwèn jǐ wèi?",
+     "vi": "Hoan nghênh! Xin hỏi mấy vị ạ?",
+     "en": "Welcome! How many of you?"
+    },
+    {
+     "sp": "B",
+     "zh": "两位。你们有鱼和肉吗？",
+     "py": "liǎng wèi. nǐmen yǒu yú hé ròu ma?",
+     "vi": "Hai người. Quán có cá và thịt không?",
+     "en": "Two. Do you have fish and meat?"
+    },
+    {
+     "sp": "A",
+     "zh": "有。您想点什么？",
+     "py": "yǒu. nín xiǎng diǎn shénme?",
+     "vi": "Có ạ. Quý khách muốn gọi gì?",
+     "en": "Yes. What would you like to order?"
+    },
+    {
+     "sp": "B",
+     "zh": "一条鱼，两杯奶茶。我朋友喝咖啡。",
+     "py": "yì tiáo yú, liǎng bēi nǎichá. wǒ péngyou hē kāfēi.",
+     "vi": "Một con cá, hai ly trà sữa. Bạn tôi uống cà phê.",
+     "en": "One fish and two milk teas. My friend will have coffee."
+    },
+    {
+     "sp": "A",
+     "zh": "好的，请等一会儿。",
+     "py": "hǎo de, qǐng děng yíhuìr.",
+     "vi": "Vâng, xin chờ một lát.",
+     "en": "Certainly, please wait a moment."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Lượng từ 位, 间, 名",
+     "ten": "Measure words 位, 间, 名",
+     "dvi": "位: người (lịch sự); 间: phòng, cửa hàng; 名: người (trang trọng, nghề nghiệp).",
+     "den": "位: people (polite); 间: rooms, shops; 名: people (formal, occupations).",
+     "ex": [
+      {
+       "zh": "三位客人",
+       "py": "sān wèi kèrén",
+       "vi": "ba vị khách",
+       "en": "three guests"
+      },
+      {
+       "zh": "一间房间",
+       "py": "yì jiān fángjiān",
+       "vi": "một căn phòng",
+       "en": "a room"
+      }
+     ]
+    },
+    {
+     "tvi": "花 chỉ việc tiêu",
+     "ten": "花 meaning to spend",
+     "dvi": "花 + tiền/thời gian: tiêu hết tiền hoặc thời gian.",
+     "den": "花 + money/time: to spend money or time.",
+     "ex": [
+      {
+       "zh": "我花了一百块。",
+       "py": "wǒ huā le yì bǎi kuài.",
+       "vi": "Tôi đã tiêu một trăm đồng.",
+       "en": "I spent a hundred yuan."
+      },
+      {
+       "zh": "他花很多时间学习。",
+       "py": "tā huā hěn duō shíjiān xuéxí.",
+       "vi": "Anh ấy dành nhiều thời gian học tập.",
+       "en": "He spends a lot of time studying."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "zh": "身体不舒服",
+   "py": "Shēntǐ bù shūfu",
+   "vi": "Không khỏe",
+   "en": "Not feeling well",
+   "gvi": "Nói về đau ốm, đi mua thuốc, nhờ giúp đỡ.",
+   "gen": "Talk about being unwell, buy medicine, ask for help.",
+   "words": [
+    {
+     "zh": "药",
+     "py": "yào",
+     "vi": "thuốc",
+     "en": "medicine"
+    },
+    {
+     "zh": "药店",
+     "py": "yàodiàn",
+     "vi": "hiệu thuốc",
+     "en": "pharmacy"
+    },
+    {
+     "zh": "疼",
+     "py": "téng",
+     "vi": "đau",
+     "en": "painful"
+    },
+    {
+     "zh": "舒服",
+     "py": "shūfu",
+     "vi": "dễ chịu, khỏe",
+     "en": "comfortable"
+    },
+    {
+     "zh": "累",
+     "py": "lèi",
+     "vi": "mệt",
+     "en": "tired; to tire"
+    },
+    {
+     "zh": "坏",
+     "py": "huài",
+     "vi": "xấu; hỏng",
+     "en": "bad; broken"
+    },
+    {
+     "zh": "洗",
+     "py": "xǐ",
+     "vi": "rửa, giặt",
+     "en": "to wash"
+    },
+    {
+     "zh": "洗手间",
+     "py": "xǐshǒujiān",
+     "vi": "nhà vệ sinh",
+     "en": "restroom"
+    },
+    {
+     "zh": "帮",
+     "py": "bāng",
+     "vi": "giúp",
+     "en": "to help"
+    },
+    {
+     "zh": "帮忙",
+     "py": "bāngmáng",
+     "vi": "giúp đỡ",
+     "en": "to help out"
+    },
+    {
+     "zh": "不好意思",
+     "py": "bùhǎoyìsi",
+     "vi": "xin lỗi, ngại quá",
+     "en": "excuse me; sorry"
+    },
+    {
+     "zh": "让",
+     "py": "ràng",
+     "vi": "để, cho phép; bảo",
+     "en": "to let; allow"
+    },
+    {
+     "zh": "别",
+     "py": "bié",
+     "vi": "đừng",
+     "en": "don't"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你怎么了？不舒服吗？",
+     "py": "nǐ zěnme le? bù shūfu ma?",
+     "vi": "Bạn sao thế? Không khỏe à?",
+     "en": "What's wrong? Are you unwell?"
+    },
+    {
+     "sp": "B",
+     "zh": "我头疼，也很累。",
+     "py": "wǒ tóu téng, yě hěn lèi.",
+     "vi": "Tôi đau đầu, cũng rất mệt.",
+     "en": "I have a headache and I'm tired."
+    },
+    {
+     "sp": "A",
+     "zh": "不好意思，我不能帮你看病，但我可以去药店。",
+     "py": "bùhǎoyìsi, wǒ bù néng bāng nǐ kànbìng, dàn wǒ kěyǐ qù yàodiàn.",
+     "vi": "Ngại quá, tôi không khám bệnh giúp bạn được, nhưng tôi có thể đi hiệu thuốc.",
+     "en": "Sorry, I can't examine you, but I can go to the pharmacy."
+    },
+    {
+     "sp": "B",
+     "zh": "谢谢你帮忙。",
+     "py": "xièxie nǐ bāngmáng.",
+     "vi": "Cảm ơn bạn đã giúp.",
+     "en": "Thanks for your help."
+    },
+    {
+     "sp": "A",
+     "zh": "你先洗手，让身体好好休息。",
+     "py": "nǐ xiān xǐ shǒu, ràng shēntǐ hǎohāo xiūxi.",
+     "vi": "Bạn rửa tay trước đi, để cơ thể nghỉ ngơi cho tốt.",
+     "en": "Wash your hands first and let your body rest well."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "让 + người + động từ",
+     "ten": "让 + person + verb",
+     "dvi": "让 nghĩa là \"để, bảo, cho phép\" ai làm gì.",
+     "den": "让 means \"let / make / ask\" someone do something.",
+     "ex": [
+      {
+       "zh": "妈妈让我休息。",
+       "py": "māma ràng wǒ xiūxi.",
+       "vi": "Mẹ bảo tôi nghỉ ngơi.",
+       "en": "Mum told me to rest."
+      },
+      {
+       "zh": "请让我看看。",
+       "py": "qǐng ràng wǒ kànkan.",
+       "vi": "Xin cho tôi xem một chút.",
+       "en": "Please let me have a look."
+      }
+     ]
+    },
+    {
+     "tvi": "帮 + người + động từ",
+     "ten": "帮 + person + verb",
+     "dvi": "帮 + người + làm gì: giúp ai làm việc gì.",
+     "den": "帮 + person + verb: help someone do something.",
+     "ex": [
+      {
+       "zh": "请你帮我拿一下。",
+       "py": "qǐng nǐ bāng wǒ ná yíxià.",
+       "vi": "Nhờ bạn cầm giúp tôi một chút.",
+       "en": "Please hold this for me."
+      },
+      {
+       "zh": "他帮我洗衣服。",
+       "py": "tā bāng wǒ xǐ yīfu.",
+       "vi": "Anh ấy giúp tôi giặt quần áo.",
+       "en": "He helps me wash clothes."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "zh": "时间与频率",
+   "py": "Shíjiān yǔ pínlǜ",
+   "vi": "Thời gian và tần suất",
+   "en": "Time and frequency",
+   "gvi": "Nói đã làm chưa, hay làm không, sắp làm gì.",
+   "gen": "Say what has been done, how often, and what is about to happen.",
+   "words": [
+    {
+     "zh": "已经",
+     "py": "yǐjīng",
+     "vi": "đã, rồi",
+     "en": "already"
+    },
+    {
+     "zh": "经常",
+     "py": "jīngcháng",
+     "vi": "thường xuyên",
+     "en": "often"
+    },
+    {
+     "zh": "有时",
+     "py": "yǒushí",
+     "vi": "đôi khi",
+     "en": "sometimes"
+    },
+    {
+     "zh": "就",
+     "py": "jiù",
+     "vi": "liền, ngay; thì",
+     "en": "just; right away"
+    },
+    {
+     "zh": "快要",
+     "py": "kuàiyào",
+     "vi": "sắp",
+     "en": "about to"
+    },
+    {
+     "zh": "一会儿",
+     "py": "yíhuìr",
+     "vi": "một lát",
+     "en": "a little while"
+    },
+    {
+     "zh": "时",
+     "py": "shí",
+     "vi": "lúc, giờ",
+     "en": "time; o'clock"
+    },
+    {
+     "zh": "周",
+     "py": "zhōu",
+     "vi": "tuần",
+     "en": "week"
+    },
+    {
+     "zh": "每",
+     "py": "měi",
+     "vi": "mỗi",
+     "en": "every"
+    },
+    {
+     "zh": "过",
+     "py": "guò",
+     "vi": "qua; trải qua; ăn mừng",
+     "en": "to pass; spend (time); celebrate"
+    },
+    {
+     "zh": "过",
+     "py": "guo",
+     "vi": "đã từng (trợ từ)",
+     "en": "experiential aspect particle"
+    },
+    {
+     "zh": "着",
+     "py": "zhe",
+     "vi": "đang (trạng thái kéo dài)",
+     "en": "continuous state particle"
+    },
+    {
+     "zh": "正",
+     "py": "zhèng",
+     "vi": "đang, vừa lúc",
+     "en": "just (at that moment)"
+    },
+    {
+     "zh": "完",
+     "py": "wán",
+     "vi": "xong, hết",
+     "en": "to finish"
+    },
+    {
+     "zh": "事情",
+     "py": "shìqing",
+     "vi": "sự việc, việc",
+     "en": "matter; affair"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你每周都去跑步吗？",
+     "py": "nǐ měi zhōu dōu qù pǎobù ma?",
+     "vi": "Mỗi tuần bạn đều đi chạy bộ à?",
+     "en": "Do you go running every week?"
+    },
+    {
+     "sp": "B",
+     "zh": "我经常去，有时在早上，有时在晚上。",
+     "py": "wǒ jīngcháng qù, yǒushí zài zǎoshang, yǒushí zài wǎnshang.",
+     "vi": "Tôi thường đi, đôi khi buổi sáng, đôi khi buổi tối.",
+     "en": "I go often, sometimes in the morning, sometimes in the evening."
+    },
+    {
+     "sp": "A",
+     "zh": "你去过中国吗？",
+     "py": "nǐ qù guo Zhōngguó ma?",
+     "vi": "Bạn đã từng đến Trung Quốc chưa?",
+     "en": "Have you ever been to China?"
+    },
+    {
+     "sp": "B",
+     "zh": "去过。我已经去过两次了。",
+     "py": "qù guo. wǒ yǐjīng qù guo liǎng cì le.",
+     "vi": "Rồi. Tôi đã đi hai lần rồi.",
+     "en": "Yes, I've already been twice."
+    },
+    {
+     "sp": "A",
+     "zh": "我正在看书，快要考试了，一会儿再聊。",
+     "py": "wǒ zhèng zài kàn shū, kuàiyào kǎoshì le, yíhuìr zài liáo.",
+     "vi": "Tôi đang đọc sách, sắp thi rồi, lát nữa nói chuyện sau nhé.",
+     "en": "I'm reading; exams are coming, let's chat later."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "过 chỉ kinh nghiệm",
+     "ten": "过 for experience",
+     "dvi": "Động từ + 过 nói đã từng làm; phủ định: 没……过.",
+     "den": "Verb + 过 says you have done it before; negative: 没……过.",
+     "ex": [
+      {
+       "zh": "我吃过饺子。",
+       "py": "wǒ chī guo jiǎozi.",
+       "vi": "Tôi đã từng ăn sủi cảo.",
+       "en": "I've eaten dumplings."
+      },
+      {
+       "zh": "他没去过北京。",
+       "py": "tā méi qù guo Běijīng.",
+       "vi": "Anh ấy chưa từng đến Bắc Kinh.",
+       "en": "He has never been to Beijing."
+      }
+     ]
+    },
+    {
+     "tvi": "已经……了 và 快要……了",
+     "ten": "已经……了 and 快要……了",
+     "dvi": "已经 ... 了: đã xảy ra rồi; 快要 ... 了: sắp xảy ra.",
+     "den": "已经 ... 了: already happened; 快要 ... 了: about to happen.",
+     "ex": [
+      {
+       "zh": "他已经走了。",
+       "py": "tā yǐjīng zǒu le.",
+       "vi": "Anh ấy đã đi rồi.",
+       "en": "He has already left."
+      },
+      {
+       "zh": "快要下雨了。",
+       "py": "kuàiyào xià yǔ le.",
+       "vi": "Sắp mưa rồi.",
+       "en": "It's about to rain."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "zh": "比较",
+   "py": "Bǐjiào",
+   "vi": "So sánh",
+   "en": "Comparisons",
+   "gvi": "So sánh người và vật, nói nhanh chậm, cao thấp.",
+   "gen": "Compare people and things; fast/slow, tall/short.",
+   "words": [
+    {
+     "zh": "比",
+     "py": "bǐ",
+     "vi": "so với, hơn",
+     "en": "to compare; than"
+    },
+    {
+     "zh": "跟",
+     "py": "gēn",
+     "vi": "với; và",
+     "en": "with; and"
+    },
+    {
+     "zh": "最",
+     "py": "zuì",
+     "vi": "nhất",
+     "en": "most"
+    },
+    {
+     "zh": "长",
+     "py": "cháng",
+     "vi": "dài",
+     "en": "long"
+    },
+    {
+     "zh": "高",
+     "py": "gāo",
+     "vi": "cao",
+     "en": "tall; high"
+    },
+    {
+     "zh": "个子",
+     "py": "gèzi",
+     "vi": "vóc dáng, chiều cao",
+     "en": "height; stature"
+    },
+    {
+     "zh": "快",
+     "py": "kuài",
+     "vi": "nhanh",
+     "en": "fast; quickly"
+    },
+    {
+     "zh": "慢",
+     "py": "màn",
+     "vi": "chậm",
+     "en": "slow"
+    },
+    {
+     "zh": "不错",
+     "py": "búcuò",
+     "vi": "không tệ, khá tốt",
+     "en": "not bad; right"
+    },
+    {
+     "zh": "那么",
+     "py": "nàme",
+     "vi": "như vậy, thế",
+     "en": "so; like that"
+    },
+    {
+     "zh": "这么",
+     "py": "zhème",
+     "vi": "như thế này",
+     "en": "this; so"
+    },
+    {
+     "zh": "那样",
+     "py": "nàyàng",
+     "vi": "như thế kia",
+     "en": "that way"
+    },
+    {
+     "zh": "这样",
+     "py": "zhèyàng",
+     "vi": "như thế này",
+     "en": "like this"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你哥哥比你高吗？",
+     "py": "nǐ gēge bǐ nǐ gāo ma?",
+     "vi": "Anh trai bạn cao hơn bạn à?",
+     "en": "Is your brother taller than you?"
+    },
+    {
+     "sp": "B",
+     "zh": "是的，他的个子最高，比我高十厘米。",
+     "py": "shì de, tā de gèzi zuì gāo, bǐ wǒ gāo shí límǐ.",
+     "vi": "Vâng, anh ấy cao nhất, cao hơn tôi mười xăng-ti-mét.",
+     "en": "Yes, he is the tallest, ten centimetres taller than me."
+    },
+    {
+     "sp": "A",
+     "zh": "他跑得快吗？",
+     "py": "tā pǎo de kuài ma?",
+     "vi": "Anh ấy chạy nhanh không?",
+     "en": "Does he run fast?"
+    },
+    {
+     "sp": "B",
+     "zh": "很快，比我快得多。我跑得没有他那么快。",
+     "py": "hěn kuài, bǐ wǒ kuài de duō. wǒ pǎo de méiyǒu tā nàme kuài.",
+     "vi": "Rất nhanh, nhanh hơn tôi nhiều. Tôi chạy không nhanh như anh ấy.",
+     "en": "Very fast, much faster than me. I'm not as fast as he is."
+    },
+    {
+     "sp": "A",
+     "zh": "你也不错，不用这样想。",
+     "py": "nǐ yě búcuò, bú yòng zhèyàng xiǎng.",
+     "vi": "Bạn cũng không tệ, đừng nghĩ như vậy.",
+     "en": "You're good too; don't think like that."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Câu so sánh 比",
+     "ten": "Comparison with 比",
+     "dvi": "A 比 B + tính từ: A hơn B. Có thể thêm số lượng: 高十厘米.",
+     "den": "A 比 B + adjective: A is more ... than B. Add an amount: 高十厘米.",
+     "ex": [
+      {
+       "zh": "今天比昨天冷。",
+       "py": "jīntiān bǐ zuótiān lěng.",
+       "vi": "Hôm nay lạnh hơn hôm qua.",
+       "en": "Today is colder than yesterday."
+      },
+      {
+       "zh": "我比他大两岁。",
+       "py": "wǒ bǐ tā dà liǎng suì.",
+       "vi": "Tôi lớn hơn anh ấy hai tuổi.",
+       "en": "I'm two years older than him."
+      }
+     ]
+    },
+    {
+     "tvi": "没有 so sánh kém",
+     "ten": "没有 for 'not as ... as'",
+     "dvi": "A 没有 B + tính từ: A không ... bằng B.",
+     "den": "A 没有 B + adjective: A is not as ... as B.",
+     "ex": [
+      {
+       "zh": "他没有我高。",
+       "py": "tā méiyǒu wǒ gāo.",
+       "vi": "Anh ấy không cao bằng tôi.",
+       "en": "He is not as tall as me."
+      },
+      {
+       "zh": "这个没有那个贵。",
+       "py": "zhège méiyǒu nàge guì.",
+       "vi": "Cái này không đắt bằng cái kia.",
+       "en": "This one is not as expensive as that one."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "zh": "原因与转折",
+   "py": "Yuányīn yǔ zhuǎnzhé",
+   "vi": "Nguyên nhân và đối lập",
+   "en": "Reasons and contrasts",
+   "gvi": "Dùng 因为…所以…, 虽然…但是…, 还是 để nối ý.",
+   "gen": "Use 因为…所以…, 虽然…但是… and 还是 to link ideas.",
+   "words": [
+    {
+     "zh": "因为",
+     "py": "yīnwèi",
+     "vi": "bởi vì",
+     "en": "because"
+    },
+    {
+     "zh": "所以",
+     "py": "suǒyǐ",
+     "vi": "cho nên",
+     "en": "so; therefore"
+    },
+    {
+     "zh": "虽然",
+     "py": "suīrán",
+     "vi": "tuy rằng",
+     "en": "although"
+    },
+    {
+     "zh": "但",
+     "py": "dàn",
+     "vi": "nhưng",
+     "en": "but"
+    },
+    {
+     "zh": "但是",
+     "py": "dànshì",
+     "vi": "nhưng mà",
+     "en": "but"
+    },
+    {
+     "zh": "还是",
+     "py": "háishi",
+     "vi": "hay là; vẫn",
+     "en": "or; still"
+    },
+    {
+     "zh": "为什么",
+     "py": "wèishénme",
+     "vi": "tại sao",
+     "en": "why"
+    },
+    {
+     "zh": "可能",
+     "py": "kěnéng",
+     "vi": "có thể; có lẽ",
+     "en": "possible; maybe"
+    },
+    {
+     "zh": "希望",
+     "py": "xīwàng",
+     "vi": "hy vọng",
+     "en": "to hope"
+    },
+    {
+     "zh": "意思",
+     "py": "yìsi",
+     "vi": "ý nghĩa",
+     "en": "meaning; idea"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你为什么不去旅游？",
+     "py": "nǐ wèishénme bú qù lǚyóu?",
+     "vi": "Sao bạn không đi du lịch?",
+     "en": "Why aren't you going travelling?"
+    },
+    {
+     "sp": "B",
+     "zh": "因为我很忙，所以不能去。",
+     "py": "yīnwèi wǒ hěn máng, suǒyǐ bù néng qù.",
+     "vi": "Vì tôi rất bận nên không đi được.",
+     "en": "Because I'm busy, I can't go."
+    },
+    {
+     "sp": "A",
+     "zh": "虽然你忙，但是也要休息。",
+     "py": "suīrán nǐ máng, dànshì yě yào xiūxi.",
+     "vi": "Tuy bạn bận nhưng cũng phải nghỉ ngơi.",
+     "en": "Although you're busy, you still need to rest."
+    },
+    {
+     "sp": "B",
+     "zh": "可能下个月可以去。你想去北京还是上海？",
+     "py": "kěnéng xià ge yuè kěyǐ qù. nǐ xiǎng qù Běijīng háishi Shànghǎi?",
+     "vi": "Có lẽ tháng sau thì đi được. Bạn muốn đi Bắc Kinh hay Thượng Hải?",
+     "en": "Maybe I can go next month. Do you want Beijing or Shanghai?"
+    },
+    {
+     "sp": "A",
+     "zh": "我希望去北京。你说的意思我懂了。",
+     "py": "wǒ xīwàng qù Běijīng. nǐ shuō de yìsi wǒ dǒng le.",
+     "vi": "Tôi hy vọng đi Bắc Kinh. Ý bạn nói tôi hiểu rồi.",
+     "en": "I'd like Beijing. I understand what you mean."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "因为……所以……",
+     "ten": "因为……所以……",
+     "dvi": "因为 nêu nguyên nhân, 所以 nêu kết quả; tiếng Trung dùng cả hai cùng lúc.",
+     "den": "因为 gives the reason, 所以 the result; Chinese uses both together.",
+     "ex": [
+      {
+       "zh": "因为下雨，所以我在家。",
+       "py": "yīnwèi xià yǔ, suǒyǐ wǒ zài jiā.",
+       "vi": "Vì trời mưa nên tôi ở nhà.",
+       "en": "Because it's raining, I stay at home."
+      },
+      {
+       "zh": "因为他病了，所以没来。",
+       "py": "yīnwèi tā bìng le, suǒyǐ méi lái.",
+       "vi": "Vì anh ấy ốm nên không đến.",
+       "en": "He didn't come because he was ill."
+      }
+     ]
+    },
+    {
+     "tvi": "虽然……但是……",
+     "ten": "虽然……但是……",
+     "dvi": "虽然 (tuy) đi với 但是 (nhưng) ở vế sau; không bỏ 但是.",
+     "den": "虽然 (although) pairs with 但是 (but) in the second clause; don't drop 但是.",
+     "ex": [
+      {
+       "zh": "虽然很累，但是我很高兴。",
+       "py": "suīrán hěn lèi, dànshì wǒ hěn gāoxìng.",
+       "vi": "Tuy rất mệt nhưng tôi rất vui.",
+       "en": "Although tired, I'm very happy."
+      },
+      {
+       "zh": "这个虽然贵，但是很好。",
+       "py": "zhège suīrán guì, dànshì hěn hǎo.",
+       "vi": "Cái này tuy đắt nhưng rất tốt.",
+       "en": "This is expensive but very good."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "zh": "动作与助词",
+   "py": "Dòngzuò yǔ zhùcí",
+   "vi": "Động tác và trợ từ",
+   "en": "Actions and particles",
+   "gvi": "Bổ ngữ trạng thái 得, trạng ngữ 地, lượng từ 次, đi bộ, chuẩn bị.",
+   "gen": "Complement 得, adverbial 地, 次, walking, preparing.",
+   "words": [
+    {
+     "zh": "得",
+     "py": "de",
+     "vi": "trợ từ bổ ngữ (động từ + 得)",
+     "en": "structural particle (before complement)"
+    },
+    {
+     "zh": "地",
+     "py": "de",
+     "vi": "trợ từ trạng ngữ (… 地 + động từ)",
+     "en": "structural particle (after adverbial)"
+    },
+    {
+     "zh": "动",
+     "py": "dòng",
+     "vi": "động, di chuyển",
+     "en": "to move; relocate"
+    },
+    {
+     "zh": "等",
+     "py": "děng",
+     "vi": "chờ",
+     "en": "to wait"
+    },
+    {
+     "zh": "走",
+     "py": "zǒu",
+     "vi": "đi bộ; rời đi",
+     "en": "to walk; to leave"
+    },
+    {
+     "zh": "走路",
+     "py": "zǒulù",
+     "vi": "đi bộ",
+     "en": "to walk"
+    },
+    {
+     "zh": "准备",
+     "py": "zhǔnbèi",
+     "vi": "chuẩn bị",
+     "en": "to prepare"
+    },
+    {
+     "zh": "自己",
+     "py": "zìjǐ",
+     "vi": "bản thân, tự mình",
+     "en": "oneself"
+    },
+    {
+     "zh": "啊",
+     "py": "a",
+     "vi": "à, ạ (trợ từ ngữ khí)",
+     "en": "ah (particle)"
+    },
+    {
+     "zh": "次",
+     "py": "cì",
+     "vi": "lần",
+     "en": "time (occurrence)"
+    },
+    {
+     "zh": "从",
+     "py": "cóng",
+     "vi": "từ",
+     "en": "from"
+    },
+    {
+     "zh": "往",
+     "py": "wǎng",
+     "vi": "về phía",
+     "en": "toward"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你每天走路上班吗？",
+     "py": "nǐ měi tiān zǒulù shàngbān ma?",
+     "vi": "Mỗi ngày bạn đi bộ đi làm à?",
+     "en": "Do you walk to work every day?"
+    },
+    {
+     "sp": "B",
+     "zh": "是啊。我从家走到公司，走得很慢。",
+     "py": "shì a. wǒ cóng jiā zǒu dào gōngsī, zǒu de hěn màn.",
+     "vi": "Vâng. Tôi đi bộ từ nhà đến công ty, đi rất chậm.",
+     "en": "Yes. I walk from home to the office, quite slowly."
+    },
+    {
+     "sp": "A",
+     "zh": "你准备好了吗？我们等一会儿再走。",
+     "py": "nǐ zhǔnbèi hǎo le ma? wǒmen děng yíhuìr zài zǒu.",
+     "vi": "Bạn chuẩn bị xong chưa? Chúng ta chờ một lát rồi đi.",
+     "en": "Are you ready? Let's wait a bit before leaving."
+    },
+    {
+     "sp": "B",
+     "zh": "等我自己再看一次。",
+     "py": "děng wǒ zìjǐ zài kàn yí cì.",
+     "vi": "Đợi tôi tự xem lại một lần.",
+     "en": "Wait while I check it once more myself."
+    },
+    {
+     "sp": "A",
+     "zh": "你说话说得真好，慢慢地说。",
+     "py": "nǐ shuōhuà shuō de zhēn hǎo, mànmàn de shuō.",
+     "vi": "Bạn nói chuyện thật hay, cứ nói thong thả.",
+     "en": "You speak really well; keep speaking slowly."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Bổ ngữ trạng thái: 动词 + 得 + 形容词",
+     "ten": "Complement of manner: verb + 得 + adjective",
+     "dvi": "Dùng 得 để đánh giá cách làm: 跑得快, 说得好.",
+     "den": "Use 得 to describe how an action is done: 跑得快, 说得好.",
+     "ex": [
+      {
+       "zh": "他跑得很快。",
+       "py": "tā pǎo de hěn kuài.",
+       "vi": "Anh ấy chạy rất nhanh.",
+       "en": "He runs very fast."
+      },
+      {
+       "zh": "她唱得好听。",
+       "py": "tā chàng de hǎotīng.",
+       "vi": "Cô ấy hát rất hay.",
+       "en": "She sings beautifully."
+      }
+     ]
+    },
+    {
+     "tvi": "Trạng ngữ + 地",
+     "ten": "Adverbial + 地",
+     "dvi": "Tính từ (lặp) + 地 + động từ: 慢慢地走 (đi thong thả).",
+     "den": "Adjective (doubled) + 地 + verb: 慢慢地走 (walk slowly).",
+     "ex": [
+      {
+       "zh": "请慢慢地说。",
+       "py": "qǐng mànmàn de shuō.",
+       "vi": "Xin nói thong thả thôi.",
+       "en": "Please speak slowly."
+      },
+      {
+       "zh": "他高兴地笑了。",
+       "py": "tā gāoxìng de xiào le.",
+       "vi": "Anh ấy vui vẻ cười.",
+       "en": "He smiled happily."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "zh": "天气与节日",
+   "py": "Tiānqì yǔ jiérì",
+   "vi": "Thời tiết và ngày lễ",
+   "en": "Weather and festivals",
+   "gvi": "Trời nắng, trời âm u, sinh nhật, ăn Tết, lên mạng.",
+   "gen": "Sunny and cloudy days, birthdays, New Year, going online.",
+   "words": [
+    {
+     "zh": "晴",
+     "py": "qíng",
+     "vi": "nắng, quang đãng",
+     "en": "sunny; clear"
+    },
+    {
+     "zh": "阴",
+     "py": "yīn",
+     "vi": "âm u",
+     "en": "overcast; cloudy"
+    },
+    {
+     "zh": "上网",
+     "py": "shàngwǎng",
+     "vi": "lên mạng",
+     "en": "to go online"
+    },
+    {
+     "zh": "网上",
+     "py": "wǎngshang",
+     "vi": "trên mạng",
+     "en": "online"
+    },
+    {
+     "zh": "面",
+     "py": "miàn",
+     "vi": "mặt, phía (hậu tố)",
+     "en": "side; aspect"
+    },
+    {
+     "zh": "生日",
+     "py": "shēngrì",
+     "vi": "sinh nhật",
+     "en": "birthday"
+    },
+    {
+     "zh": "过年",
+     "py": "guònián",
+     "vi": "ăn Tết",
+     "en": "to celebrate New Year"
+    },
+    {
+     "zh": "鸟",
+     "py": "niǎo",
+     "vi": "con chim",
+     "en": "bird"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "今天天气怎么样？",
+     "py": "jīntiān tiānqì zěnmeyàng?",
+     "vi": "Hôm nay thời tiết thế nào?",
+     "en": "How is the weather today?"
+    },
+    {
+     "sp": "B",
+     "zh": "很晴，不冷。明天可能阴。",
+     "py": "hěn qíng, bù lěng. míngtiān kěnéng yīn.",
+     "vi": "Trời nắng, không lạnh. Ngày mai có thể âm u.",
+     "en": "Sunny and not cold. Tomorrow may be cloudy."
+    },
+    {
+     "sp": "A",
+     "zh": "明天是我的生日，我们一起过吧。",
+     "py": "míngtiān shì wǒ de shēngrì, wǒmen yìqǐ guò ba.",
+     "vi": "Ngày mai là sinh nhật tôi, chúng ta cùng đón nhé.",
+     "en": "Tomorrow is my birthday; let's celebrate together."
+    },
+    {
+     "sp": "B",
+     "zh": "好，我在网上给你买一个生日蛋糕。",
+     "py": "hǎo, wǒ zài wǎngshang gěi nǐ mǎi yí gè shēngrì dàngāo.",
+     "vi": "Được, tôi sẽ mua cho bạn một chiếc bánh sinh nhật trên mạng.",
+     "en": "OK, I'll order you a birthday cake online."
+    },
+    {
+     "sp": "A",
+     "zh": "谢谢！你看，外面有一只鸟。",
+     "py": "xièxie! nǐ kàn, wàimiàn yǒu yì zhī niǎo.",
+     "vi": "Cảm ơn! Bạn xem, bên ngoài có một con chim.",
+     "en": "Thanks! Look, there's a bird outside."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "在网上 / 上网",
+     "ten": "在网上 vs 上网",
+     "dvi": "上网: động từ \"lên mạng\"; 在网上 + động từ: làm gì trên mạng.",
+     "den": "上网 is a verb \"go online\"; 在网上 + verb means do something online.",
+     "ex": [
+      {
+       "zh": "我每天上网。",
+       "py": "wǒ měi tiān shàngwǎng.",
+       "vi": "Mỗi ngày tôi lên mạng.",
+       "en": "I go online every day."
+      },
+      {
+       "zh": "他在网上买东西。",
+       "py": "tā zài wǎngshang mǎi dōngxi.",
+       "vi": "Anh ấy mua đồ trên mạng.",
+       "en": "He shops online."
+      }
+     ]
+    },
+    {
+     "tvi": "Từ + 面",
+     "ten": "Words with 面",
+     "dvi": "上面, 下面, 外面, 里面... đều là phương vị + 面; 面 thường đọc nhẹ.",
+     "den": "上面, 下面, 外面, 里面 are all direction + 面; 面 is lightly stressed.",
+     "ex": [
+      {
+       "zh": "外面很冷。",
+       "py": "wàimiàn hěn lěng.",
+       "vi": "Bên ngoài rất lạnh.",
+       "en": "It's very cold outside."
+      },
+      {
+       "zh": "房子后面有花。",
+       "py": "fángzi hòumiàn yǒu huā.",
+       "vi": "Phía sau nhà có hoa.",
+       "en": "There are flowers behind the house."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

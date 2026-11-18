@@ -1,0 +1,3176 @@
+{
+ "level": 1,
+ "lessons": [
+  {
+   "n": 1,
+   "zh": "问候",
+   "py": "Wènhòu",
+   "vi": "Chào hỏi",
+   "en": "Greetings",
+   "gvi": "Chào hỏi, cảm ơn, xin lỗi; đại từ nhân xưng.",
+   "gen": "Greet, thank and apologise; personal pronouns.",
+   "words": [
+    {
+     "zh": "你好",
+     "py": "nǐ hǎo",
+     "vi": "xin chào",
+     "en": "hello"
+    },
+    {
+     "zh": "您",
+     "py": "nín",
+     "vi": "ông/bà/ngài (kính trọng)",
+     "en": "you (polite)"
+    },
+    {
+     "zh": "你",
+     "py": "nǐ",
+     "vi": "bạn, anh, chị",
+     "en": "you"
+    },
+    {
+     "zh": "我",
+     "py": "wǒ",
+     "vi": "tôi",
+     "en": "I; me"
+    },
+    {
+     "zh": "他",
+     "py": "tā",
+     "vi": "anh ấy, ông ấy",
+     "en": "he; him"
+    },
+    {
+     "zh": "她",
+     "py": "tā",
+     "vi": "cô ấy, bà ấy",
+     "en": "she; her"
+    },
+    {
+     "zh": "它",
+     "py": "tā",
+     "vi": "nó (vật, con vật)",
+     "en": "it"
+    },
+    {
+     "zh": "你们",
+     "py": "nǐmen",
+     "vi": "các bạn",
+     "en": "you (plural)"
+    },
+    {
+     "zh": "我们",
+     "py": "wǒmen",
+     "vi": "chúng tôi, chúng ta",
+     "en": "we; us"
+    },
+    {
+     "zh": "他们",
+     "py": "tāmen",
+     "vi": "họ (nam hoặc cả nhóm)",
+     "en": "they (male or mixed)"
+    },
+    {
+     "zh": "她们",
+     "py": "tāmen",
+     "vi": "họ (nữ)",
+     "en": "they (female)"
+    },
+    {
+     "zh": "它们",
+     "py": "tāmen",
+     "vi": "chúng nó",
+     "en": "they (things or animals)"
+    },
+    {
+     "zh": "们",
+     "py": "men",
+     "vi": "hậu tố số nhiều",
+     "en": "plural suffix"
+    },
+    {
+     "zh": "好",
+     "py": "hǎo",
+     "vi": "tốt, khỏe",
+     "en": "good; well"
+    },
+    {
+     "zh": "很",
+     "py": "hěn",
+     "vi": "rất",
+     "en": "very"
+    },
+    {
+     "zh": "吗",
+     "py": "ma",
+     "vi": "trợ từ nghi vấn (không?)",
+     "en": "question particle"
+    },
+    {
+     "zh": "呢",
+     "py": "ne",
+     "vi": "trợ từ hỏi lại (còn... thì sao?)",
+     "en": "question particle (\"and you?\")"
+    },
+    {
+     "zh": "再见",
+     "py": "zàijiàn",
+     "vi": "tạm biệt",
+     "en": "goodbye"
+    },
+    {
+     "zh": "请",
+     "py": "qǐng",
+     "vi": "xin mời, làm ơn",
+     "en": "please; to invite"
+    },
+    {
+     "zh": "请问",
+     "py": "qǐngwèn",
+     "vi": "xin hỏi",
+     "en": "may I ask"
+    },
+    {
+     "zh": "谢谢",
+     "py": "xièxie",
+     "vi": "cảm ơn",
+     "en": "thank you"
+    },
+    {
+     "zh": "不客气",
+     "py": "bú kèqi",
+     "vi": "không có gì, đừng khách sáo",
+     "en": "you're welcome"
+    },
+    {
+     "zh": "对不起",
+     "py": "duìbuqǐ",
+     "vi": "xin lỗi",
+     "en": "sorry"
+    },
+    {
+     "zh": "没关系",
+     "py": "méi guānxi",
+     "vi": "không sao đâu",
+     "en": "never mind"
+    },
+    {
+     "zh": "没事",
+     "py": "méishì",
+     "vi": "không có gì, không sao",
+     "en": "it's nothing; no problem"
+    },
+    {
+     "zh": "喂",
+     "py": "wèi",
+     "vi": "alô",
+     "en": "hello (on the phone)"
+    },
+    {
+     "zh": "大家",
+     "py": "dàjiā",
+     "vi": "mọi người",
+     "en": "everyone"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你好！",
+     "py": "nǐ hǎo!",
+     "vi": "Xin chào!",
+     "en": "Hello!"
+    },
+    {
+     "sp": "B",
+     "zh": "你好！你好吗？",
+     "py": "nǐ hǎo! nǐ hǎo ma?",
+     "vi": "Chào bạn! Bạn khỏe không?",
+     "en": "Hello! How are you?"
+    },
+    {
+     "sp": "A",
+     "zh": "我很好，谢谢。你呢？",
+     "py": "wǒ hěn hǎo, xièxie. nǐ ne?",
+     "vi": "Tôi rất khỏe, cảm ơn. Còn bạn?",
+     "en": "I'm very well, thank you. And you?"
+    },
+    {
+     "sp": "B",
+     "zh": "我也很好。再见！",
+     "py": "wǒ yě hěn hǎo. zàijiàn!",
+     "vi": "Tôi cũng rất khỏe. Tạm biệt!",
+     "en": "I'm well too. Goodbye!"
+    },
+    {
+     "sp": "A",
+     "zh": "再见！",
+     "py": "zàijiàn!",
+     "vi": "Tạm biệt!",
+     "en": "Goodbye!"
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Câu hỏi với 吗",
+     "ten": "Questions with 吗",
+     "dvi": "Thêm 吗 vào cuối câu trần thuật để tạo câu hỏi có/không.",
+     "den": "Add 吗 to the end of a statement to make a yes/no question.",
+     "ex": [
+      {
+       "zh": "你好吗？",
+       "py": "nǐ hǎo ma?",
+       "vi": "Bạn khỏe không?",
+       "en": "How are you?"
+      },
+      {
+       "zh": "你们好吗？",
+       "py": "nǐmen hǎo ma?",
+       "vi": "Các bạn khỏe không?",
+       "en": "Are you (all) well?"
+      }
+     ]
+    },
+    {
+     "tvi": "Hỏi lại bằng 呢",
+     "ten": "Returning a question with 呢",
+     "dvi": "Dùng 名词/代词 + 呢 để hỏi lại: \"còn ... thì sao?\".",
+     "den": "Use noun/pronoun + 呢 to ask \"and what about ...?\".",
+     "ex": [
+      {
+       "zh": "我很好，你呢？",
+       "py": "wǒ hěn hǎo, nǐ ne?",
+       "vi": "Tôi khỏe, còn bạn?",
+       "en": "I'm well, and you?"
+      },
+      {
+       "zh": "请问，老师呢？",
+       "py": "qǐngwèn, lǎoshī ne?",
+       "vi": "Xin hỏi, thầy/cô giáo đâu ạ?",
+       "en": "Excuse me, where is the teacher?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "zh": "姓名与国家",
+   "py": "Xìngmíng yǔ guójiā",
+   "vi": "Tên và quốc gia",
+   "en": "Names and countries",
+   "gvi": "Hỏi tên, nói quốc tịch, ngôn ngữ; câu chữ 是.",
+   "gen": "Ask names, say nationality and languages; the 是 sentence.",
+   "words": [
+    {
+     "zh": "叫",
+     "py": "jiào",
+     "vi": "tên là, gọi",
+     "en": "to be called; to call"
+    },
+    {
+     "zh": "名字",
+     "py": "míngzi",
+     "vi": "tên",
+     "en": "name"
+    },
+    {
+     "zh": "是",
+     "py": "shì",
+     "vi": "là",
+     "en": "to be"
+    },
+    {
+     "zh": "不",
+     "py": "bù",
+     "vi": "không",
+     "en": "not; no"
+    },
+    {
+     "zh": "什么",
+     "py": "shénme",
+     "vi": "cái gì",
+     "en": "what"
+    },
+    {
+     "zh": "谁",
+     "py": "shéi/shuí",
+     "vi": "ai",
+     "en": "who"
+    },
+    {
+     "zh": "哪",
+     "py": "nǎ",
+     "vi": "nào",
+     "en": "which"
+    },
+    {
+     "zh": "哪个",
+     "py": "nǎge",
+     "vi": "cái nào",
+     "en": "which one"
+    },
+    {
+     "zh": "哪里",
+     "py": "nǎlǐ",
+     "vi": "ở đâu",
+     "en": "where"
+    },
+    {
+     "zh": "哪儿",
+     "py": "nǎr",
+     "vi": "ở đâu (khẩu ngữ)",
+     "en": "where"
+    },
+    {
+     "zh": "哪些",
+     "py": "nǎxiē",
+     "vi": "những cái nào",
+     "en": "which ones"
+    },
+    {
+     "zh": "人",
+     "py": "rén",
+     "vi": "người",
+     "en": "person"
+    },
+    {
+     "zh": "中国",
+     "py": "Zhōngguó",
+     "vi": "Trung Quốc",
+     "en": "China"
+    },
+    {
+     "zh": "国",
+     "py": "guó",
+     "vi": "nước, quốc gia",
+     "en": "country"
+    },
+    {
+     "zh": "汉语",
+     "py": "Hànyǔ",
+     "vi": "tiếng Hán",
+     "en": "Chinese language"
+    },
+    {
+     "zh": "汉字",
+     "py": "Hànzì",
+     "vi": "chữ Hán",
+     "en": "Chinese character"
+    },
+    {
+     "zh": "中文",
+     "py": "Zhōngwén",
+     "vi": "tiếng Trung",
+     "en": "Chinese language"
+    },
+    {
+     "zh": "字",
+     "py": "zì",
+     "vi": "chữ",
+     "en": "character; word"
+    },
+    {
+     "zh": "认识",
+     "py": "rènshi",
+     "vi": "quen biết, nhận ra",
+     "en": "to know; to recognize"
+    },
+    {
+     "zh": "说",
+     "py": "shuō",
+     "vi": "nói",
+     "en": "to say; to speak"
+    },
+    {
+     "zh": "说话",
+     "py": "shuōhuà",
+     "vi": "nói chuyện",
+     "en": "to speak; to talk"
+    },
+    {
+     "zh": "学",
+     "py": "xué",
+     "vi": "học",
+     "en": "to learn; to study"
+    },
+    {
+     "zh": "学习",
+     "py": "xuéxí",
+     "vi": "học tập",
+     "en": "to study; to learn"
+    },
+    {
+     "zh": "老师",
+     "py": "lǎoshī",
+     "vi": "thầy giáo, cô giáo",
+     "en": "teacher"
+    },
+    {
+     "zh": "学生",
+     "py": "xuésheng",
+     "vi": "học sinh, sinh viên",
+     "en": "student"
+    },
+    {
+     "zh": "同学",
+     "py": "tóngxué",
+     "vi": "bạn học",
+     "en": "classmate; schoolmate"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你叫什么名字？",
+     "py": "nǐ jiào shénme míngzi?",
+     "vi": "Bạn tên là gì?",
+     "en": "What is your name?"
+    },
+    {
+     "sp": "B",
+     "zh": "我叫小明。你呢？",
+     "py": "wǒ jiào Xiǎo Míng. nǐ ne?",
+     "vi": "Tôi tên là Tiểu Minh. Còn bạn?",
+     "en": "I'm Xiao Ming. And you?"
+    },
+    {
+     "sp": "A",
+     "zh": "我叫大卫。你是中国人吗？",
+     "py": "wǒ jiào Dàwèi. nǐ shì Zhōngguó rén ma?",
+     "vi": "Tôi tên là David. Bạn là người Trung Quốc phải không?",
+     "en": "I'm David. Are you Chinese?"
+    },
+    {
+     "sp": "B",
+     "zh": "是，我是中国人。你是哪国人？",
+     "py": "shì, wǒ shì Zhōngguó rén. nǐ shì nǎ guó rén?",
+     "vi": "Vâng, tôi là người Trung Quốc. Bạn là người nước nào?",
+     "en": "Yes, I'm Chinese. What country are you from?"
+    },
+    {
+     "sp": "A",
+     "zh": "我不是中国人，我是学生。我学习汉语。",
+     "py": "wǒ bú shì Zhōngguó rén, wǒ shì xuésheng. wǒ xuéxí Hànyǔ.",
+     "vi": "Tôi không phải người Trung Quốc, tôi là sinh viên. Tôi học tiếng Hán.",
+     "en": "I'm not Chinese; I'm a student. I study Chinese."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Câu chữ 是",
+     "ten": "The 是 sentence",
+     "dvi": "A 是 B nghĩa là \"A là B\". Phủ định dùng 不是.",
+     "den": "A 是 B means \"A is B\". Negate with 不是.",
+     "ex": [
+      {
+       "zh": "我是老师。",
+       "py": "wǒ shì lǎoshī.",
+       "vi": "Tôi là giáo viên.",
+       "en": "I am a teacher."
+      },
+      {
+       "zh": "他不是学生。",
+       "py": "tā bú shì xuésheng.",
+       "vi": "Anh ấy không phải học sinh.",
+       "en": "He is not a student."
+      }
+     ]
+    },
+    {
+     "tvi": "Từ để hỏi",
+     "ten": "Question words",
+     "dvi": "什么, 谁, 哪 đứng đúng vị trí của thành phần được hỏi, không đảo trật tự câu.",
+     "den": "什么, 谁 and 哪 take the place of the missing information; word order does not change.",
+     "ex": [
+      {
+       "zh": "她是谁？",
+       "py": "tā shì shéi?",
+       "vi": "Cô ấy là ai?",
+       "en": "Who is she?"
+      },
+      {
+       "zh": "你是哪国人？",
+       "py": "nǐ shì nǎ guó rén?",
+       "vi": "Bạn là người nước nào?",
+       "en": "Which country are you from?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "zh": "数字",
+   "py": "Shùzì",
+   "vi": "Số đếm",
+   "en": "Numbers",
+   "gvi": "Số 0–1000, hỏi số lượng, lượng từ 个.",
+   "gen": "Numbers 0–1000, asking quantity, the measure word 个.",
+   "words": [
+    {
+     "zh": "零",
+     "py": "líng",
+     "vi": "không",
+     "en": "zero"
+    },
+    {
+     "zh": "一",
+     "py": "yī",
+     "vi": "một",
+     "en": "one"
+    },
+    {
+     "zh": "二",
+     "py": "èr",
+     "vi": "hai",
+     "en": "two"
+    },
+    {
+     "zh": "两",
+     "py": "liǎng",
+     "vi": "hai (đứng trước lượng từ)",
+     "en": "two"
+    },
+    {
+     "zh": "三",
+     "py": "sān",
+     "vi": "ba",
+     "en": "three"
+    },
+    {
+     "zh": "四",
+     "py": "sì",
+     "vi": "bốn",
+     "en": "four"
+    },
+    {
+     "zh": "五",
+     "py": "wǔ",
+     "vi": "năm",
+     "en": "five"
+    },
+    {
+     "zh": "六",
+     "py": "liù",
+     "vi": "sáu",
+     "en": "six"
+    },
+    {
+     "zh": "七",
+     "py": "qī",
+     "vi": "bảy",
+     "en": "seven"
+    },
+    {
+     "zh": "八",
+     "py": "bā",
+     "vi": "tám",
+     "en": "eight"
+    },
+    {
+     "zh": "九",
+     "py": "jiǔ",
+     "vi": "chín",
+     "en": "nine"
+    },
+    {
+     "zh": "十",
+     "py": "shí",
+     "vi": "mười",
+     "en": "ten"
+    },
+    {
+     "zh": "百",
+     "py": "bǎi",
+     "vi": "trăm",
+     "en": "hundred"
+    },
+    {
+     "zh": "千",
+     "py": "qiān",
+     "vi": "nghìn",
+     "en": "thousand"
+    },
+    {
+     "zh": "几",
+     "py": "jǐ",
+     "vi": "mấy, vài",
+     "en": "how many; a few"
+    },
+    {
+     "zh": "多少",
+     "py": "duōshao",
+     "vi": "bao nhiêu",
+     "en": "how many; how much"
+    },
+    {
+     "zh": "多",
+     "py": "duō",
+     "vi": "nhiều",
+     "en": "many; more"
+    },
+    {
+     "zh": "少",
+     "py": "shǎo",
+     "vi": "ít",
+     "en": "few; less"
+    },
+    {
+     "zh": "个",
+     "py": "gè",
+     "vi": "cái, người (lượng từ chung)",
+     "en": "general measure word"
+    },
+    {
+     "zh": "第",
+     "py": "dì",
+     "vi": "thứ (tiền tố số thứ tự)",
+     "en": "ordinal prefix"
+    },
+    {
+     "zh": "半",
+     "py": "bàn",
+     "vi": "một nửa, rưỡi",
+     "en": "half"
+    },
+    {
+     "zh": "一半",
+     "py": "yíbàn",
+     "vi": "một nửa",
+     "en": "half"
+    },
+    {
+     "zh": "一些",
+     "py": "yìxiē",
+     "vi": "một vài, một ít",
+     "en": "some; a few"
+    },
+    {
+     "zh": "一点儿",
+     "py": "yìdiǎnr",
+     "vi": "một chút",
+     "en": "a little"
+    },
+    {
+     "zh": "一下",
+     "py": "yíxià",
+     "vi": "một chút, thử một lần",
+     "en": "a little; once"
+    },
+    {
+     "zh": "些",
+     "py": "xiē",
+     "vi": "một vài (lượng từ)",
+     "en": "some; a few (measure word)"
+    },
+    {
+     "zh": "有些",
+     "py": "yǒuxiē",
+     "vi": "một số",
+     "en": "some"
+    },
+    {
+     "zh": "有的",
+     "py": "yǒude",
+     "vi": "có (người/cái) ...",
+     "en": "some"
+    },
+    {
+     "zh": "岁",
+     "py": "suì",
+     "vi": "tuổi",
+     "en": "year of age"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你几岁？",
+     "py": "nǐ jǐ suì?",
+     "vi": "Bạn mấy tuổi?",
+     "en": "How old are you?"
+    },
+    {
+     "sp": "B",
+     "zh": "我八岁。你呢？",
+     "py": "wǒ bā suì. nǐ ne?",
+     "vi": "Tôi tám tuổi. Còn bạn?",
+     "en": "I'm eight. And you?"
+    },
+    {
+     "sp": "A",
+     "zh": "我九岁。你有几个朋友？",
+     "py": "wǒ jiǔ suì. nǐ yǒu jǐ gè péngyou?",
+     "vi": "Tôi chín tuổi. Bạn có mấy người bạn?",
+     "en": "I'm nine. How many friends do you have?"
+    },
+    {
+     "sp": "B",
+     "zh": "我有两个朋友。你有多少个？",
+     "py": "wǒ yǒu liǎng gè péngyou. nǐ yǒu duōshao gè?",
+     "vi": "Tôi có hai người bạn. Bạn có bao nhiêu người?",
+     "en": "I have two friends. How many do you have?"
+    },
+    {
+     "sp": "A",
+     "zh": "我有十个。",
+     "py": "wǒ yǒu shí gè.",
+     "vi": "Tôi có mười người.",
+     "en": "I have ten."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "几 và 多少",
+     "ten": "几 and 多少",
+     "dvi": "几 hỏi số nhỏ (thường dưới 10) và cần lượng từ; 多少 dùng cho số bất kỳ, lượng từ có thể bỏ.",
+     "den": "几 asks about small numbers (usually under 10) and needs a measure word; 多少 works for any number and the measure word is optional.",
+     "ex": [
+      {
+       "zh": "你有几个朋友？",
+       "py": "nǐ yǒu jǐ gè péngyou?",
+       "vi": "Bạn có mấy người bạn?",
+       "en": "How many friends do you have?"
+      },
+      {
+       "zh": "这里有多少人？",
+       "py": "zhèlǐ yǒu duōshao rén?",
+       "vi": "Ở đây có bao nhiêu người?",
+       "en": "How many people are here?"
+      }
+     ]
+    },
+    {
+     "tvi": "二 và 两",
+     "ten": "二 vs 两",
+     "dvi": "Khi đếm số dùng 二; trước lượng từ dùng 两.",
+     "den": "Use 二 when counting or reading numbers; use 两 before a measure word.",
+     "ex": [
+      {
+       "zh": "一、二、三",
+       "py": "yī, èr, sān",
+       "vi": "Một, hai, ba",
+       "en": "One, two, three"
+      },
+      {
+       "zh": "两个学生",
+       "py": "liǎng gè xuésheng",
+       "vi": "hai học sinh",
+       "en": "two students"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "zh": "家人",
+   "py": "Jiārén",
+   "vi": "Gia đình",
+   "en": "Family",
+   "gvi": "Giới thiệu gia đình; 有 / 没有; 的 chỉ sở hữu.",
+   "gen": "Introduce your family; 有 / 没有; possessive 的.",
+   "words": [
+    {
+     "zh": "家",
+     "py": "jiā",
+     "vi": "nhà, gia đình",
+     "en": "home; family"
+    },
+    {
+     "zh": "家人",
+     "py": "jiārén",
+     "vi": "người nhà",
+     "en": "family members"
+    },
+    {
+     "zh": "爸爸",
+     "py": "bàba",
+     "vi": "bố, ba",
+     "en": "father; dad"
+    },
+    {
+     "zh": "妈妈",
+     "py": "māma",
+     "vi": "mẹ",
+     "en": "mother; mom"
+    },
+    {
+     "zh": "哥哥",
+     "py": "gēge",
+     "vi": "anh trai",
+     "en": "older brother"
+    },
+    {
+     "zh": "姐姐",
+     "py": "jiějie",
+     "vi": "chị gái",
+     "en": "older sister"
+    },
+    {
+     "zh": "弟弟",
+     "py": "dìdi",
+     "vi": "em trai",
+     "en": "younger brother"
+    },
+    {
+     "zh": "妹妹",
+     "py": "mèimei",
+     "vi": "em gái",
+     "en": "younger sister"
+    },
+    {
+     "zh": "儿子",
+     "py": "érzi",
+     "vi": "con trai",
+     "en": "son"
+    },
+    {
+     "zh": "女儿",
+     "py": "nǚ'ér",
+     "vi": "con gái",
+     "en": "daughter"
+    },
+    {
+     "zh": "孩子",
+     "py": "háizi",
+     "vi": "đứa trẻ, con cái",
+     "en": "child"
+    },
+    {
+     "zh": "小朋友",
+     "py": "xiǎopéngyǒu",
+     "vi": "em bé, bạn nhỏ",
+     "en": "little friend; child"
+    },
+    {
+     "zh": "朋友",
+     "py": "péngyou",
+     "vi": "bạn bè",
+     "en": "friend"
+    },
+    {
+     "zh": "男朋友",
+     "py": "nánpéngyou",
+     "vi": "bạn trai",
+     "en": "boyfriend"
+    },
+    {
+     "zh": "女朋友",
+     "py": "nǚpéngyou",
+     "vi": "bạn gái",
+     "en": "girlfriend"
+    },
+    {
+     "zh": "男",
+     "py": "nán",
+     "vi": "nam",
+     "en": "male"
+    },
+    {
+     "zh": "女",
+     "py": "nǚ",
+     "vi": "nữ",
+     "en": "female"
+    },
+    {
+     "zh": "女士",
+     "py": "nǚshì",
+     "vi": "bà, quý bà",
+     "en": "lady; madam"
+    },
+    {
+     "zh": "先生",
+     "py": "xiānsheng",
+     "vi": "ông, ngài; chồng",
+     "en": "Mr.; sir; husband"
+    },
+    {
+     "zh": "有",
+     "py": "yǒu",
+     "vi": "có",
+     "en": "to have; to exist"
+    },
+    {
+     "zh": "没有",
+     "py": "méiyǒu",
+     "vi": "không có; chưa",
+     "en": "not have; not exist; did not"
+    },
+    {
+     "zh": "的",
+     "py": "de",
+     "vi": "của (trợ từ kết cấu)",
+     "en": "structural particle"
+    },
+    {
+     "zh": "口",
+     "py": "kǒu",
+     "vi": "miệng; lượng từ cho người trong nhà",
+     "en": "mouth; measure word for family members"
+    },
+    {
+     "zh": "和",
+     "py": "hé",
+     "vi": "và, với",
+     "en": "and; with"
+    },
+    {
+     "zh": "年",
+     "py": "nián",
+     "vi": "năm",
+     "en": "year"
+    },
+    {
+     "zh": "今年",
+     "py": "jīnnián",
+     "vi": "năm nay",
+     "en": "this year"
+    },
+    {
+     "zh": "去年",
+     "py": "qùnián",
+     "vi": "năm ngoái",
+     "en": "last year"
+    },
+    {
+     "zh": "明年",
+     "py": "míngnián",
+     "vi": "sang năm",
+     "en": "next year"
+    },
+    {
+     "zh": "大",
+     "py": "dà",
+     "vi": "lớn",
+     "en": "big; large"
+    },
+    {
+     "zh": "小",
+     "py": "xiǎo",
+     "vi": "nhỏ",
+     "en": "small; little"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你家有几口人？",
+     "py": "nǐ jiā yǒu jǐ kǒu rén?",
+     "vi": "Nhà bạn có mấy người?",
+     "en": "How many people are in your family?"
+    },
+    {
+     "sp": "B",
+     "zh": "我家有五口人：爸爸、妈妈、哥哥、妹妹和我。",
+     "py": "wǒ jiā yǒu wǔ kǒu rén: bàba, māma, gēge, mèimei hé wǒ.",
+     "vi": "Nhà tôi có năm người: bố, mẹ, anh trai, em gái và tôi.",
+     "en": "There are five of us: Dad, Mum, my older brother, my younger sister and me."
+    },
+    {
+     "sp": "A",
+     "zh": "你哥哥今年多大？",
+     "py": "nǐ gēge jīnnián duō dà?",
+     "vi": "Năm nay anh trai bạn bao nhiêu tuổi?",
+     "en": "How old is your older brother this year?"
+    },
+    {
+     "sp": "B",
+     "zh": "他今年二十岁，是大学生。",
+     "py": "tā jīnnián èrshí suì, shì dàxuéshēng.",
+     "vi": "Năm nay anh ấy hai mươi tuổi, là sinh viên đại học.",
+     "en": "He is twenty this year and a university student."
+    },
+    {
+     "sp": "A",
+     "zh": "你有姐姐吗？",
+     "py": "nǐ yǒu jiějie ma?",
+     "vi": "Bạn có chị gái không?",
+     "en": "Do you have an older sister?"
+    },
+    {
+     "sp": "B",
+     "zh": "我没有姐姐。",
+     "py": "wǒ méiyǒu jiějie.",
+     "vi": "Tôi không có chị gái.",
+     "en": "I don't have an older sister."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "有 và 没有",
+     "ten": "有 and 没有",
+     "dvi": "Phủ định của 有 là 没有 (không dùng 不有).",
+     "den": "The negative of 有 is 没有 (never 不有).",
+     "ex": [
+      {
+       "zh": "我有一个弟弟。",
+       "py": "wǒ yǒu yí gè dìdi.",
+       "vi": "Tôi có một em trai.",
+       "en": "I have a younger brother."
+      },
+      {
+       "zh": "她没有女儿。",
+       "py": "tā méiyǒu nǚ'ér.",
+       "vi": "Cô ấy không có con gái.",
+       "en": "She has no daughter."
+      }
+     ]
+    },
+    {
+     "tvi": "的 chỉ sở hữu",
+     "ten": "Possessive 的",
+     "dvi": "Danh từ/đại từ + 的 + danh từ. Với người thân, 的 thường được lược bỏ.",
+     "den": "Noun/pronoun + 的 + noun. It is often dropped with close family terms.",
+     "ex": [
+      {
+       "zh": "这是我的书。",
+       "py": "zhè shì wǒ de shū.",
+       "vi": "Đây là sách của tôi.",
+       "en": "This is my book."
+      },
+      {
+       "zh": "我妈妈很好。",
+       "py": "wǒ māma hěn hǎo.",
+       "vi": "Mẹ tôi rất khỏe.",
+       "en": "My mother is very well."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "zh": "时间与日期",
+   "py": "Shíjiān yǔ rìqī",
+   "vi": "Thời gian và ngày tháng",
+   "en": "Time and dates",
+   "gvi": "Giờ, ngày, thứ trong tuần; trạng ngữ thời gian.",
+   "gen": "Clock time, dates, days of the week; time expressions.",
+   "words": [
+    {
+     "zh": "今天",
+     "py": "jīntiān",
+     "vi": "hôm nay",
+     "en": "today"
+    },
+    {
+     "zh": "明天",
+     "py": "míngtiān",
+     "vi": "ngày mai",
+     "en": "tomorrow"
+    },
+    {
+     "zh": "昨天",
+     "py": "zuótiān",
+     "vi": "hôm qua",
+     "en": "yesterday"
+    },
+    {
+     "zh": "天",
+     "py": "tiān",
+     "vi": "ngày; trời",
+     "en": "day; sky"
+    },
+    {
+     "zh": "月",
+     "py": "yuè",
+     "vi": "tháng; mặt trăng",
+     "en": "moon; month"
+    },
+    {
+     "zh": "号",
+     "py": "hào",
+     "vi": "ngày (trong tháng); số",
+     "en": "number; date"
+    },
+    {
+     "zh": "日",
+     "py": "rì",
+     "vi": "ngày (trong tháng)",
+     "en": "day of the month; date"
+    },
+    {
+     "zh": "星期",
+     "py": "xīngqī",
+     "vi": "tuần, thứ",
+     "en": "week"
+    },
+    {
+     "zh": "星期天",
+     "py": "xīngqītiān",
+     "vi": "chủ nhật",
+     "en": "Sunday"
+    },
+    {
+     "zh": "星期日",
+     "py": "xīngqīrì",
+     "vi": "chủ nhật",
+     "en": "Sunday"
+    },
+    {
+     "zh": "点",
+     "py": "diǎn",
+     "vi": "giờ; chấm",
+     "en": "o'clock; dot"
+    },
+    {
+     "zh": "分",
+     "py": "fēn",
+     "vi": "phút; xu",
+     "en": "minute; cent; part"
+    },
+    {
+     "zh": "分钟",
+     "py": "fēnzhōng",
+     "vi": "phút (khoảng thời gian)",
+     "en": "minute"
+    },
+    {
+     "zh": "小时",
+     "py": "xiǎoshí",
+     "vi": "giờ (khoảng thời gian)",
+     "en": "hour"
+    },
+    {
+     "zh": "现在",
+     "py": "xiànzài",
+     "vi": "bây giờ",
+     "en": "now; currently"
+    },
+    {
+     "zh": "时间",
+     "py": "shíjiān",
+     "vi": "thời gian",
+     "en": "time; a period of time"
+    },
+    {
+     "zh": "时候",
+     "py": "shíhou",
+     "vi": "lúc, khi",
+     "en": "time; moment"
+    },
+    {
+     "zh": "上午",
+     "py": "shàngwǔ",
+     "vi": "buổi sáng",
+     "en": "morning"
+    },
+    {
+     "zh": "中午",
+     "py": "zhōngwǔ",
+     "vi": "buổi trưa",
+     "en": "noon"
+    },
+    {
+     "zh": "下午",
+     "py": "xiàwǔ",
+     "vi": "buổi chiều",
+     "en": "afternoon"
+    },
+    {
+     "zh": "晚上",
+     "py": "wǎnshang",
+     "vi": "buổi tối",
+     "en": "evening; night"
+    },
+    {
+     "zh": "早上",
+     "py": "zǎoshang",
+     "vi": "sáng sớm",
+     "en": "early morning"
+    },
+    {
+     "zh": "白天",
+     "py": "báitiān",
+     "vi": "ban ngày",
+     "en": "daytime"
+    },
+    {
+     "zh": "早",
+     "py": "zǎo",
+     "vi": "sớm; chào buổi sáng",
+     "en": "early; morning"
+    },
+    {
+     "zh": "晚",
+     "py": "wǎn",
+     "vi": "muộn, tối",
+     "en": "late"
+    },
+    {
+     "zh": "上",
+     "py": "shàng",
+     "vi": "trên; lên; (tuần/tháng) trước",
+     "en": "up; above; to go up; to attend"
+    },
+    {
+     "zh": "下",
+     "py": "xià",
+     "vi": "dưới; xuống; (tuần/tháng) sau",
+     "en": "down; below; next"
+    },
+    {
+     "zh": "前",
+     "py": "qián",
+     "vi": "trước",
+     "en": "front; before"
+    },
+    {
+     "zh": "后",
+     "py": "hòu",
+     "vi": "sau",
+     "en": "back; after"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "现在几点？",
+     "py": "xiànzài jǐ diǎn?",
+     "vi": "Bây giờ là mấy giờ?",
+     "en": "What time is it now?"
+    },
+    {
+     "sp": "B",
+     "zh": "现在八点二十分。",
+     "py": "xiànzài bā diǎn èrshí fēn.",
+     "vi": "Bây giờ là tám giờ hai mươi phút.",
+     "en": "It's eight twenty."
+    },
+    {
+     "sp": "A",
+     "zh": "今天是几月几号？",
+     "py": "jīntiān shì jǐ yuè jǐ hào?",
+     "vi": "Hôm nay là ngày mấy tháng mấy?",
+     "en": "What's the date today?"
+    },
+    {
+     "sp": "B",
+     "zh": "今天是十月五号，星期天。",
+     "py": "jīntiān shì shí yuè wǔ hào, xīngqītiān.",
+     "vi": "Hôm nay là ngày 5 tháng 10, chủ nhật.",
+     "en": "Today is October 5th, Sunday."
+    },
+    {
+     "sp": "A",
+     "zh": "你明天下午有时间吗？",
+     "py": "nǐ míngtiān xiàwǔ yǒu shíjiān ma?",
+     "vi": "Chiều mai bạn có thời gian không?",
+     "en": "Are you free tomorrow afternoon?"
+    },
+    {
+     "sp": "B",
+     "zh": "有，我们两点见。",
+     "py": "yǒu, wǒmen liǎng diǎn jiàn.",
+     "vi": "Có, hai giờ gặp nhau nhé.",
+     "en": "Yes, let's meet at two."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Cách nói giờ",
+     "ten": "Telling the time",
+     "dvi": "Số + 点 + số + 分. 两点 (hai giờ) dùng 两, không dùng 二.",
+     "den": "Number + 点 + number + 分. Say 两点 for two o'clock, not 二点.",
+     "ex": [
+      {
+       "zh": "现在三点十分。",
+       "py": "xiànzài sān diǎn shí fēn.",
+       "vi": "Bây giờ là ba giờ mười.",
+       "en": "It is ten past three."
+      },
+      {
+       "zh": "我两点上课。",
+       "py": "wǒ liǎng diǎn shàngkè.",
+       "vi": "Hai giờ tôi vào học.",
+       "en": "I have class at two."
+      }
+     ]
+    },
+    {
+     "tvi": "Trạng ngữ thời gian",
+     "ten": "Time words",
+     "dvi": "Từ chỉ thời gian đứng trước động từ (hoặc đầu câu): 今天下午我有课。",
+     "den": "Time words go before the verb (or at the start): 今天下午我有课。",
+     "ex": [
+      {
+       "zh": "明天我不忙。",
+       "py": "míngtiān wǒ bù máng.",
+       "vi": "Ngày mai tôi không bận.",
+       "en": "I'm not busy tomorrow."
+      },
+      {
+       "zh": "昨天晚上我很早睡。",
+       "py": "zuótiān wǎnshang wǒ hěn zǎo shuì.",
+       "vi": "Tối qua tôi ngủ rất sớm.",
+       "en": "Last night I went to bed very early."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "zh": "这是什么",
+   "py": "Zhè shì shénme",
+   "vi": "Đây là gì?",
+   "en": "What is this?",
+   "gvi": "Đại từ chỉ định, vị trí, đồ vật quanh ta.",
+   "gen": "Demonstratives, location and everyday objects.",
+   "words": [
+    {
+     "zh": "这",
+     "py": "zhè",
+     "vi": "này, đây",
+     "en": "this"
+    },
+    {
+     "zh": "那",
+     "py": "nà",
+     "vi": "kia, đó",
+     "en": "that"
+    },
+    {
+     "zh": "这个",
+     "py": "zhège",
+     "vi": "cái này",
+     "en": "this one"
+    },
+    {
+     "zh": "那个",
+     "py": "nàge",
+     "vi": "cái kia",
+     "en": "that one"
+    },
+    {
+     "zh": "这里",
+     "py": "zhèlǐ",
+     "vi": "ở đây",
+     "en": "here"
+    },
+    {
+     "zh": "那里",
+     "py": "nàlǐ",
+     "vi": "ở đó",
+     "en": "there"
+    },
+    {
+     "zh": "这儿",
+     "py": "zhèr",
+     "vi": "ở đây (khẩu ngữ)",
+     "en": "here"
+    },
+    {
+     "zh": "那儿",
+     "py": "nàr",
+     "vi": "ở đó (khẩu ngữ)",
+     "en": "there"
+    },
+    {
+     "zh": "这边",
+     "py": "zhèbiān",
+     "vi": "phía này",
+     "en": "here; this side"
+    },
+    {
+     "zh": "那边",
+     "py": "nàbiān",
+     "vi": "phía kia",
+     "en": "over there"
+    },
+    {
+     "zh": "这些",
+     "py": "zhèxiē",
+     "vi": "những cái này",
+     "en": "these"
+    },
+    {
+     "zh": "那些",
+     "py": "nàxiē",
+     "vi": "những cái kia",
+     "en": "those"
+    },
+    {
+     "zh": "里",
+     "py": "lǐ",
+     "vi": "trong",
+     "en": "inside"
+    },
+    {
+     "zh": "外",
+     "py": "wài",
+     "vi": "ngoài",
+     "en": "outside; foreign"
+    },
+    {
+     "zh": "外边",
+     "py": "wàibian",
+     "vi": "bên ngoài",
+     "en": "outside"
+    },
+    {
+     "zh": "边",
+     "py": "biān",
+     "vi": "bên, cạnh",
+     "en": "side; edge"
+    },
+    {
+     "zh": "在",
+     "py": "zài",
+     "vi": "ở, tại; đang",
+     "en": "at; in; to be at; (progressive)"
+    },
+    {
+     "zh": "东西",
+     "py": "dōngxi",
+     "vi": "đồ, đồ vật",
+     "en": "thing; stuff"
+    },
+    {
+     "zh": "桌子",
+     "py": "zhuōzi",
+     "vi": "cái bàn",
+     "en": "table; desk"
+    },
+    {
+     "zh": "椅子",
+     "py": "yǐzi",
+     "vi": "cái ghế",
+     "en": "chair"
+    },
+    {
+     "zh": "书",
+     "py": "shū",
+     "vi": "sách",
+     "en": "book"
+    },
+    {
+     "zh": "本",
+     "py": "běn",
+     "vi": "quyển (lượng từ sách)",
+     "en": "measure word for books"
+    },
+    {
+     "zh": "杯子",
+     "py": "bēizi",
+     "vi": "cái cốc, ly",
+     "en": "cup; glass"
+    },
+    {
+     "zh": "手机",
+     "py": "shǒujī",
+     "vi": "điện thoại di động",
+     "en": "mobile phone"
+    },
+    {
+     "zh": "电脑",
+     "py": "diànnǎo",
+     "vi": "máy tính",
+     "en": "computer"
+    },
+    {
+     "zh": "电视",
+     "py": "diànshì",
+     "vi": "ti vi",
+     "en": "television"
+    },
+    {
+     "zh": "电话",
+     "py": "diànhuà",
+     "vi": "điện thoại",
+     "en": "telephone"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "这是什么？",
+     "py": "zhè shì shénme?",
+     "vi": "Đây là cái gì?",
+     "en": "What is this?"
+    },
+    {
+     "sp": "B",
+     "zh": "这是我的手机。那是你的书吗？",
+     "py": "zhè shì wǒ de shǒujī. nà shì nǐ de shū ma?",
+     "vi": "Đây là điện thoại của tôi. Kia là sách của bạn à?",
+     "en": "This is my phone. Is that your book?"
+    },
+    {
+     "sp": "A",
+     "zh": "不是，那是老师的书。",
+     "py": "bú shì, nà shì lǎoshī de shū.",
+     "vi": "Không phải, đó là sách của thầy giáo.",
+     "en": "No, that's the teacher's book."
+    },
+    {
+     "sp": "B",
+     "zh": "我的书在哪儿？",
+     "py": "wǒ de shū zài nǎr?",
+     "vi": "Sách của tôi ở đâu?",
+     "en": "Where is my book?"
+    },
+    {
+     "sp": "A",
+     "zh": "在桌子上。",
+     "py": "zài zhuōzi shàng.",
+     "vi": "Ở trên bàn.",
+     "en": "It's on the desk."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "这 / 那 + lượng từ",
+     "ten": "这 / 那 + measure word",
+     "dvi": "这、那 phải đi kèm lượng từ khi đứng trước danh từ: 这个, 那本书.",
+     "den": "这 and 那 need a measure word before a noun: 这个, 那本书.",
+     "ex": [
+      {
+       "zh": "这个杯子很大。",
+       "py": "zhège bēizi hěn dà.",
+       "vi": "Cái cốc này rất to.",
+       "en": "This cup is very big."
+      },
+      {
+       "zh": "那本书是新的。",
+       "py": "nà běn shū shì xīn de.",
+       "vi": "Quyển sách kia là sách mới.",
+       "en": "That book is new."
+      }
+     ]
+    },
+    {
+     "tvi": "在 chỉ vị trí",
+     "ten": "在 for location",
+     "dvi": "Chủ ngữ + 在 + nơi chốn. Hỏi: 在哪儿？",
+     "den": "Subject + 在 + place. Ask with 在哪儿?",
+     "ex": [
+      {
+       "zh": "电脑在桌子上。",
+       "py": "diànnǎo zài zhuōzi shàng.",
+       "vi": "Máy tính ở trên bàn.",
+       "en": "The computer is on the desk."
+      },
+      {
+       "zh": "他在外边。",
+       "py": "tā zài wàibian.",
+       "vi": "Anh ấy ở bên ngoài.",
+       "en": "He is outside."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "zh": "吃饭",
+   "py": "Chīfàn",
+   "vi": "Ăn uống",
+   "en": "Food and drink",
+   "gvi": "Gọi món, nói muốn ăn/uống gì.",
+   "gen": "Order food and say what you want to eat or drink.",
+   "words": [
+    {
+     "zh": "吃",
+     "py": "chī",
+     "vi": "ăn",
+     "en": "to eat"
+    },
+    {
+     "zh": "喝",
+     "py": "hē",
+     "vi": "uống",
+     "en": "to drink"
+    },
+    {
+     "zh": "饭",
+     "py": "fàn",
+     "vi": "cơm, bữa ăn",
+     "en": "meal; rice"
+    },
+    {
+     "zh": "米饭",
+     "py": "mǐfàn",
+     "vi": "cơm trắng",
+     "en": "cooked rice"
+    },
+    {
+     "zh": "面条儿",
+     "py": "miàntiáor",
+     "vi": "mì sợi",
+     "en": "noodles"
+    },
+    {
+     "zh": "面包",
+     "py": "miànbāo",
+     "vi": "bánh mì",
+     "en": "bread"
+    },
+    {
+     "zh": "包子",
+     "py": "bāozi",
+     "vi": "bánh bao",
+     "en": "steamed bun"
+    },
+    {
+     "zh": "饺子",
+     "py": "jiǎozi",
+     "vi": "sủi cảo",
+     "en": "dumpling"
+    },
+    {
+     "zh": "鸡蛋",
+     "py": "jīdàn",
+     "vi": "trứng gà",
+     "en": "egg"
+    },
+    {
+     "zh": "菜",
+     "py": "cài",
+     "vi": "món ăn, rau",
+     "en": "dish; vegetable"
+    },
+    {
+     "zh": "水",
+     "py": "shuǐ",
+     "vi": "nước",
+     "en": "water"
+    },
+    {
+     "zh": "茶",
+     "py": "chá",
+     "vi": "trà",
+     "en": "tea"
+    },
+    {
+     "zh": "牛奶",
+     "py": "niúnǎi",
+     "vi": "sữa bò",
+     "en": "milk"
+    },
+    {
+     "zh": "水果",
+     "py": "shuǐguǒ",
+     "vi": "trái cây",
+     "en": "fruit"
+    },
+    {
+     "zh": "苹果",
+     "py": "píngguǒ",
+     "vi": "quả táo",
+     "en": "apple"
+    },
+    {
+     "zh": "好吃",
+     "py": "hǎochī",
+     "vi": "ngon",
+     "en": "delicious"
+    },
+    {
+     "zh": "早饭",
+     "py": "zǎofàn",
+     "vi": "bữa sáng",
+     "en": "breakfast"
+    },
+    {
+     "zh": "午饭",
+     "py": "wǔfàn",
+     "vi": "bữa trưa",
+     "en": "lunch"
+    },
+    {
+     "zh": "晚饭",
+     "py": "wǎnfàn",
+     "vi": "bữa tối",
+     "en": "dinner"
+    },
+    {
+     "zh": "做",
+     "py": "zuò",
+     "vi": "làm",
+     "en": "to do; to make"
+    },
+    {
+     "zh": "做饭",
+     "py": "zuò fàn",
+     "vi": "nấu ăn",
+     "en": "to cook"
+    },
+    {
+     "zh": "饭店",
+     "py": "fàndiàn",
+     "vi": "nhà hàng; khách sạn",
+     "en": "restaurant; hotel"
+    },
+    {
+     "zh": "想",
+     "py": "xiǎng",
+     "vi": "muốn; nghĩ",
+     "en": "to think; to want"
+    },
+    {
+     "zh": "要",
+     "py": "yào",
+     "vi": "muốn, cần, gọi",
+     "en": "to want; to need"
+    },
+    {
+     "zh": "不要",
+     "py": "búyào",
+     "vi": "đừng; không cần",
+     "en": "don't; must not"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你想吃什么？",
+     "py": "nǐ xiǎng chī shénme?",
+     "vi": "Bạn muốn ăn gì?",
+     "en": "What would you like to eat?"
+    },
+    {
+     "sp": "B",
+     "zh": "我想吃米饭和菜。你呢？",
+     "py": "wǒ xiǎng chī mǐfàn hé cài. nǐ ne?",
+     "vi": "Tôi muốn ăn cơm và đồ ăn. Còn bạn?",
+     "en": "I'd like rice and a dish. And you?"
+    },
+    {
+     "sp": "A",
+     "zh": "我要面条儿。喝什么？",
+     "py": "wǒ yào miàntiáor. hē shénme?",
+     "vi": "Tôi gọi mì. Uống gì đây?",
+     "en": "I'll have noodles. What shall we drink?"
+    },
+    {
+     "sp": "B",
+     "zh": "我喝茶。你喝水吗？",
+     "py": "wǒ hē chá. nǐ hē shuǐ ma?",
+     "vi": "Tôi uống trà. Bạn uống nước không?",
+     "en": "I'll have tea. Do you want water?"
+    },
+    {
+     "sp": "A",
+     "zh": "我不要水，我要牛奶。",
+     "py": "wǒ bú yào shuǐ, wǒ yào niúnǎi.",
+     "vi": "Tôi không lấy nước, tôi lấy sữa.",
+     "en": "No water for me, I'll have milk."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "想 + động từ",
+     "ten": "想 + verb",
+     "dvi": "想 đứng trước động từ để nói \"muốn làm gì\".",
+     "den": "想 before a verb means \"would like to do\".",
+     "ex": [
+      {
+       "zh": "我想喝茶。",
+       "py": "wǒ xiǎng hē chá.",
+       "vi": "Tôi muốn uống trà.",
+       "en": "I'd like to drink tea."
+      },
+      {
+       "zh": "你想做饭吗？",
+       "py": "nǐ xiǎng zuò fàn ma?",
+       "vi": "Bạn có muốn nấu cơm không?",
+       "en": "Do you want to cook?"
+      }
+     ]
+    },
+    {
+     "tvi": "要 và 不要",
+     "ten": "要 and 不要",
+     "dvi": "要 + danh từ: gọi/lấy; 不要: không lấy hoặc \"đừng\".",
+     "den": "要 + noun: to order/take; 不要: don't want, or \"don't\".",
+     "ex": [
+      {
+       "zh": "我要两个包子。",
+       "py": "wǒ yào liǎng gè bāozi.",
+       "vi": "Tôi lấy hai cái bánh bao.",
+       "en": "I'll take two steamed buns."
+      },
+      {
+       "zh": "不要喝太多水。",
+       "py": "búyào hē tài duō shuǐ.",
+       "vi": "Đừng uống quá nhiều nước.",
+       "en": "Don't drink too much water."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "zh": "买东西",
+   "py": "Mǎi dōngxi",
+   "vi": "Mua sắm",
+   "en": "Shopping",
+   "gvi": "Hỏi giá, mặc cả, nói về quần áo.",
+   "gen": "Ask prices, bargain and talk about clothes.",
+   "words": [
+    {
+     "zh": "买",
+     "py": "mǎi",
+     "vi": "mua",
+     "en": "to buy"
+    },
+    {
+     "zh": "卖",
+     "py": "mài",
+     "vi": "bán",
+     "en": "to sell"
+    },
+    {
+     "zh": "钱",
+     "py": "qián",
+     "vi": "tiền",
+     "en": "money"
+    },
+    {
+     "zh": "块",
+     "py": "kuài",
+     "vi": "đồng (khẩu ngữ)",
+     "en": "yuan (colloquial); piece"
+    },
+    {
+     "zh": "元",
+     "py": "yuán",
+     "vi": "đồng (đơn vị tiền)",
+     "en": "yuan (currency unit)"
+    },
+    {
+     "zh": "贵",
+     "py": "guì",
+     "vi": "đắt",
+     "en": "expensive"
+    },
+    {
+     "zh": "便宜",
+     "py": "piányi",
+     "vi": "rẻ",
+     "en": "cheap"
+    },
+    {
+     "zh": "商店",
+     "py": "shāngdiàn",
+     "vi": "cửa hàng",
+     "en": "shop; store"
+    },
+    {
+     "zh": "超市",
+     "py": "chāoshì",
+     "vi": "siêu thị",
+     "en": "supermarket"
+    },
+    {
+     "zh": "店",
+     "py": "diàn",
+     "vi": "tiệm, cửa hàng",
+     "en": "shop"
+    },
+    {
+     "zh": "书店",
+     "py": "shūdiàn",
+     "vi": "hiệu sách",
+     "en": "bookstore"
+    },
+    {
+     "zh": "衣服",
+     "py": "yīfu",
+     "vi": "quần áo",
+     "en": "clothes"
+    },
+    {
+     "zh": "件",
+     "py": "jiàn",
+     "vi": "chiếc, cái (lượng từ áo, việc)",
+     "en": "measure word for items"
+    },
+    {
+     "zh": "穿",
+     "py": "chuān",
+     "vi": "mặc",
+     "en": "to wear"
+    },
+    {
+     "zh": "太",
+     "py": "tài",
+     "vi": "quá",
+     "en": "too; extremely"
+    },
+    {
+     "zh": "真",
+     "py": "zhēn",
+     "vi": "thật, thật là",
+     "en": "really; truly"
+    },
+    {
+     "zh": "非常",
+     "py": "fēicháng",
+     "vi": "vô cùng, rất",
+     "en": "very; extremely"
+    },
+    {
+     "zh": "有点儿",
+     "py": "yǒudiǎnr",
+     "vi": "hơi, một chút (không mong muốn)",
+     "en": "somewhat; a bit"
+    },
+    {
+     "zh": "漂亮",
+     "py": "piàoliang",
+     "vi": "đẹp",
+     "en": "beautiful; pretty"
+    },
+    {
+     "zh": "新",
+     "py": "xīn",
+     "vi": "mới",
+     "en": "new"
+    },
+    {
+     "zh": "给",
+     "py": "gěi",
+     "vi": "cho; đưa",
+     "en": "to give; to; for"
+    },
+    {
+     "zh": "找",
+     "py": "zhǎo",
+     "vi": "tìm; thối (tiền)",
+     "en": "to look for"
+    },
+    {
+     "zh": "了",
+     "py": "le",
+     "vi": "rồi, đã (trợ từ)",
+     "en": "completion particle"
+    },
+    {
+     "zh": "可以",
+     "py": "kěyǐ",
+     "vi": "có thể, được",
+     "en": "can; may; okay"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "这件衣服多少钱？",
+     "py": "zhè jiàn yīfu duōshao qián?",
+     "vi": "Chiếc áo này bao nhiêu tiền?",
+     "en": "How much is this piece of clothing?"
+    },
+    {
+     "sp": "B",
+     "zh": "一百二十块。",
+     "py": "yì bǎi èrshí kuài.",
+     "vi": "Một trăm hai mươi đồng.",
+     "en": "One hundred and twenty yuan."
+    },
+    {
+     "sp": "A",
+     "zh": "太贵了！便宜一点儿，可以吗？",
+     "py": "tài guì le! piányi yìdiǎnr, kěyǐ ma?",
+     "vi": "Đắt quá! Bớt một chút được không?",
+     "en": "Too expensive! Can it be a bit cheaper?"
+    },
+    {
+     "sp": "B",
+     "zh": "好，一百块。",
+     "py": "hǎo, yì bǎi kuài.",
+     "vi": "Được, một trăm đồng.",
+     "en": "OK, one hundred."
+    },
+    {
+     "sp": "A",
+     "zh": "这件衣服很漂亮，我买了。",
+     "py": "zhè jiàn yīfu hěn piàoliang, wǒ mǎi le.",
+     "vi": "Chiếc áo này rất đẹp, tôi mua.",
+     "en": "This is lovely, I'll buy it."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "太……了",
+     "ten": "太……了",
+     "dvi": "太 + tính từ + 了: \"quá ...\" (có thể khen hoặc chê).",
+     "den": "太 + adjective + 了 means \"too ...\" (praise or complaint).",
+     "ex": [
+      {
+       "zh": "这个太大了。",
+       "py": "zhège tài dà le.",
+       "vi": "Cái này to quá.",
+       "en": "This one is too big."
+      },
+      {
+       "zh": "太好了！",
+       "py": "tài hǎo le!",
+       "vi": "Tuyệt quá!",
+       "en": "Great!"
+      }
+     ]
+    },
+    {
+     "tvi": "了 báo hoàn thành",
+     "ten": "了 for completed actions",
+     "dvi": "Động từ + 了 diễn tả hành động đã xảy ra/hoàn thành.",
+     "den": "Verb + 了 shows an action has happened or finished.",
+     "ex": [
+      {
+       "zh": "我买了一本书。",
+       "py": "wǒ mǎi le yì běn shū.",
+       "vi": "Tôi đã mua một quyển sách.",
+       "en": "I bought a book."
+      },
+      {
+       "zh": "他给我了一杯茶。",
+       "py": "tā gěi wǒ le yì bēi chá.",
+       "vi": "Anh ấy đưa cho tôi một tách trà.",
+       "en": "He gave me a cup of tea."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "zh": "出行",
+   "py": "Chūxíng",
+   "vi": "Đi lại",
+   "en": "Getting around",
+   "gvi": "Đi đâu, bằng phương tiện gì; nơi ở.",
+   "gen": "Where you go and how; places to live.",
+   "words": [
+    {
+     "zh": "去",
+     "py": "qù",
+     "vi": "đi",
+     "en": "to go"
+    },
+    {
+     "zh": "来",
+     "py": "lái",
+     "vi": "đến",
+     "en": "to come"
+    },
+    {
+     "zh": "回",
+     "py": "huí",
+     "vi": "về",
+     "en": "to return"
+    },
+    {
+     "zh": "到",
+     "py": "dào",
+     "vi": "đến nơi",
+     "en": "to arrive"
+    },
+    {
+     "zh": "坐",
+     "py": "zuò",
+     "vi": "ngồi; đi (phương tiện)",
+     "en": "to sit; to take (transport)"
+    },
+    {
+     "zh": "开",
+     "py": "kāi",
+     "vi": "mở; lái",
+     "en": "to open; to start"
+    },
+    {
+     "zh": "开车",
+     "py": "kāichē",
+     "vi": "lái xe",
+     "en": "to drive"
+    },
+    {
+     "zh": "车",
+     "py": "chē",
+     "vi": "xe",
+     "en": "vehicle; car"
+    },
+    {
+     "zh": "出租车",
+     "py": "chūzūchē",
+     "vi": "taxi",
+     "en": "taxi"
+    },
+    {
+     "zh": "火车",
+     "py": "huǒchē",
+     "vi": "tàu hỏa",
+     "en": "train"
+    },
+    {
+     "zh": "飞机",
+     "py": "fēijī",
+     "vi": "máy bay",
+     "en": "airplane"
+    },
+    {
+     "zh": "住",
+     "py": "zhù",
+     "vi": "ở, sống",
+     "en": "to live; to stay"
+    },
+    {
+     "zh": "房间",
+     "py": "fángjiān",
+     "vi": "căn phòng",
+     "en": "room"
+    },
+    {
+     "zh": "公司",
+     "py": "gōngsī",
+     "vi": "công ty",
+     "en": "company"
+    },
+    {
+     "zh": "怎么",
+     "py": "zěnme",
+     "vi": "thế nào, sao lại",
+     "en": "how; why"
+    },
+    {
+     "zh": "怎么样",
+     "py": "zěnmeyàng",
+     "vi": "thế nào, ra sao",
+     "en": "how about; how is it"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你去哪儿？",
+     "py": "nǐ qù nǎr?",
+     "vi": "Bạn đi đâu đấy?",
+     "en": "Where are you going?"
+    },
+    {
+     "sp": "B",
+     "zh": "我去公司。你呢？",
+     "py": "wǒ qù gōngsī. nǐ ne?",
+     "vi": "Tôi đi đến công ty. Còn bạn?",
+     "en": "I'm going to the office. And you?"
+    },
+    {
+     "sp": "A",
+     "zh": "我回家。你怎么去公司？",
+     "py": "wǒ huí jiā. nǐ zěnme qù gōngsī?",
+     "vi": "Tôi về nhà. Bạn đi đến công ty bằng cách nào?",
+     "en": "I'm going home. How do you get to the office?"
+    },
+    {
+     "sp": "B",
+     "zh": "我坐出租车去。",
+     "py": "wǒ zuò chūzūchē qù.",
+     "vi": "Tôi đi bằng taxi.",
+     "en": "I take a taxi."
+    },
+    {
+     "sp": "A",
+     "zh": "你家住哪儿？",
+     "py": "nǐ jiā zhù nǎr?",
+     "vi": "Nhà bạn ở đâu?",
+     "en": "Where do you live?"
+    },
+    {
+     "sp": "B",
+     "zh": "我住在学校那边。",
+     "py": "wǒ zhù zài xuéxiào nàbiān.",
+     "vi": "Tôi ở phía bên kia trường.",
+     "en": "I live over by the school."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "去 / 来 / 回 + nơi chốn",
+     "ten": "去 / 来 / 回 + place",
+     "dvi": "Các động từ này đi thẳng với địa điểm, không cần 到 hay 在.",
+     "den": "These verbs take the place directly, without 到 or 在.",
+     "ex": [
+      {
+       "zh": "我回家。",
+       "py": "wǒ huí jiā.",
+       "vi": "Tôi về nhà.",
+       "en": "I'm going home."
+      },
+      {
+       "zh": "他来中国。",
+       "py": "tā lái Zhōngguó.",
+       "vi": "Anh ấy đến Trung Quốc.",
+       "en": "He comes to China."
+      }
+     ]
+    },
+    {
+     "tvi": "坐 + phương tiện + 去/来",
+     "ten": "坐 + vehicle + 去/来",
+     "dvi": "Nói đi bằng phương tiện nào: 坐 + phương tiện + 去.",
+     "den": "State how you travel: 坐 + vehicle + 去.",
+     "ex": [
+      {
+       "zh": "我坐火车去。",
+       "py": "wǒ zuò huǒchē qù.",
+       "vi": "Tôi đi bằng tàu hỏa.",
+       "en": "I go by train."
+      },
+      {
+       "zh": "你怎么回家？",
+       "py": "nǐ zěnme huí jiā?",
+       "vi": "Bạn về nhà bằng cách nào?",
+       "en": "How do you go home?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "zh": "在学校",
+   "py": "Zài xuéxiào",
+   "vi": "Ở trường học",
+   "en": "At school",
+   "gvi": "Nói về việc học: lớp, giáo viên, đọc, viết, nghe.",
+   "gen": "Talk about study: classes, teachers, reading, writing, listening.",
+   "words": [
+    {
+     "zh": "学校",
+     "py": "xuéxiào",
+     "vi": "trường học",
+     "en": "school"
+    },
+    {
+     "zh": "大学",
+     "py": "dàxué",
+     "vi": "đại học",
+     "en": "university"
+    },
+    {
+     "zh": "大学生",
+     "py": "dàxuéshēng",
+     "vi": "sinh viên đại học",
+     "en": "university student"
+    },
+    {
+     "zh": "小学",
+     "py": "xiǎoxué",
+     "vi": "tiểu học",
+     "en": "primary school"
+    },
+    {
+     "zh": "小学生",
+     "py": "xiǎoxuéshēng",
+     "vi": "học sinh tiểu học",
+     "en": "primary school student"
+    },
+    {
+     "zh": "中学",
+     "py": "zhōngxué",
+     "vi": "trung học",
+     "en": "junior high school"
+    },
+    {
+     "zh": "中学生",
+     "py": "zhōngxuéshēng",
+     "vi": "học sinh trung học",
+     "en": "junior high student"
+    },
+    {
+     "zh": "上学",
+     "py": "shàngxué",
+     "vi": "đi học",
+     "en": "to go to school"
+    },
+    {
+     "zh": "上课",
+     "py": "shàngkè",
+     "vi": "vào học, lên lớp",
+     "en": "to attend class"
+    },
+    {
+     "zh": "下课",
+     "py": "xiàkè",
+     "vi": "tan học",
+     "en": "to finish class"
+    },
+    {
+     "zh": "课",
+     "py": "kè",
+     "vi": "bài học, tiết học",
+     "en": "lesson; class"
+    },
+    {
+     "zh": "读",
+     "py": "dú",
+     "vi": "đọc",
+     "en": "to read"
+    },
+    {
+     "zh": "读书",
+     "py": "dúshū",
+     "vi": "đọc sách; đi học",
+     "en": "to study; to read"
+    },
+    {
+     "zh": "写",
+     "py": "xiě",
+     "vi": "viết",
+     "en": "to write"
+    },
+    {
+     "zh": "问",
+     "py": "wèn",
+     "vi": "hỏi",
+     "en": "to ask"
+    },
+    {
+     "zh": "问题",
+     "py": "wèntí",
+     "vi": "câu hỏi; vấn đề",
+     "en": "question; problem"
+    },
+    {
+     "zh": "听",
+     "py": "tīng",
+     "vi": "nghe",
+     "en": "to listen"
+    },
+    {
+     "zh": "听见",
+     "py": "tīngjiàn",
+     "vi": "nghe thấy",
+     "en": "to hear"
+    },
+    {
+     "zh": "看",
+     "py": "kàn",
+     "vi": "xem, nhìn",
+     "en": "to look; to watch"
+    },
+    {
+     "zh": "看见",
+     "py": "kànjiàn",
+     "vi": "nhìn thấy",
+     "en": "to see; to catch sight of"
+    },
+    {
+     "zh": "见",
+     "py": "jiàn",
+     "vi": "gặp, thấy",
+     "en": "to see; to meet"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你在哪儿上学？",
+     "py": "nǐ zài nǎr shàngxué?",
+     "vi": "Bạn học ở đâu?",
+     "en": "Where do you go to school?"
+    },
+    {
+     "sp": "B",
+     "zh": "我在大学读书。我是大学生。",
+     "py": "wǒ zài dàxué dúshū. wǒ shì dàxuéshēng.",
+     "vi": "Tôi học ở đại học. Tôi là sinh viên.",
+     "en": "I study at a university. I'm a university student."
+    },
+    {
+     "sp": "A",
+     "zh": "今天有课吗？",
+     "py": "jīntiān yǒu kè ma?",
+     "vi": "Hôm nay bạn có tiết không?",
+     "en": "Do you have class today?"
+    },
+    {
+     "sp": "B",
+     "zh": "有。上午上课，下午写汉字。",
+     "py": "yǒu. shàngwǔ shàngkè, xiàwǔ xiě Hànzì.",
+     "vi": "Có. Sáng lên lớp, chiều viết chữ Hán.",
+     "en": "Yes. Class in the morning, writing characters in the afternoon."
+    },
+    {
+     "sp": "A",
+     "zh": "你有问题可以问老师。",
+     "py": "nǐ yǒu wèntí kěyǐ wèn lǎoshī.",
+     "vi": "Có câu hỏi thì bạn có thể hỏi thầy cô.",
+     "en": "If you have a question, you can ask the teacher."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "在 + nơi chốn + động từ",
+     "ten": "在 + place + verb",
+     "dvi": "Địa điểm của hành động đặt trước động từ.",
+     "den": "The place of an action goes before the verb.",
+     "ex": [
+      {
+       "zh": "我在学校学习。",
+       "py": "wǒ zài xuéxiào xuéxí.",
+       "vi": "Tôi học ở trường.",
+       "en": "I study at school."
+      },
+      {
+       "zh": "他在家看书。",
+       "py": "tā zài jiā kàn shū.",
+       "vi": "Anh ấy đọc sách ở nhà.",
+       "en": "He reads at home."
+      }
+     ]
+    },
+    {
+     "tvi": "Động từ + 见",
+     "ten": "Verb + 见",
+     "dvi": "看见 và 听见: kết quả của hành động (đã thấy, đã nghe thấy).",
+     "den": "看见 and 听见 show the result of the action (actually saw/heard).",
+     "ex": [
+      {
+       "zh": "我看见老师了。",
+       "py": "wǒ kànjiàn lǎoshī le.",
+       "vi": "Tôi đã nhìn thấy thầy giáo.",
+       "en": "I saw the teacher."
+      },
+      {
+       "zh": "你听见了吗？",
+       "py": "nǐ tīngjiàn le ma?",
+       "vi": "Bạn nghe thấy chưa?",
+       "en": "Did you hear it?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "zh": "工作与作息",
+   "py": "Gōngzuò yǔ zuòxī",
+   "vi": "Công việc và sinh hoạt",
+   "en": "Work and daily routine",
+   "gvi": "Nói về công việc, giờ giấc thức ngủ.",
+   "gen": "Talk about work and your daily schedule.",
+   "words": [
+    {
+     "zh": "工作",
+     "py": "gōngzuò",
+     "vi": "công việc; làm việc",
+     "en": "work; job"
+    },
+    {
+     "zh": "上班",
+     "py": "shàngbān",
+     "vi": "đi làm",
+     "en": "to go to work"
+    },
+    {
+     "zh": "下班",
+     "py": "xiàbān",
+     "vi": "tan làm",
+     "en": "to get off work"
+    },
+    {
+     "zh": "忙",
+     "py": "máng",
+     "vi": "bận",
+     "en": "busy; to be busy with"
+    },
+    {
+     "zh": "休息",
+     "py": "xiūxi",
+     "vi": "nghỉ ngơi",
+     "en": "to rest"
+    },
+    {
+     "zh": "起床",
+     "py": "qǐchuáng",
+     "vi": "ngủ dậy",
+     "en": "to get up (from bed)"
+    },
+    {
+     "zh": "睡",
+     "py": "shuì",
+     "vi": "ngủ",
+     "en": "to sleep"
+    },
+    {
+     "zh": "睡觉",
+     "py": "shuìjiào",
+     "vi": "đi ngủ",
+     "en": "to go to sleep"
+    },
+    {
+     "zh": "事",
+     "py": "shì",
+     "vi": "việc, sự việc",
+     "en": "matter; affair"
+    },
+    {
+     "zh": "对",
+     "py": "duì",
+     "vi": "đúng; đối với",
+     "en": "correct; toward; regarding"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你几点起床？",
+     "py": "nǐ jǐ diǎn qǐchuáng?",
+     "vi": "Bạn mấy giờ dậy?",
+     "en": "What time do you get up?"
+    },
+    {
+     "sp": "B",
+     "zh": "我早上七点起床，八点上班。",
+     "py": "wǒ zǎoshang qī diǎn qǐchuáng, bā diǎn shàngbān.",
+     "vi": "Tôi dậy lúc bảy giờ sáng, tám giờ đi làm.",
+     "en": "I get up at seven and start work at eight."
+    },
+    {
+     "sp": "A",
+     "zh": "你今天忙吗？",
+     "py": "nǐ jīntiān máng ma?",
+     "vi": "Hôm nay bạn có bận không?",
+     "en": "Are you busy today?"
+    },
+    {
+     "sp": "B",
+     "zh": "很忙，有很多事。晚上十点睡觉。",
+     "py": "hěn máng, yǒu hěn duō shì. wǎnshang shí diǎn shuìjiào.",
+     "vi": "Rất bận, có nhiều việc. Mười giờ tối tôi đi ngủ.",
+     "en": "Very busy, lots to do. I go to bed at ten."
+    },
+    {
+     "sp": "A",
+     "zh": "你要多休息。",
+     "py": "nǐ yào duō xiūxi.",
+     "vi": "Bạn nên nghỉ ngơi nhiều hơn.",
+     "en": "You should rest more."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "Thứ tự: thời gian – nơi chốn – động từ",
+     "ten": "Order: time – place – verb",
+     "dvi": "Mẫu câu: chủ ngữ + thời gian + nơi chốn + động từ.",
+     "den": "Pattern: subject + time + place + verb.",
+     "ex": [
+      {
+       "zh": "我早上在家吃饭。",
+       "py": "wǒ zǎoshang zài jiā chī fàn.",
+       "vi": "Sáng tôi ăn cơm ở nhà.",
+       "en": "I eat at home in the morning."
+      },
+      {
+       "zh": "他下午在公司工作。",
+       "py": "tā xiàwǔ zài gōngsī gōngzuò.",
+       "vi": "Chiều anh ấy làm việc ở công ty.",
+       "en": "He works at the office in the afternoon."
+      }
+     ]
+    },
+    {
+     "tvi": "要 chỉ lời khuyên",
+     "ten": "要 for advice",
+     "dvi": "要 + động từ còn có nghĩa \"nên, cần\".",
+     "den": "要 + verb can also mean \"should\" or \"need to\".",
+     "ex": [
+      {
+       "zh": "你要休息。",
+       "py": "nǐ yào xiūxi.",
+       "vi": "Bạn cần nghỉ ngơi.",
+       "en": "You need to rest."
+      },
+      {
+       "zh": "我要上班了。",
+       "py": "wǒ yào shàngbān le.",
+       "vi": "Tôi sắp phải đi làm rồi.",
+       "en": "I have to go to work now."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "zh": "看病",
+   "py": "Kànbìng",
+   "vi": "Đi khám bệnh",
+   "en": "Seeing a doctor",
+   "gvi": "Nói mình không khỏe, đi bệnh viện, nhờ giúp đỡ.",
+   "gen": "Say you are unwell, go to hospital, ask for help.",
+   "words": [
+    {
+     "zh": "病",
+     "py": "bìng",
+     "vi": "bệnh; ốm",
+     "en": "illness; to be ill"
+    },
+    {
+     "zh": "生病",
+     "py": "shēngbìng",
+     "vi": "bị bệnh",
+     "en": "to fall ill"
+    },
+    {
+     "zh": "看病",
+     "py": "kànbìng",
+     "vi": "đi khám bệnh",
+     "en": "to see a doctor"
+    },
+    {
+     "zh": "医院",
+     "py": "yīyuàn",
+     "vi": "bệnh viện",
+     "en": "hospital"
+    },
+    {
+     "zh": "医生",
+     "py": "yīshēng",
+     "vi": "bác sĩ",
+     "en": "doctor"
+    },
+    {
+     "zh": "打电话",
+     "py": "dǎ diànhuà",
+     "vi": "gọi điện thoại",
+     "en": "to make a phone call"
+    },
+    {
+     "zh": "觉得",
+     "py": "juéde",
+     "vi": "cảm thấy, thấy rằng",
+     "en": "to think; to feel"
+    },
+    {
+     "zh": "知道",
+     "py": "zhīdào",
+     "vi": "biết",
+     "en": "to know"
+    },
+    {
+     "zh": "吧",
+     "py": "ba",
+     "vi": "nhé, đi (đề nghị)",
+     "en": "suggestion particle"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你怎么了？",
+     "py": "nǐ zěnme le?",
+     "vi": "Bạn sao thế?",
+     "en": "What's wrong?"
+    },
+    {
+     "sp": "B",
+     "zh": "我觉得不好，我生病了。",
+     "py": "wǒ juéde bù hǎo, wǒ shēngbìng le.",
+     "vi": "Tôi thấy không khỏe, tôi bị ốm rồi.",
+     "en": "I don't feel well; I'm ill."
+    },
+    {
+     "sp": "A",
+     "zh": "去医院看病吧。我给你打电话。",
+     "py": "qù yīyuàn kànbìng ba. wǒ gěi nǐ dǎ diànhuà.",
+     "vi": "Đi bệnh viện khám đi. Tôi sẽ gọi điện cho bạn.",
+     "en": "Go to the hospital. I'll call you."
+    },
+    {
+     "sp": "B",
+     "zh": "谢谢你。",
+     "py": "xièxie nǐ.",
+     "vi": "Cảm ơn bạn.",
+     "en": "Thank you."
+    },
+    {
+     "sp": "A",
+     "zh": "医生说你要休息。你知道了吗？",
+     "py": "yīshēng shuō nǐ yào xiūxi. nǐ zhīdào le ma?",
+     "vi": "Bác sĩ nói bạn cần nghỉ ngơi. Bạn biết chưa?",
+     "en": "The doctor says you must rest. Understood?"
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "吧 để đề nghị",
+     "ten": "吧 for suggestions",
+     "dvi": "Cuối câu, 吧 làm lời đề nghị hoặc rủ rê nhẹ nhàng.",
+     "den": "At the end of a sentence 吧 makes a gentle suggestion.",
+     "ex": [
+      {
+       "zh": "我们走吧。",
+       "py": "wǒmen zǒu ba.",
+       "vi": "Chúng ta đi thôi.",
+       "en": "Let's go."
+      },
+      {
+       "zh": "你休息吧。",
+       "py": "nǐ xiūxi ba.",
+       "vi": "Bạn nghỉ đi nhé.",
+       "en": "Get some rest."
+      }
+     ]
+    },
+    {
+     "tvi": "给 + người + động từ",
+     "ten": "给 + person + verb",
+     "dvi": "给 nghĩa là \"cho\", \"đối với\" trước người nhận hành động.",
+     "den": "给 means \"for / to\" before the recipient of the action.",
+     "ex": [
+      {
+       "zh": "我给妈妈打电话。",
+       "py": "wǒ gěi māma dǎ diànhuà.",
+       "vi": "Tôi gọi điện cho mẹ.",
+       "en": "I call my mum."
+      },
+      {
+       "zh": "他给我做饭。",
+       "py": "tā gěi wǒ zuò fàn.",
+       "vi": "Anh ấy nấu cơm cho tôi.",
+       "en": "He cooks for me."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "zh": "爱好",
+   "py": "Àihào",
+   "vi": "Sở thích",
+   "en": "Hobbies",
+   "gvi": "Nói mình thích gì, biết làm gì, có thể làm gì.",
+   "gen": "Say what you like, what you can do, and what is possible.",
+   "words": [
+    {
+     "zh": "爱",
+     "py": "ài",
+     "vi": "yêu, thích",
+     "en": "to love; love"
+    },
+    {
+     "zh": "喜欢",
+     "py": "xǐhuan",
+     "vi": "thích",
+     "en": "to like"
+    },
+    {
+     "zh": "唱",
+     "py": "chàng",
+     "vi": "hát",
+     "en": "to sing"
+    },
+    {
+     "zh": "歌",
+     "py": "gē",
+     "vi": "bài hát",
+     "en": "song"
+    },
+    {
+     "zh": "玩",
+     "py": "wán",
+     "vi": "chơi",
+     "en": "to play"
+    },
+    {
+     "zh": "好玩儿",
+     "py": "hǎowánr",
+     "vi": "vui, thú vị",
+     "en": "fun; interesting"
+    },
+    {
+     "zh": "好看",
+     "py": "hǎokàn",
+     "vi": "đẹp, hay (để xem)",
+     "en": "good-looking; interesting to watch or read"
+    },
+    {
+     "zh": "好听",
+     "py": "hǎotīng",
+     "vi": "hay (nghe), êm tai",
+     "en": "pleasant to hear"
+    },
+    {
+     "zh": "电影",
+     "py": "diànyǐng",
+     "vi": "phim",
+     "en": "movie"
+    },
+    {
+     "zh": "电影院",
+     "py": "diànyǐngyuàn",
+     "vi": "rạp chiếu phim",
+     "en": "cinema"
+    },
+    {
+     "zh": "高兴",
+     "py": "gāoxìng",
+     "vi": "vui",
+     "en": "happy"
+    },
+    {
+     "zh": "会",
+     "py": "huì",
+     "vi": "biết (làm gì); sẽ",
+     "en": "can; will; to know how"
+    },
+    {
+     "zh": "能",
+     "py": "néng",
+     "vi": "có thể, có khả năng",
+     "en": "can; to be able to"
+    },
+    {
+     "zh": "也",
+     "py": "yě",
+     "vi": "cũng",
+     "en": "also; too"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "你喜欢做什么？",
+     "py": "nǐ xǐhuan zuò shénme?",
+     "vi": "Bạn thích làm gì?",
+     "en": "What do you like to do?"
+    },
+    {
+     "sp": "B",
+     "zh": "我喜欢看电影，也喜欢唱歌。",
+     "py": "wǒ xǐhuan kàn diànyǐng, yě xǐhuan chànggē.",
+     "vi": "Tôi thích xem phim, cũng thích hát.",
+     "en": "I like watching films and singing too."
+    },
+    {
+     "sp": "A",
+     "zh": "你会唱中文歌吗？",
+     "py": "nǐ huì chàng Zhōngwén gē ma?",
+     "vi": "Bạn biết hát bài hát tiếng Trung không?",
+     "en": "Can you sing Chinese songs?"
+    },
+    {
+     "sp": "B",
+     "zh": "会一点儿。这个歌很好听。",
+     "py": "huì yìdiǎnr. zhège gē hěn hǎotīng.",
+     "vi": "Biết một chút. Bài này rất hay.",
+     "en": "A little. This song sounds lovely."
+    },
+    {
+     "sp": "A",
+     "zh": "我们一起去电影院吧！",
+     "py": "wǒmen yìqǐ qù diànyǐngyuàn ba!",
+     "vi": "Chúng ta cùng đi rạp chiếu phim nhé!",
+     "en": "Let's go to the cinema together!"
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "会、能、可以",
+     "ten": "会, 能, 可以",
+     "dvi": "会: học được, biết làm; 能: có khả năng/điều kiện; 可以: được phép.",
+     "den": "会: learned skill; 能: ability or circumstances allow; 可以: permission.",
+     "ex": [
+      {
+       "zh": "我会说中文。",
+       "py": "wǒ huì shuō Zhōngwén.",
+       "vi": "Tôi biết nói tiếng Trung.",
+       "en": "I can speak Chinese."
+      },
+      {
+       "zh": "这里可以玩吗？",
+       "py": "zhèlǐ kěyǐ wán ma?",
+       "vi": "Ở đây chơi được không?",
+       "en": "May we play here?"
+      }
+     ]
+    },
+    {
+     "tvi": "也",
+     "ten": "也",
+     "dvi": "也 đứng trước động từ hoặc tính từ, sau chủ ngữ.",
+     "den": "也 goes after the subject, before the verb or adjective.",
+     "ex": [
+      {
+       "zh": "我也喜欢唱歌。",
+       "py": "wǒ yě xǐhuan chànggē.",
+       "vi": "Tôi cũng thích hát.",
+       "en": "I like singing too."
+      },
+      {
+       "zh": "他也很高兴。",
+       "py": "tā yě hěn gāoxìng.",
+       "vi": "Anh ấy cũng rất vui.",
+       "en": "He is very happy too."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "zh": "天气",
+   "py": "Tiānqì",
+   "vi": "Thời tiết",
+   "en": "Weather",
+   "gvi": "Hỏi và nói về thời tiết, so sánh nóng lạnh.",
+   "gen": "Ask and talk about the weather.",
+   "words": [
+    {
+     "zh": "天气",
+     "py": "tiānqì",
+     "vi": "thời tiết",
+     "en": "weather"
+    },
+    {
+     "zh": "冷",
+     "py": "lěng",
+     "vi": "lạnh",
+     "en": "cold"
+    },
+    {
+     "zh": "热",
+     "py": "rè",
+     "vi": "nóng",
+     "en": "hot"
+    },
+    {
+     "zh": "雨",
+     "py": "yǔ",
+     "vi": "mưa",
+     "en": "rain"
+    },
+    {
+     "zh": "下雨",
+     "py": "xià yǔ",
+     "vi": "trời mưa",
+     "en": "to rain"
+    },
+    {
+     "zh": "雪",
+     "py": "xuě",
+     "vi": "tuyết",
+     "en": "snow"
+    },
+    {
+     "zh": "都",
+     "py": "dōu",
+     "vi": "đều, tất cả",
+     "en": "all; both"
+    },
+    {
+     "zh": "还",
+     "py": "hái",
+     "vi": "vẫn, còn; còn nữa",
+     "en": "still; also"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "今天天气怎么样？",
+     "py": "jīntiān tiānqì zěnmeyàng?",
+     "vi": "Hôm nay thời tiết thế nào?",
+     "en": "What's the weather like today?"
+    },
+    {
+     "sp": "B",
+     "zh": "很冷，下雪了。",
+     "py": "hěn lěng, xià xuě le.",
+     "vi": "Rất lạnh, tuyết rơi rồi.",
+     "en": "Very cold, it's snowing."
+    },
+    {
+     "sp": "A",
+     "zh": "明天还会冷吗？",
+     "py": "míngtiān hái huì lěng ma?",
+     "vi": "Ngày mai còn lạnh nữa không?",
+     "en": "Will it still be cold tomorrow?"
+    },
+    {
+     "sp": "B",
+     "zh": "明天不冷，但是下雨。",
+     "py": "míngtiān bù lěng, dànshì xià yǔ.",
+     "vi": "Ngày mai không lạnh, nhưng có mưa.",
+     "en": "Not cold tomorrow, but it will rain."
+    },
+    {
+     "sp": "A",
+     "zh": "我们都在家吧。",
+     "py": "wǒmen dōu zài jiā ba.",
+     "vi": "Chúng ta đều ở nhà thôi.",
+     "en": "Let's all stay home."
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "都",
+     "ten": "都",
+     "dvi": "都 (đều) đứng sau chủ ngữ số nhiều và trước động từ.",
+     "den": "都 (all) follows a plural subject and precedes the verb.",
+     "ex": [
+      {
+       "zh": "我们都是学生。",
+       "py": "wǒmen dōu shì xuésheng.",
+       "vi": "Chúng tôi đều là học sinh.",
+       "en": "We are all students."
+      },
+      {
+       "zh": "他们都喜欢雪。",
+       "py": "tāmen dōu xǐhuan xuě.",
+       "vi": "Họ đều thích tuyết.",
+       "en": "They all like snow."
+      }
+     ]
+    },
+    {
+     "tvi": "还",
+     "ten": "还",
+     "dvi": "还 nghĩa \"vẫn\" hoặc \"còn ... nữa\".",
+     "den": "还 means \"still\" or \"also / in addition\".",
+     "ex": [
+      {
+       "zh": "外边还下雨。",
+       "py": "wàibian hái xià yǔ.",
+       "vi": "Bên ngoài vẫn đang mưa.",
+       "en": "It is still raining outside."
+      },
+      {
+       "zh": "我还想喝茶。",
+       "py": "wǒ hái xiǎng hē chá.",
+       "vi": "Tôi còn muốn uống trà nữa.",
+       "en": "I also want some tea."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "zh": "我的一天",
+   "py": "Wǒ de yì tiān",
+   "vi": "Một ngày của tôi",
+   "en": "My day",
+   "gvi": "Ôn tập, hành động đang diễn ra, thú cưng.",
+   "gen": "Review; actions in progress; pets.",
+   "words": [
+    {
+     "zh": "猫",
+     "py": "māo",
+     "vi": "con mèo",
+     "en": "cat"
+    },
+    {
+     "zh": "狗",
+     "py": "gǒu",
+     "vi": "con chó",
+     "en": "dog"
+    },
+    {
+     "zh": "只",
+     "py": "zhī",
+     "vi": "con (lượng từ động vật)",
+     "en": "measure word for animals"
+    },
+    {
+     "zh": "正在",
+     "py": "zhèngzài",
+     "vi": "đang",
+     "en": "in the process of"
+    },
+    {
+     "zh": "再",
+     "py": "zài",
+     "vi": "lại, nữa (sẽ)",
+     "en": "again; then"
+    }
+   ],
+   "dialogue": [
+    {
+     "sp": "A",
+     "zh": "喂，你在做什么？",
+     "py": "wèi, nǐ zài zuò shénme?",
+     "vi": "Alô, bạn đang làm gì thế?",
+     "en": "Hello, what are you doing?"
+    },
+    {
+     "sp": "B",
+     "zh": "我正在看书，我的猫在睡觉。",
+     "py": "wǒ zhèngzài kàn shū, wǒ de māo zài shuìjiào.",
+     "vi": "Tôi đang đọc sách, con mèo của tôi đang ngủ.",
+     "en": "I'm reading; my cat is sleeping."
+    },
+    {
+     "sp": "A",
+     "zh": "你有几只猫？",
+     "py": "nǐ yǒu jǐ zhī māo?",
+     "vi": "Bạn có mấy con mèo?",
+     "en": "How many cats do you have?"
+    },
+    {
+     "sp": "B",
+     "zh": "我有一只猫和两只狗。",
+     "py": "wǒ yǒu yì zhī māo hé liǎng zhī gǒu.",
+     "vi": "Tôi có một con mèo và hai con chó.",
+     "en": "I have one cat and two dogs."
+    },
+    {
+     "sp": "A",
+     "zh": "明天再见！",
+     "py": "míngtiān zàijiàn!",
+     "vi": "Mai gặp lại nhé!",
+     "en": "See you tomorrow!"
+    }
+   ],
+   "grammar": [
+    {
+     "tvi": "正在 + động từ",
+     "ten": "正在 + verb",
+     "dvi": "Diễn tả hành động đang diễn ra; có thể dùng 在 thay.",
+     "den": "Shows an action in progress; 在 alone also works.",
+     "ex": [
+      {
+       "zh": "我正在吃饭。",
+       "py": "wǒ zhèngzài chī fàn.",
+       "vi": "Tôi đang ăn cơm.",
+       "en": "I'm eating."
+      },
+      {
+       "zh": "他们正在上课。",
+       "py": "tāmen zhèngzài shàngkè.",
+       "vi": "Họ đang học.",
+       "en": "They are in class."
+      }
+     ]
+    },
+    {
+     "tvi": "再 (hành động lặp lại sắp tới)",
+     "ten": "再 for future repetition",
+     "dvi": "再 + động từ: làm lại lần nữa (trong tương lai).",
+     "den": "再 + verb: do again (in the future).",
+     "ex": [
+      {
+       "zh": "请再说一下。",
+       "py": "qǐng zài shuō yíxià.",
+       "vi": "Xin nói lại một lần nữa.",
+       "en": "Please say it once more."
+      },
+      {
+       "zh": "明天再来吧。",
+       "py": "míngtiān zài lái ba.",
+       "vi": "Mai hãy đến lại nhé.",
+       "en": "Come again tomorrow."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

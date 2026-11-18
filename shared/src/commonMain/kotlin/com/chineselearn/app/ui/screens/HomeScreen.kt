@@ -7,6 +7,9 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.GridView
+import androidx.compose.material.icons.filled.School
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -20,8 +23,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun HomeScreen(isEn: Boolean, onToggleLang: () -> Unit, onDictionary: () -> Unit, onRadicals: () -> Unit) {
-    Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).statusBarsPadding().padding(16.dp)) {
+fun HomeScreen(isEn: Boolean, onToggleLang: () -> Unit, onOpen: (String) -> Unit) {
+    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).background(MaterialTheme.colorScheme.background).statusBarsPadding().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text("CHINESELEARN", fontSize = 20.sp, fontWeight = FontWeight.Black, color = Color(0xFFC62828))
             Spacer(Modifier.weight(1f))
@@ -41,8 +44,13 @@ fun HomeScreen(isEn: Boolean, onToggleLang: () -> Unit, onDictionary: () -> Unit
         }
         Spacer(Modifier.height(18.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            Tile(Modifier.weight(1f), if (isEn) "Dictionary" else "Từ Điển", Icons.Default.Book, Color(0xFF1E88E5), onDictionary)
-            Tile(Modifier.weight(1f), if (isEn) "Radicals" else "Bộ Thủ", Icons.Default.GridView, Color(0xFFE65100), onRadicals)
+            Tile(Modifier.weight(1f), if (isEn) "Chinese Course" else "Giáo trình", Icons.Default.School, Color(0xFF43A047)) { onOpen("curriculum") }
+            Tile(Modifier.weight(1f), if (isEn) "Dictionary" else "Từ Điển", Icons.Default.Book, Color(0xFF1E88E5)) { onOpen("dictionary") }
+        }
+        Spacer(Modifier.height(14.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+            Tile(Modifier.weight(1f), if (isEn) "Radicals" else "Bộ Thủ", Icons.Default.GridView, Color(0xFFE65100)) { onOpen("radicals") }
+            Spacer(Modifier.weight(1f))
         }
     }
 }
