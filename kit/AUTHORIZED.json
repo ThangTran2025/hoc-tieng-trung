@@ -4,8 +4,5 @@
     "bai01",
     "bai02"
   ],
-  "make": "bai02",
-  "mode": "redo",
-  "kich_ban": "kit/lessons/bai02.json",
-  "huong_dan": "Chủ sở hữu đã DUYỆT kịch bản bai02 mới (kit/lessons/bai02.json, đã qua qa_content OK). Dùng NGUYÊN kịch bản này làm lesson.json, không tự soạn lại ý/lời; chỉ được rút ngắn (bỏ 谢谢 rồi 不去 trước) nếu tổng thời lượng vượt 89,5 giây. BẮT BUỘC: (1) tạo ZH bằng Xiaoxiao: thử Edge TTS trực tiếp, nếu chặn thì chạy Edge TTS trong COMPOSIO_REMOTE_WORKBENCH; chỉ dùng MiniMax Mandarin khi cả hai đều không được và nói rõ; (2) trước khi push phải chạy kiểm duyệt độc lập bằng tác tử phụ (công cụ Agent) cho G1 nội dung/chính tả, G3 giọng, G4 hình (contact sheet) và ghi kết quả vào notes; (3) kiểm tra từng khung: font không tràn ô, phụ đề ≤2 dòng, cue khớp tiếng (check_sync OK), thanh tiến trình đúng cảnh, màn kết thúc có chineselearn.asia + 3 kênh; (4) caption/mô tả chỉ ghi dòng TikTok một lần; (5) tin Telegram nêu kết quả từng cổng."
+  "make": ""
 }
