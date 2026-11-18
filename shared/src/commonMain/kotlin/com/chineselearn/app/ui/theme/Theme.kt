@@ -9,6 +9,7 @@ val Red = Color(0xFFC62828)
 val Cream = Color(0xFFFFF8E1)
 val GoldAccent = Color(0xFFFFB300)
 val ImperialRedLight = Color(0xFFE53935)
+val JadeGreen = Color(0xFF00897B)
 
 @Composable
 fun AppTheme(content: @Composable () -> Unit) {

@@ -221,7 +221,8 @@ private fun LevelList(
 ) {
     LazyColumn(mod, contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
         items((1..6).toList()) { lv ->
-            val data by produceState<List<CLesson>?>(null, lv) { value = loadLevel(lv) }
+            val dataState = produceState<List<CLesson>?>(null, lv) { value = loadLevel(lv) }
+            val data = dataState.value
             val done = remember(lv, tick) { doneSet(lv) }
             val c = levelColor(lv)
             Card(

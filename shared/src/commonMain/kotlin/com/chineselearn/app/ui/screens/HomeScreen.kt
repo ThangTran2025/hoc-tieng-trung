@@ -8,6 +8,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Book
 import androidx.compose.material.icons.filled.GridView
 import androidx.compose.material.icons.filled.School
+import androidx.compose.material.icons.filled.Spellcheck
+import androidx.compose.material.icons.filled.ChatBubble
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
@@ -50,6 +52,11 @@ fun HomeScreen(isEn: Boolean, onToggleLang: () -> Unit, onOpen: (String) -> Unit
         Spacer(Modifier.height(14.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             Tile(Modifier.weight(1f), if (isEn) "Radicals" else "Bộ Thủ", Icons.Default.GridView, Color(0xFFE65100)) { onOpen("radicals") }
+            Tile(Modifier.weight(1f), if (isEn) "HSK Grammar" else "Ngữ Pháp HSK", Icons.Default.Spellcheck, Color(0xFF8E24AA)) { onOpen("grammar") }
+        }
+        Spacer(Modifier.height(14.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+            Tile(Modifier.weight(1f), if (isEn) "Sentence Patterns" else "Mẫu Câu", Icons.Default.ChatBubble, Color(0xFF00897B)) { onOpen("sentences") }
             Spacer(Modifier.weight(1f))
         }
     }
