@@ -1,0 +1,157 @@
+{
+ "lesson_id": "bai03",
+ "voice": "moss_audio_0202045d-5668-11f1-83ef-8afcbb8b5b5c",
+ "sources": [
+  {
+   "claim": "Từ HSK 1: 你好, 您好, 谢谢, 不客气, 对不起, 没关系, 再见",
+   "url": "https://www.thatsmandarin.com/hsk-1-wordlist/"
+  },
+  {
+   "claim": "Nghĩa và pinyin của từng từ (nín hǎo kính ngữ, bú kèqi, duìbuqǐ, méi guānxi, zàijiàn)",
+   "url": "https://www.mdbg.net/chinese/dictionary"
+  }
+ ],
+ "note_nguon": "Người kiểm duyệt phải tra từng từ trong từ điển trước khi dùng; 不客气 đọc bú kèqi (不 trước thanh 4, bài 2).",
+ "lines": [
+  {
+   "id": "s1",
+   "caps": "Chào hỏi tiếng Trung: chỉ cần 7 câu!",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Chỉ cần bảy câu này, bạn đã chào hỏi được bằng tiếng Trung!"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "caps": "Xin chào: 你好 (nǐ hǎo)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu đầu tiên, xin chào."
+    },
+    {
+     "k": "zh",
+     "text": "你好"
+    },
+    {
+     "k": "vi",
+     "text": "Dùng được với mọi người, mọi lúc."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "caps": "Chào kính trọng: 您好 (nín hǎo)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Muốn lịch sự hơn, với người lớn tuổi hay thầy cô, hãy nói."
+    },
+    {
+     "k": "zh",
+     "text": "您好"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là, chào ngài."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "caps": "Cảm ơn: 谢谢 (xièxie)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Muốn nói cảm ơn, hãy nói."
+    },
+    {
+     "k": "zh",
+     "text": "谢谢"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "caps": "Đừng khách sáo: 不客气 (bú kèqi)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Người ta sẽ đáp lại, đừng khách sáo."
+    },
+    {
+     "k": "zh",
+     "text": "不客气"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "caps": "Xin lỗi: 对不起 (duìbuqǐ)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Khi mắc lỗi, hãy nói xin lỗi."
+    },
+    {
+     "k": "zh",
+     "text": "对不起"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "caps": "Không sao đâu: 没关系 (méi guānxi)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Và đáp lại, không sao đâu."
+    },
+    {
+     "k": "zh",
+     "text": "没关系"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "caps": "Tạm biệt: 再见 (zàijiàn)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Khi chia tay, hãy nói tạm biệt."
+    },
+    {
+     "k": "zh",
+     "text": "再见"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "caps": "Câu đố: nói \"cảm ơn\" thế nào?",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu đố nhỏ, muốn nói cảm ơn thì nói câu nào?"
+    },
+    {
+     "k": "vi",
+     "text": "Trả lời ở phần bình luận nhé!"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "caps": "Bài 4: Giới thiệu bản thân",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Bài sau, chúng ta học cách giới thiệu bản thân."
+    }
+   ]
+  }
+ ]
+}
