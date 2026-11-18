@@ -1,8 +1,9 @@
 {
   "_ghi_chu": "CHỈ làm/đẩy bài có mã trong 'allowed'. 'make' là bài DUY NHẤT cần làm ở lần chạy này (làm lại, đẩy THÊM commit mới lên nhánh tmp-<make>). Chỉ chủ sở hữu cho phép trong chat Claude; không tự sửa file này.",
   "allowed": [
-    "bai01"
+    "bai01",
+    "bai02"
   ],
-  "make": "",
-  "mode": ""
+  "make": "bai02",
+  "mode": "redo"
 }
