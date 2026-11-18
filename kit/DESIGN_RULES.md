@@ -1,3 +1,5 @@
+> **Trước hết đọc `kit/QA_GATES.md`: mọi bài phải qua các cổng kiểm soát G1-G5 (nội dung đúng chương trình thực tế, chính tả, giọng, hình) và `python3 kit/qa_content.py lesson.json` phải OK trước khi tạo giọng.**
+
 # Quy tắc minh họa và hiệu ứng (đồng bộ theo lời đọc)
 
 Mốc thời gian lấy từ `work/segtimes.json` (bắt đầu/kết thúc từng đoạn, kể cả lần nhắc lại). Mỗi hiệu ứng bắt đầu cùng lúc (trễ ≤0,15 giây) với đoạn tiếng tương ứng, không đặt theo số ký tự.
