@@ -29,3 +29,16 @@ Nguyên tắc: nội dung phải đúng chương trình học thực tế, học
 ## G0. Kịch bản đã duyệt
 - Nếu AUTHORIZED.json có `kich_ban` thì dùng nguyên file đó (đã được chủ sở hữu duyệt); không tự soạn lại. Chỉ rút ngắn khi vượt thời lượng, và ghi vào notes.
 - Kiểm duyệt độc lập bằng tác tử phụ (Agent) là BẮT BUỘC ở G1, G3, G4; không có công cụ Agent thì nói rõ trong tin Telegram rằng chưa có kiểm duyệt độc lập.
+
+## Quy trình chạy chuẩn (cấu hình theo tài liệu "Quy trình tự động sản xuất & kiểm duyệt video")
+Áp dụng cho mọi bài. Ánh xạ từ tài liệu chung sang bộ kit hiện tại (video mẫu chuẩn = bài 01 đã đăng: 1080x1920, 30 fps, ~-16 LUFS, có khung bìa và màn kết):
+
+0. **Nguyên tắc**: dùng script sẵn có của kit (`voice_segments.py`, `check_sync.py`, `build.py`, `page.html`, `qa_content.py`), không tự viết lại dựng video. Thư mục gốc (kịch bản, voice thô) chỉ đọc; mọi sản phẩm trung gian nằm trong `work/`. Mọi lần chạy ghi log vào `tmp/render.log`; render lỗi thì đọc log trước khi sửa.
+1. **Phân tích mẫu (job_config)**: ghi `work/job_config.json` gồm độ phân giải, fps, thời lượng, codec, LUFS, và đặc tả hình (vị trí chữ, font, màu, bố cục) lấy từ bài 01. Lấy 16 khung đều từ bài 01 ghép lưới 4x4 thành `tmp/ref_sheet.jpg` và đối chiếu bằng mắt trước khi dựng.
+2. **Chạy pipeline**: áp dụng job_config vào `build.py`/`page.html`; chuẩn hóa âm lượng `loudnorm`; nhạc nền (nếu có) không lấn giọng nói; xuất `tmp/final.mp4` (hoặc `tmp/video.mp4` theo quy ước hiện tại) và ghi log.
+3. **Cổng kiểm duyệt tự động (bắt buộc đủ 3 lớp)**:
+   - Kỹ thuật: ffprobe khớp 100% độ phân giải/fps với job_config; có đủ luồng hình và tiếng; `blackdetect` và `silencedetect` không có đoạn đen > 0,5 giây hoặc mất tiếng giữa chừng.
+   - Thị giác: lấy 16 khung đều của video cuối thành `tmp/qa_sheet.jpg`, đối chiếu với `tmp/ref_sheet.jpg`: chữ đúng vị trí và style, không tràn viền, không cắt chữ, không che mặt/chủ thể, không vỡ hình hoặc sai tỷ lệ khung.
+   - Đồng bộ nội dung: `check_sync.py` OK, khớp mốc với phụ đề, không cụt câu cuối.
+4. **Vòng tự sửa**: nếu một tiêu chí không đạt, xác định nguyên nhân (tọa độ chữ, font, lệch timestamp, lỗi render), sửa `work/job_config.json` hoặc code, chạy lại bước 2 và 3. Tối đa **3 lần**. Sau 3 lần vẫn lỗi nghiêm trọng thì dừng, báo nguyên nhân kèm log; không đẩy lên GitHub và không gửi Telegram như bản đạt.
+5. **Bàn giao**: chỉ khi đạt 100% cổng ở bước 3 mới đẩy lên nhánh `tmp-<mã>` và báo Telegram. Báo cáo gồm: đường dẫn/mã commit, thông số thực tế (độ phân giải, fps, thời lượng, dung lượng), kết quả đối chiếu thị giác với bài 01, và danh sách lỗi đã tự sửa trong vòng lặp. Không đăng Facebook/YouTube khi chưa có "duyệt <mã>".
