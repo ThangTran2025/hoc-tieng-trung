@@ -3,23 +3,23 @@
  "voice": "moss_audio_0202045d-5668-11f1-83ef-8afcbb8b5b5c",
  "sources": [
   {
-   "claim": "Từ HSK 1: 我, 你, 是, 叫, 什么, 名字, 学生, 老师, 人",
+   "claim": "Từ HSK 1: 我, 你, 他, 她, 是, 姓, 叫, 什么, 名字, 学生, 老师",
    "url": "https://www.thatsmandarin.com/hsk-1-wordlist/"
   },
   {
-   "claim": "Nghĩa và pinyin: 我叫 wǒ jiào, 我是 wǒ shì, 你叫什么名字 nǐ jiào shénme míngzi, 学生 xuésheng, 老师 lǎoshī",
+   "claim": "Nghĩa và pinyin: 我叫 wǒ jiào, 我是 wǒ shì, 我姓 wǒ xìng, 你叫什么名字 nǐ jiào shénme míngzi, 他是 tā shì, 她是 tā shì, 学生 xuésheng, 老师 lǎoshī",
    "url": "https://www.mdbg.net/chinese/dictionary"
   }
  ],
- "note_nguon": "Người kiểm duyệt phải đọc trang nguồn và xác nhận từng từ; 李明 là tên ví dụ phổ biến, không thuộc từ vựng HSK 1 (chỉ dùng làm tên riêng). 学生 xuésheng đọc nhẹ âm tiết 2.",
+ "note_nguon": "Người kiểm duyệt phải đọc trang nguồn và xác nhận từng từ. 李明, 李 là tên riêng ví dụ, không thuộc từ vựng HSK 1. Bản mở rộng 90 giây: nội dung giữ nguyên các câu HSK 1 đã nêu, không thêm từ ngoài danh sách HSK 1.",
  "lines": [
   {
    "id": "s1",
-   "caps": "Giới thiệu bản thân chỉ với hai câu",
+   "caps": "Giới thiệu bản thân chỉ với vài câu",
    "segs": [
     {
      "k": "vi",
-     "text": "Giới thiệu bản thân bằng tiếng Trung chỉ với hai câu thôi!"
+     "text": "Giới thiệu bản thân bằng tiếng Trung chỉ cần vài câu cơ bản. Cùng học nhé!"
     }
    ]
   },
@@ -34,17 +34,17 @@
     {
      "k": "zh",
      "text": "我叫"
-    },
-    {
-     "k": "vi",
-     "text": "Ví dụ, tôi tên là Lý Minh."
     }
    ]
   },
   {
-   "id": "s3",
-   "caps": "我叫李明 (wǒ jiào Lǐ Míng)",
+   "id": "s2b",
+   "caps": "Ví dụ: 我叫李明 (wǒ jiào Lǐ Míng)",
    "segs": [
+    {
+     "k": "vi",
+     "text": "Ví dụ, tôi tên là Lý Minh."
+    },
     {
      "k": "zh",
      "text": "我叫李明"
@@ -52,7 +52,7 @@
    ]
   },
   {
-   "id": "s4",
+   "id": "s3",
    "caps": "Câu 2: 我是 (wǒ shì) – tôi là",
    "segs": [
     {
@@ -62,17 +62,17 @@
     {
      "k": "zh",
      "text": "我是"
-    },
-    {
-     "k": "vi",
-     "text": "Ví dụ, tôi là học sinh."
     }
    ]
   },
   {
-   "id": "s5",
-   "caps": "我是学生 (wǒ shì xuésheng)",
+   "id": "s3b",
+   "caps": "Ví dụ: 我是学生 (wǒ shì xuésheng)",
    "segs": [
+    {
+     "k": "vi",
+     "text": "Ví dụ, tôi là học sinh."
+    },
     {
      "k": "zh",
      "text": "我是学生"
@@ -80,7 +80,35 @@
    ]
   },
   {
-   "id": "s6",
+   "id": "s4",
+   "caps": "Câu 3: 我姓 (wǒ xìng) – tôi họ",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu thứ ba, tôi họ."
+    },
+    {
+     "k": "zh",
+     "text": "我姓"
+    }
+   ]
+  },
+  {
+   "id": "s4b",
+   "caps": "Ví dụ: 我姓李 (wǒ xìng Lǐ)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Ví dụ, tôi họ Lý."
+    },
+    {
+     "k": "zh",
+     "text": "我姓李"
+    }
+   ]
+  },
+  {
+   "id": "s5",
    "caps": "Hỏi tên: 你叫什么名字? (nǐ jiào shénme míngzi)",
    "segs": [
     {
@@ -98,7 +126,57 @@
    ]
   },
   {
+   "id": "s6",
+   "caps": "Nói về người khác: 他是老师 (tā shì lǎoshī)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Muốn nói về người khác, dùng chữ này, nghĩa là anh ấy."
+    },
+    {
+     "k": "zh",
+     "text": "他是老师"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là anh ấy là giáo viên."
+    }
+   ]
+  },
+  {
    "id": "s7",
+   "caps": "她是学生 (tā shì xuésheng)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Còn chữ này, nghĩa là cô ấy."
+    },
+    {
+     "k": "zh",
+     "text": "她是学生"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là cô ấy là học sinh."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "caps": "Luyện tập: tự giới thiệu bằng câu của bạn",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Bây giờ, hãy tự giới thiệu, bắt đầu bằng câu tôi tên là."
+    },
+    {
+     "k": "vi",
+     "text": "Nhớ nói chậm và rõ từng chữ."
+    }
+   ]
+  },
+  {
+   "id": "s9",
    "caps": "Câu đố: tôi là giáo viên?",
    "segs": [
     {
@@ -112,12 +190,12 @@
    ]
   },
   {
-   "id": "s8",
+   "id": "s10",
    "caps": "Bài 5: Số đếm",
    "segs": [
     {
      "k": "vi",
-     "text": "Bài sau, chúng ta học số đếm."
+     "text": "Bài sau, chúng ta học số đếm. Hẹn gặp lại bạn!"
     }
    ]
   }
