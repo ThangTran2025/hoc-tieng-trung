@@ -3,10 +3,11 @@
   "allowed": [
     "bai01",
     "bai02",
-    "bai03"
+    "bai03",
+    "bai04"
   ],
-  "make": "bai03",
+  "make": "bai04",
   "mode": "new",
-  "kich_ban": "kit/lessons/bai03.json",
-  "huong_dan": "Chủ sở hữu đã DUYỆT kịch bản bai03 (kit/lessons/bai03.json, qa_content OK). Dùng NGUYÊN kịch bản, chỉ rút ngắn (bỏ 没关系 rồi 您好 trước) nếu vượt 89,5 giây. Làm đúng như bai02: ZH bằng Xiaoxiao (Edge TTS trong COMPOSIO_REMOTE_WORKBENCH nếu bị chặn), check_sync OK, kiểm duyệt độc lập bằng tác tử phụ G1/G3/G4 (G1 phải ĐỌC nội dung trang nguồn, không chỉ URL), sửa lỗi thẩm mỹ đã biết: cảnh/thẻ không để trống nửa dưới, chữ Facebook ở màn kết đủ ≥44px (xuống dòng/ rút gọn khoảng trắng), đuôi im lặng ≤3,2s. Caption/mô tả chỉ ghi TikTok một lần; comment câu đố: 'Câu đố: \"cảm ơn\" trong tiếng Trung nói thế nào? Gợi ý: hai chữ giống nhau. Trả lời ở bình luận nhé!'. Không đăng Facebook/YouTube."
+  "kich_ban": "kit/lessons/bai04.json",
+  "huong_dan": "Chủ sở hữu đã yêu cầu tạo bai04 và kịch bản kit/lessons/bai04.json (qa_content OK). Dùng NGUYÊN kịch bản, chỉ rút ngắn nếu vượt 89,5 giây. Làm đúng như bai03: ZH bằng Xiaoxiao (Edge TTS trong COMPOSIO_REMOTE_WORKBENCH nếu bị chặn), check_sync OK, kiểm duyệt độc lập G1 (phải đọc trang nguồn), G3, G4; màn kết chineselearn.asia; caption/mô tả chỉ ghi TikTok một lần; comment câu đố bai04. Không đăng Facebook/YouTube. Tin Telegram ghi kết quả từng cổng."
 }

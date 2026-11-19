@@ -1,0 +1,125 @@
+{
+ "lesson_id": "bai04",
+ "voice": "moss_audio_0202045d-5668-11f1-83ef-8afcbb8b5b5c",
+ "sources": [
+  {
+   "claim": "Từ HSK 1: 我, 你, 是, 叫, 什么, 名字, 学生, 老师, 人",
+   "url": "https://www.thatsmandarin.com/hsk-1-wordlist/"
+  },
+  {
+   "claim": "Nghĩa và pinyin: 我叫 wǒ jiào, 我是 wǒ shì, 你叫什么名字 nǐ jiào shénme míngzi, 学生 xuésheng, 老师 lǎoshī",
+   "url": "https://www.mdbg.net/chinese/dictionary"
+  }
+ ],
+ "note_nguon": "Người kiểm duyệt phải đọc trang nguồn và xác nhận từng từ; 李明 là tên ví dụ phổ biến, không thuộc từ vựng HSK 1 (chỉ dùng làm tên riêng). 学生 xuésheng đọc nhẹ âm tiết 2.",
+ "lines": [
+  {
+   "id": "s1",
+   "caps": "Giới thiệu bản thân chỉ với hai câu",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Giới thiệu bản thân bằng tiếng Trung chỉ với hai câu thôi!"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "caps": "Câu 1: 我叫 (wǒ jiào) – tôi tên là",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu thứ nhất, tôi tên là."
+    },
+    {
+     "k": "zh",
+     "text": "我叫"
+    },
+    {
+     "k": "vi",
+     "text": "Ví dụ, tôi tên là Lý Minh."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "caps": "我叫李明 (wǒ jiào Lǐ Míng)",
+   "segs": [
+    {
+     "k": "zh",
+     "text": "我叫李明"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "caps": "Câu 2: 我是 (wǒ shì) – tôi là",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu thứ hai, tôi là."
+    },
+    {
+     "k": "zh",
+     "text": "我是"
+    },
+    {
+     "k": "vi",
+     "text": "Ví dụ, tôi là học sinh."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "caps": "我是学生 (wǒ shì xuésheng)",
+   "segs": [
+    {
+     "k": "zh",
+     "text": "我是学生"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "caps": "Hỏi tên: 你叫什么名字? (nǐ jiào shénme míngzi)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Muốn hỏi tên người khác, hãy nói."
+    },
+    {
+     "k": "zh",
+     "text": "你叫什么名字"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là bạn tên là gì."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "caps": "Câu đố: tôi là giáo viên?",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu đố nhỏ, muốn nói tôi là giáo viên, bạn nói câu nào?"
+    },
+    {
+     "k": "vi",
+     "text": "Trả lời ở phần bình luận nhé!"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "caps": "Bài 5: Số đếm",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Bài sau, chúng ta học số đếm."
+    }
+   ]
+  }
+ ]
+}
