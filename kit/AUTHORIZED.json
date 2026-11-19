@@ -6,9 +6,8 @@
     "bai03",
     "bai04"
   ],
-  "make": "",
+  "make": "bai04",
   "mode": "redo",
   "kich_ban": "kit/lessons/bai04.json",
-  "huong_dan": "LÀM LẠI bai04 (mode redo: đẩy THÊM commit mới lên tmp-bai04, không force-push) theo QUY TRÌNH CHUẨN ở kit/QA_GATES.md, mục 'Quy trình chạy chuẩn'. Dùng NGUYÊN kit/lessons/bai04.json, không đổi lời. Bắt buộc: (0) ghi tmp/render.log; (1) work/job_config.json từ bai01 đã đăng (1080x1920, 30 fps, loudnorm ~-16 LUFS), tmp/ref_sheet.jpg = lưới 4x4 16 khung bài 01; (2) dựng bằng kit (voice_segments/build/page), ZH bằng Xiaoxiao rate -30% (Edge TTS trong COMPOSIO_REMOTE_WORKBENCH nếu bị chặn), VI bằng giọng clone; (3) cổng 3 lớp: ffprobe khớp job_config; blackdetect/silencedetect không đen >0,5s hay mất tiếng; tmp/qa_sheet.jpg đối chiếu tmp/ref_sheet.jpg (chữ đúng vị trí, không tràn, không che); check_sync OK; (4) vòng tự sửa tối đa 3 lần, không đạt thì dừng, báo log, KHÔNG push và KHÔNG gửi bản đạt; (5) chỉ khi đạt đủ mới push và gửi Telegram kèm kết quả từng cổng. Không đăng Facebook/YouTube. Ghi rõ 'bản làm lại theo quy trình mới' trong tin Telegram.",
-  "_ghi_chu_tam_dung": "Tạm dừng theo yêu cầu chủ sở hữu (19/11): không làm bài nào cho đến khi có lệnh mới."
+  "huong_dan": "LÀM MỚI bai04 theo QUY TRÌNH CHUẨN ở kit/QA_GATES.md (mục 'Quy trình chạy chuẩn') và kịch bản kit/lessons/bai04.json (bản mở rộng, gần 90 giây). Dùng nguyên kịch bản; độ dài video phải nằm trong 85–89,5 giây, KHÔNG được dưới 85 giây. Nếu dưới 85 giây sau khi dựng thì KHÔNG đẩy lên, báo lỗi độ dài và dừng. Bắt buộc: render.log; job_config từ bài 01; ref_sheet/qa_sheet; ZH bằng Xiaoxiao rate -30% (Edge TTS trong COMPOSIO_REMOTE_WORKBENCH nếu bị chặn); VI bằng giọng clone; cổng ffprobe, blackdetect/silencedetect, thị giác so với bài 01, check_sync OK; vòng tự sửa tối đa 3 lần. Chỉ khi đạt mới đẩy thêm commit lên tmp-bai04 (không force-push) và gửi Telegram kèm kết quả từng cổng, ghi rõ 'bản làm mới theo quy trình chuẩn'. Không đăng Facebook/YouTube."
 }
