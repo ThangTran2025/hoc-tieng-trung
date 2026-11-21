@@ -162,6 +162,56 @@
    ]
   },
   {
+   "id": "s7b",
+   "caps": "Hỏi: 你是学生吗? (nǐ shì xuésheng ma?)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Muốn hỏi người khác có phải học sinh không, hãy nói."
+    },
+    {
+     "k": "zh",
+     "text": "你是学生吗"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là bạn có phải học sinh không."
+    }
+   ]
+  },
+  {
+   "id": "s7c",
+   "caps": "Đáp: 我是学生",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Trả lời, hãy nói."
+    },
+    {
+     "k": "zh",
+     "text": "我是学生"
+    },
+    {
+     "k": "vi",
+     "text": "nghĩa là tôi là học sinh."
+    }
+   ]
+  },
+  {
+   "id": "s7d",
+   "caps": "Ôn lại ba câu vừa học",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Ôn lại nhanh, ba câu vừa học là, tôi tên là, tôi là, và tôi họ."
+    },
+    {
+     "k": "vi",
+     "text": "Bạn đã nói được rồi đấy!"
+    }
+   ]
+  },
+  {
    "id": "s8",
    "caps": "Luyện tập: tự giới thiệu bằng câu của bạn",
    "segs": [
