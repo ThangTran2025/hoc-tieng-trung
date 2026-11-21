@@ -1,0 +1,203 @@
+{
+ "lesson_id": "bai05",
+ "voice": "moss_audio_0202045d-5668-11f1-83ef-8afcbb8b5b5c",
+ "sources": [
+  {
+   "claim": "Từ HSK 1 số đếm: 一, 二, 三, 四, 五, 六, 七, 八, 九, 十; 有, 个, 朋友",
+   "url": "https://www.thatsmandarin.com/hsk-1-wordlist/"
+  },
+  {
+   "claim": "Nghĩa và pinyin: yī, èr, sān, sì, wǔ, liù, qī, bā, jiǔ, shí, shíyī, èrshí, yǒu, gè, péngyou",
+   "url": "https://www.mdbg.net/chinese/dictionary"
+  }
+ ],
+ "note_nguon": "Người kiểm duyệt phải đọc trang nguồn và xác nhận từng số. 二十 đọc èrshí, 十一 đọc shíyī. 个 là lượng từ đi với người (gè).",
+ "lines": [
+  {
+   "id": "s1",
+   "caps": "Đếm số tiếng Trung chỉ cần mười số đầu",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Đếm số tiếng Trung chỉ cần mười số đầu tiên. Cùng học nhé!"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "caps": "1: 一 (yī), 2: 二 (èr)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số một là"
+    },
+    {
+     "k": "zh",
+     "text": "一"
+    },
+    {
+     "k": "vi",
+     "text": "Số hai là"
+    },
+    {
+     "k": "zh",
+     "text": "二"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "caps": "3: 三 (sān), 4: 四 (sì)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số ba là"
+    },
+    {
+     "k": "zh",
+     "text": "三"
+    },
+    {
+     "k": "vi",
+     "text": "Số bốn là"
+    },
+    {
+     "k": "zh",
+     "text": "四"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "caps": "5: 五 (wǔ), 6: 六 (liù)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số năm là"
+    },
+    {
+     "k": "zh",
+     "text": "五"
+    },
+    {
+     "k": "vi",
+     "text": "Số sáu là"
+    },
+    {
+     "k": "zh",
+     "text": "六"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "caps": "7: 七 (qī), 8: 八 (bā)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số bảy là"
+    },
+    {
+     "k": "zh",
+     "text": "七"
+    },
+    {
+     "k": "vi",
+     "text": "Số tám là"
+    },
+    {
+     "k": "zh",
+     "text": "八"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "caps": "9: 九 (jiǔ), 10: 十 (shí)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số chín là"
+    },
+    {
+     "k": "zh",
+     "text": "九"
+    },
+    {
+     "k": "vi",
+     "text": "Số mười là"
+    },
+    {
+     "k": "zh",
+     "text": "十"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "caps": "11: 十一 (shíyī)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số mười một là"
+    },
+    {
+     "k": "zh",
+     "text": "十一"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "caps": "20: 二十 (èrshí)",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Số hai mươi là"
+    },
+    {
+     "k": "zh",
+     "text": "二十"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "caps": "Ví dụ: 我有三个朋友",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Ví dụ, tôi có ba người bạn."
+    },
+    {
+     "k": "zh",
+     "text": "我有三个朋友"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "caps": "Câu đố: số mười đọc thế nào?",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Câu đố nhỏ, số mười tiếng Trung đọc là gì?"
+    },
+    {
+     "k": "vi",
+     "text": "Trả lời ở phần bình luận nhé!"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "caps": "Bài 6: Ngày, tháng, thứ, giờ",
+   "segs": [
+    {
+     "k": "vi",
+     "text": "Bài sau, chúng ta học ngày, tháng, thứ và giờ. Hẹn gặp lại bạn!"
+    }
+   ]
+  }
+ ]
+}

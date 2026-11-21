@@ -4,10 +4,11 @@
     "bai01",
     "bai02",
     "bai03",
-    "bai04"
+    "bai04",
+    "bai05"
   ],
-  "make": "bai04",
-  "mode": "redo",
-  "kich_ban": "kit/lessons/bai04.json",
-  "huong_dan": "LÀM MỚI bai04 theo QUY TRÌNH CHUẨN ở kit/QA_GATES.md (mục 'Quy trình chạy chuẩn') và kịch bản kit/lessons/bai04.json (bản mở rộng, gần 90 giây). Dùng nguyên kịch bản; độ dài video phải nằm trong 85–89,5 giây, KHÔNG được dưới 85 giây. Nếu dưới 85 giây sau khi dựng thì KHÔNG đẩy lên, báo lỗi độ dài và dừng. Bắt buộc: render.log; job_config từ bài 01; ref_sheet/qa_sheet; ZH bằng Xiaoxiao rate -30% (Edge TTS trong COMPOSIO_REMOTE_WORKBENCH nếu bị chặn); VI bằng giọng clone; cổng ffprobe, blackdetect/silencedetect, thị giác so với bài 01, check_sync OK; vòng tự sửa tối đa 3 lần. Chỉ khi đạt mới đẩy thêm commit lên tmp-bai04 (không force-push) và gửi Telegram kèm kết quả từng cổng, ghi rõ 'bản làm mới theo quy trình chuẩn'. Không đăng Facebook/YouTube."
+  "make": "bai05",
+  "mode": "new",
+  "kich_ban": "kit/lessons/bai05.json",
+  "huong_dan": "Chủ sở hữu yêu cầu tạo bai05 (số đếm 1–20). Dùng NGUYÊN kit/lessons/bai05.json (qa_content OK). Theo QUY TRÌNH CHUẨN ở kit/QA_GATES.md (job_config từ bài 01, ref/qa sheet, blackdetect/silencedetect, check_sync, tối đa 3 vòng tự sửa). Độ dài video 85–89,5 giây; dưới 85 giây thì KHÔNG đẩy, báo số giây đo được. ZH bằng Xiaoxiao rate -30% (Edge TTS trong COMPOSIO_REMOTE_WORKBENCH nếu bị chặn), VI bằng giọng clone. Caption/mô tả chỉ ghi TikTok một lần. Đẩy lên tmp-bai05 và gửi Telegram kèm kết quả từng cổng. Không đăng Facebook/YouTube."
 }
